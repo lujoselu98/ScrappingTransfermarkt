@@ -1,0 +1,816 @@
+Kylian Mbappé -> https://www.transfermarkt.es/kylian-mbappe/profil/spieler/342229
+Raheem Sterling -> https://www.transfermarkt.es/raheem-sterling/profil/spieler/134425
+Neymar -> https://www.transfermarkt.es/neymar/profil/spieler/68290
+Sadio Mané -> https://www.transfermarkt.es/sadio-mane/profil/spieler/200512
+Mohamed Salah -> https://www.transfermarkt.es/mohamed-salah/profil/spieler/148455
+Harry Kane -> https://www.transfermarkt.es/harry-kane/profil/spieler/132098
+Kevin De Bruyne -> https://www.transfermarkt.es/kevin-de-bruyne/profil/spieler/88755
+Jadon Sancho -> https://www.transfermarkt.es/jadon-sancho/profil/spieler/401173
+Lionel Messi -> https://www.transfermarkt.es/lionel-messi/profil/spieler/28003
+Trent Alexander-Arnold -> https://www.transfermarkt.es/trent-alexander-arnold/profil/spieler/314353
+Antoine Griezmann -> https://www.transfermarkt.es/antoine-griezmann/profil/spieler/125781
+Serge Gnabry -> https://www.transfermarkt.es/serge-gnabry/profil/spieler/159471
+Joshua Kimmich -> https://www.transfermarkt.es/joshua-kimmich/profil/spieler/161056
+Romelu Lukaku -> https://www.transfermarkt.es/romelu-lukaku/profil/spieler/96341
+João Félix -> https://www.transfermarkt.es/joao-felix/profil/spieler/462250
+Kai Havertz -> https://www.transfermarkt.es/kai-havertz/profil/spieler/309400
+Alphonso Davies -> https://www.transfermarkt.es/alphonso-davies/profil/spieler/424204
+Erling Haaland -> https://www.transfermarkt.es/erling-haaland/profil/spieler/418560
+Marcus Rashford -> https://www.transfermarkt.es/marcus-rashford/profil/spieler/258923
+Bernardo Silva -> https://www.transfermarkt.es/bernardo-silva/profil/spieler/241641
+N'Golo Kanté -> https://www.transfermarkt.es/ngolo-kante/profil/spieler/225083
+Paulo Dybala -> https://www.transfermarkt.es/paulo-dybala/profil/spieler/206050
+Virgil van Dijk -> https://www.transfermarkt.es/virgil-van-dijk/profil/spieler/139208
+Paul Pogba -> https://www.transfermarkt.es/paul-pogba/profil/spieler/122153
+Jan Oblak -> https://www.transfermarkt.es/jan-oblak/profil/spieler/121483
+Eden Hazard -> https://www.transfermarkt.es/eden-hazard/profil/spieler/50202
+Frenkie de Jong -> https://www.transfermarkt.es/frenkie-de-jong/profil/spieler/326330
+Saúl Ñíguez -> https://www.transfermarkt.es/saul-niguez/profil/spieler/148928
+Roberto Firmino -> https://www.transfermarkt.es/roberto-firmino/profil/spieler/131789
+Alisson -> https://www.transfermarkt.es/alisson/profil/spieler/105470
+Marc-André ter Stegen -> https://www.transfermarkt.es/marc-andre-ter-stegen/profil/spieler/74857
+Lautaro Martínez -> https://www.transfermarkt.es/lautaro-martinez/profil/spieler/406625
+Matthijs de Ligt -> https://www.transfermarkt.es/matthijs-de-ligt/profil/spieler/326031
+Bruno Fernandes -> https://www.transfermarkt.es/bruno-fernandes/profil/spieler/240306
+Leroy Sané -> https://www.transfermarkt.es/leroy-sane/profil/spieler/192565
+Sergej Milinkovic-Savic -> https://www.transfermarkt.es/sergej-milinkovic-savic/profil/spieler/266302
+Kalidou Koulibaly -> https://www.transfermarkt.es/kalidou-koulibaly/profil/spieler/93128
+David Alaba -> https://www.transfermarkt.es/david-alaba/profil/spieler/59016
+Rodri -> https://www.transfermarkt.es/rodri/profil/spieler/357565
+Andrew Robertson -> https://www.transfermarkt.es/andrew-robertson/profil/spieler/234803
+Dele Alli -> https://www.transfermarkt.es/dele-alli/profil/spieler/207929
+Timo Werner -> https://www.transfermarkt.es/timo-werner/profil/spieler/170527
+Raphaël Varane -> https://www.transfermarkt.es/raphael-varane/profil/spieler/164770
+Heung-min Son -> https://www.transfermarkt.es/heung-min-son/profil/spieler/91845
+Casemiro -> https://www.transfermarkt.es/casemiro/profil/spieler/16306
+Mikel Oyarzabal -> https://www.transfermarkt.es/mikel-oyarzabal/profil/spieler/351478
+Dayot Upamecano -> https://www.transfermarkt.es/dayot-upamecano/profil/spieler/344695
+Gianluigi Donnarumma -> https://www.transfermarkt.es/gianluigi-donnarumma/profil/spieler/315858
+Christian Pulisic -> https://www.transfermarkt.es/christian-pulisic/profil/spieler/315779
+Aymeric Laporte -> https://www.transfermarkt.es/aymeric-laporte/profil/spieler/176553
+Leon Goretzka -> https://www.transfermarkt.es/leon-goretzka/profil/spieler/153084
+Stefan de Vrij -> https://www.transfermarkt.es/stefan-de-vrij/profil/spieler/111196
+Thibaut Courtois -> https://www.transfermarkt.es/thibaut-courtois/profil/spieler/108390
+Marco Verratti -> https://www.transfermarkt.es/marco-verratti/profil/spieler/102558
+Christian Eriksen -> https://www.transfermarkt.es/christian-eriksen/profil/spieler/69633
+Mauro Icardi -> https://www.transfermarkt.es/mauro-icardi/profil/spieler/68863
+Robert Lewandowski -> https://www.transfermarkt.es/robert-lewandowski/profil/spieler/38253
+Cristiano Ronaldo -> https://www.transfermarkt.es/cristiano-ronaldo/profil/spieler/8198
+Anthony Martial -> https://www.transfermarkt.es/anthony-martial/profil/spieler/182877
+Gabriel Jesus -> https://www.transfermarkt.es/gabriel-jesus/profil/spieler/363205
+Arthur -> https://www.transfermarkt.es/arthur/profil/spieler/362842
+Ousmane Dembélé -> https://www.transfermarkt.es/ousmane-dembele/profil/spieler/288230
+José Giménez -> https://www.transfermarkt.es/jose-gimenez/profil/spieler/250845
+Ederson -> https://www.transfermarkt.es/ederson/profil/spieler/238223
+Fabinho -> https://www.transfermarkt.es/fabinho/profil/spieler/225693
+Harry Maguire -> https://www.transfermarkt.es/harry-maguire/profil/spieler/177907
+Philippe Coutinho -> https://www.transfermarkt.es/philippe-coutinho/profil/spieler/80444
+Pierre-Emerick Aubameyang -> https://www.transfermarkt.es/pierre-emerick-aubameyang/profil/spieler/58864
+Nicolò Zaniolo -> https://www.transfermarkt.es/nicolo-zaniolo/profil/spieler/392085
+James Maddison -> https://www.transfermarkt.es/james-maddison/profil/spieler/294057
+Achraf Hakimi -> https://www.transfermarkt.es/achraf-hakimi/profil/spieler/398073
+Federico Valverde -> https://www.transfermarkt.es/federico-valverde/profil/spieler/369081
+Richarlison -> https://www.transfermarkt.es/richarlison/profil/spieler/378710
+Marquinhos -> https://www.transfermarkt.es/marquinhos/profil/spieler/181767
+Jorginho -> https://www.transfermarkt.es/jorginho/profil/spieler/102017
+Sergio Agüero -> https://www.transfermarkt.es/sergio-aguero/profil/spieler/26399
+Renan Lodi -> https://www.transfermarkt.es/renan-lodi/profil/spieler/476352
+Ansu Fati -> https://www.transfermarkt.es/ansu-fati/profil/spieler/466810
+Rodrigo Bentancur -> https://www.transfermarkt.es/rodrigo-bentancur/profil/spieler/354362
+Fabián Ruiz -> https://www.transfermarkt.es/fabian-ruiz/profil/spieler/350219
+Diego Carlos -> https://www.transfermarkt.es/diego-carlos/profil/spieler/329145
+Nicolò Barella -> https://www.transfermarkt.es/nicolo-barella/profil/spieler/255942
+Rúben Neves -> https://www.transfermarkt.es/ruben-neves/profil/spieler/225161
+Milan Skriniar -> https://www.transfermarkt.es/milan-skriniar/profil/spieler/204069
+Lucas Ocampos -> https://www.transfermarkt.es/lucas-ocampos/profil/spieler/189441
+Marcelo Brozovic -> https://www.transfermarkt.es/marcelo-brozovic/profil/spieler/156617
+Luis Alberto -> https://www.transfermarkt.es/luis-alberto/profil/spieler/128220
+Houssem Aouar -> https://www.transfermarkt.es/houssem-aouar/profil/spieler/395693
+Declan Rice -> https://www.transfermarkt.es/declan-rice/profil/spieler/357662
+Davinson Sánchez -> https://www.transfermarkt.es/davinson-sanchez/profil/spieler/341429
+Federico Chiesa -> https://www.transfermarkt.es/federico-chiesa/profil/spieler/341092
+Clément Lenglet -> https://www.transfermarkt.es/clement-lenglet/profil/spieler/182904
+Riyad Mahrez -> https://www.transfermarkt.es/riyad-mahrez/profil/spieler/171424
+Niklas Süle -> https://www.transfermarkt.es/niklas-sule/profil/spieler/166601
+Lorenzo Insigne -> https://www.transfermarkt.es/lorenzo-insigne/profil/spieler/133964
+Alexandre Lacazette -> https://www.transfermarkt.es/alexandre-lacazette/profil/spieler/93720
+Koke -> https://www.transfermarkt.es/koke/profil/spieler/74229
+Thiago -> https://www.transfermarkt.es/thiago/profil/spieler/60444
+Toni Kroos -> https://www.transfermarkt.es/toni-kroos/profil/spieler/31909
+Mason Greenwood -> https://www.transfermarkt.es/mason-greenwood/profil/spieler/532826
+Tanguy Ndombélé -> https://www.transfermarkt.es/tanguy-ndombele/profil/spieler/450936
+Rodrygo -> https://www.transfermarkt.es/rodrygo/profil/spieler/412363
+Ferran Torres -> https://www.transfermarkt.es/ferran-torres/profil/spieler/398184
+Vinícius Júnior -> https://www.transfermarkt.es/vinicius-junior/profil/spieler/371998
+Benjamin Pavard -> https://www.transfermarkt.es/benjamin-pavard/profil/spieler/353366
+Nicolas Pépé -> https://www.transfermarkt.es/nicolas-pepe/profil/spieler/343052
+Theo Hernández -> https://www.transfermarkt.es/theo-hernandez/profil/spieler/339808
+Martin Ödegaard -> https://www.transfermarkt.es/martin-odegaard/profil/spieler/316264
+Alessandro Bastoni -> https://www.transfermarkt.es/alessandro-bastoni/profil/spieler/315853
+Lucas Hernández -> https://www.transfermarkt.es/lucas-hernandez/profil/spieler/281963
+Wilfred Ndidi -> https://www.transfermarkt.es/wilfred-ndidi/profil/spieler/274839
+Ciro Immobile -> https://www.transfermarkt.es/ciro-immobile/profil/spieler/105521
+Miralem Pjanic -> https://www.transfermarkt.es/miralem-pjanic/profil/spieler/44162
+Donny van de Beek -> https://www.transfermarkt.es/donny-van-de-beek/profil/spieler/288255
+Youri Tielemans -> https://www.transfermarkt.es/youri-tielemans/profil/spieler/249565
+Memphis Depay -> https://www.transfermarkt.es/memphis-depay/profil/spieler/167850
+Wilfried Zaha -> https://www.transfermarkt.es/wilfried-zaha/profil/spieler/145988
+Ibrahima Konaté -> https://www.transfermarkt.es/ibrahima-konate/profil/spieler/357119
+Mason Mount -> https://www.transfermarkt.es/mason-mount/profil/spieler/346483
+Aaron Wan-Bissaka -> https://www.transfermarkt.es/aaron-wan-bissaka/profil/spieler/477758
+Dejan Kulusevski -> https://www.transfermarkt.es/dejan-kulusevski/profil/spieler/431755
+Phil Foden -> https://www.transfermarkt.es/phil-foden/profil/spieler/406635
+Victor Osimhen -> https://www.transfermarkt.es/victor-osimhen/profil/spieler/401923
+Carlos Soler -> https://www.transfermarkt.es/carlos-soler/profil/spieler/372246
+Giovani Lo Celso -> https://www.transfermarkt.es/giovani-lo-celso/profil/spieler/348795
+Denis Zakaria -> https://www.transfermarkt.es/denis-zakaria/profil/spieler/334526
+Tammy Abraham -> https://www.transfermarkt.es/tammy-abraham/profil/spieler/331726
+Caglar Söyüncü -> https://www.transfermarkt.es/caglar-soyuncu/profil/spieler/320141
+Ben Chilwell -> https://www.transfermarkt.es/ben-chilwell/profil/spieler/316125
+Naby Keïta -> https://www.transfermarkt.es/naby-keita/profil/spieler/302215
+Marco Asensio -> https://www.transfermarkt.es/marco-asensio/profil/spieler/296622
+Ferland Mendy -> https://www.transfermarkt.es/ferland-mendy/profil/spieler/291417
+Marcos Llorente -> https://www.transfermarkt.es/marcos-llorente/profil/spieler/282411
+Joe Gomez -> https://www.transfermarkt.es/joe-gomez/profil/spieler/256178
+Alex Telles -> https://www.transfermarkt.es/alex-telles/profil/spieler/255755
+Iñaki Williams -> https://www.transfermarkt.es/inaki-williams/profil/spieler/255508
+Kingsley Coman -> https://www.transfermarkt.es/kingsley-coman/profil/spieler/243714
+Nélson Semedo -> https://www.transfermarkt.es/nelson-semedo/profil/spieler/231572
+Thomas -> https://www.transfermarkt.es/thomas/profil/spieler/230784
+Moussa Dembélé -> https://www.transfermarkt.es/moussa-dembele/profil/spieler/229004
+José Gayà -> https://www.transfermarkt.es/jose-gaya/profil/spieler/221322
+Hakim Ziyech -> https://www.transfermarkt.es/hakim-ziyech/profil/spieler/217111
+Raúl Jiménez -> https://www.transfermarkt.es/raul-jimenez/profil/spieler/206040
+Jack Grealish -> https://www.transfermarkt.es/jack-grealish/profil/spieler/203460
+Julian Brandt -> https://www.transfermarkt.es/julian-brandt/profil/spieler/187492
+Wissam Ben Yedder -> https://www.transfermarkt.es/wissam-ben-yedder/profil/spieler/146854
+Daniel Carvajal -> https://www.transfermarkt.es/daniel-carvajal/profil/spieler/138927
+Rodrigo -> https://www.transfermarkt.es/rodrigo/profil/spieler/131505
+Kyle Walker -> https://www.transfermarkt.es/kyle-walker/profil/spieler/95424
+Antonio Rüdiger -> https://www.transfermarkt.es/antonio-rudiger/profil/spieler/86202
+Sergi Roberto -> https://www.transfermarkt.es/sergi-roberto/profil/spieler/85370
+Isco -> https://www.transfermarkt.es/isco/profil/spieler/85288
+Duván Zapata -> https://www.transfermarkt.es/duvan-zapata/profil/spieler/73794
+Jordi Alba -> https://www.transfermarkt.es/jordi-alba/profil/spieler/69751
+David de Gea -> https://www.transfermarkt.es/david-de-gea/profil/spieler/59377
+Ilkay Gündogan -> https://www.transfermarkt.es/ilkay-gundogan/profil/spieler/53622
+Mateo Kovacic -> https://www.transfermarkt.es/mateo-kovacic/profil/spieler/51471
+Georginio Wijnaldum -> https://www.transfermarkt.es/georginio-wijnaldum/profil/spieler/49499
+Lukas Klostermann -> https://www.transfermarkt.es/lukas-klostermann/profil/spieler/215599
+Eduardo Camavinga -> https://www.transfermarkt.es/eduardo-camavinga/profil/spieler/640428
+David Neres -> https://www.transfermarkt.es/david-neres/profil/spieler/469822
+Éder Militão -> https://www.transfermarkt.es/eder-militao/profil/spieler/401530
+Jonathan Ikoné -> https://www.transfermarkt.es/jonathan-ikone/profil/spieler/324690
+André Onana -> https://www.transfermarkt.es/andre-onana/profil/spieler/234509
+Alessio Romagnoli -> https://www.transfermarkt.es/alessio-romagnoli/profil/spieler/197747
+João Cancelo -> https://www.transfermarkt.es/joao-cancelo/profil/spieler/182712
+Sébastien Haller -> https://www.transfermarkt.es/sebastien-haller/profil/spieler/181375
+Álvaro Morata -> https://www.transfermarkt.es/alvaro-morata/profil/spieler/128223
+Bukayo Saka -> https://www.transfermarkt.es/bukayo-saka/profil/spieler/433177
+Mikel Merino -> https://www.transfermarkt.es/mikel-merino/profil/spieler/338424
+Rúben Dias -> https://www.transfermarkt.es/ruben-dias/profil/spieler/258004
+Adama Traoré -> https://www.transfermarkt.es/adama-traore/profil/spieler/204103
+Piotr Zielinski -> https://www.transfermarkt.es/piotr-zielinski/profil/spieler/181136
+Raphaël Guerreiro -> https://www.transfermarkt.es/raphael-guerreiro/profil/spieler/170986
+Andrea Belotti -> https://www.transfermarkt.es/andrea-belotti/profil/spieler/167727
+Marcel Sabitzer -> https://www.transfermarkt.es/marcel-sabitzer/profil/spieler/106987
+Alex Sandro -> https://www.transfermarkt.es/alex-sandro/profil/spieler/79960
+Thomas Müller -> https://www.transfermarkt.es/thomas-muller/profil/spieler/58358
+Wojciech Szczesny -> https://www.transfermarkt.es/wojciech-szczesny/profil/spieler/44058
+Christopher Nkunku -> https://www.transfermarkt.es/christopher-nkunku/profil/spieler/344381
+Mattéo Guendouzi -> https://www.transfermarkt.es/matteo-guendouzi/profil/spieler/465830
+Sandro Tonali -> https://www.transfermarkt.es/sandro-tonali/profil/spieler/397033
+Maxi Gómez -> https://www.transfermarkt.es/maxi-gomez/profil/spieler/396894
+Moussa Diaby -> https://www.transfermarkt.es/moussa-diaby/profil/spieler/395516
+Dani Ceballos -> https://www.transfermarkt.es/dani-ceballos/profil/spieler/319745
+Marcus Thuram -> https://www.transfermarkt.es/marcus-thuram/profil/spieler/318528
+Lorenzo Pellegrini -> https://www.transfermarkt.es/lorenzo-pellegrini/profil/spieler/286297
+Ángel Correa -> https://www.transfermarkt.es/angel-correa/profil/spieler/266807
+Luka Jovic -> https://www.transfermarkt.es/luka-jovic/profil/spieler/257462
+Ricardo Pereira -> https://www.transfermarkt.es/ricardo-pereira/profil/spieler/215876
+Nabil Fekir -> https://www.transfermarkt.es/nabil-fekir/profil/spieler/203496
+Arkadiusz Milik -> https://www.transfermarkt.es/arkadiusz-milik/profil/spieler/191891
+Héctor Bellerín -> https://www.transfermarkt.es/hector-bellerin/profil/spieler/191217
+Ante Rebic -> https://www.transfermarkt.es/ante-rebic/profil/spieler/187587
+Florian Thauvin -> https://www.transfermarkt.es/florian-thauvin/profil/spieler/184892
+Filip Kostic -> https://www.transfermarkt.es/filip-kostic/profil/spieler/161011
+Samuel Umtiti -> https://www.transfermarkt.es/samuel-umtiti/profil/spieler/126540
+Matthias Ginter -> https://www.transfermarkt.es/matthias-ginter/profil/spieler/124502
+Konstantinos Manolas -> https://www.transfermarkt.es/konstantinos-manolas/profil/spieler/104752
+Thorgan Hazard -> https://www.transfermarkt.es/thorgan-hazard/profil/spieler/102226
+James Rodríguez -> https://www.transfermarkt.es/james-rodriguez/profil/spieler/88103
+Joel Matip -> https://www.transfermarkt.es/joel-matip/profil/spieler/82105
+Lucas Moura -> https://www.transfermarkt.es/lucas-moura/profil/spieler/77100
+Bernd Leno -> https://www.transfermarkt.es/bernd-leno/profil/spieler/72476
+Ángel Di María -> https://www.transfermarkt.es/angel-di-maria/profil/spieler/45320
+Karim Benzema -> https://www.transfermarkt.es/karim-benzema/profil/spieler/18922
+Callum Hudson-Odoi -> https://www.transfermarkt.es/callum-hudson-odoi/profil/spieler/392768
+Dan-Axel Zagadou -> https://www.transfermarkt.es/dan-axel-zagadou/profil/spieler/344598
+Dani Olmo -> https://www.transfermarkt.es/dani-olmo/profil/spieler/293385
+Jules Koundé -> https://www.transfermarkt.es/jules-kounde/profil/spieler/411975
+Takefusa Kubo -> https://www.transfermarkt.es/takefusa-kubo/profil/spieler/405398
+Pau Torres -> https://www.transfermarkt.es/pau-torres/profil/spieler/399776
+Malcom -> https://www.transfermarkt.es/malcom/profil/spieler/323704
+Lucas Torreira -> https://www.transfermarkt.es/lucas-torreira/profil/spieler/318077
+Unai Simón -> https://www.transfermarkt.es/unai-simon/profil/spieler/262396
+Rodrigo de Paul -> https://www.transfermarkt.es/rodrigo-de-paul/profil/spieler/255901
+Wout Weghorst -> https://www.transfermarkt.es/wout-weghorst/profil/spieler/228645
+Joaquín Correa -> https://www.transfermarkt.es/joaquin-correa/profil/spieler/227081
+Konrad Laimer -> https://www.transfermarkt.es/konrad-laimer/profil/spieler/223967
+Nico Elvedi -> https://www.transfermarkt.es/nico-elvedi/profil/spieler/192635
+John Stones -> https://www.transfermarkt.es/john-stones/profil/spieler/186590
+Gerard Moreno -> https://www.transfermarkt.es/gerard-moreno/profil/spieler/177467
+Alassane Plea -> https://www.transfermarkt.es/alassane-plea/profil/spieler/167329
+Jesús Corona -> https://www.transfermarkt.es/jesus-corona/profil/spieler/125165
+Leon Bailey -> https://www.transfermarkt.es/leon-bailey/profil/spieler/387626
+Ozan Kabak -> https://www.transfermarkt.es/ozan-kabak/profil/spieler/361260
+Bruno Guimarães -> https://www.transfermarkt.es/bruno-guimaraes/profil/spieler/520624
+Nikola Milenkovic -> https://www.transfermarkt.es/nikola-milenkovic/profil/spieler/413507
+Ismaël Bennacer -> https://www.transfermarkt.es/ismael-bennacer/profil/spieler/351816
+Diogo Jota -> https://www.transfermarkt.es/diogo-jota/profil/spieler/340950
+Éverton -> https://www.transfermarkt.es/everton/profil/spieler/321239
+Hirving Lozano -> https://www.transfermarkt.es/hirving-lozano/profil/spieler/316889
+Kieran Tierney -> https://www.transfermarkt.es/kieran-tierney/profil/spieler/300716
+Steven Bergwijn -> https://www.transfermarkt.es/steven-bergwijn/profil/spieler/284165
+Presnel Kimpembe -> https://www.transfermarkt.es/presnel-kimpembe/profil/spieler/282041
+Allan Saint-Maximin -> https://www.transfermarkt.es/allan-saint-maximin/profil/spieler/272642
+Issa Diop -> https://www.transfermarkt.es/issa-diop/profil/spieler/272622
+Harry Winks -> https://www.transfermarkt.es/harry-winks/profil/spieler/249126
+Abdou Diallo -> https://www.transfermarkt.es/abdou-diallo/profil/spieler/229005
+Thilo Kehrer -> https://www.transfermarkt.es/thilo-kehrer/profil/spieler/228948
+Alejandro Grimaldo -> https://www.transfermarkt.es/alejandro-grimaldo/profil/spieler/193082
+Kepa -> https://www.transfermarkt.es/kepa/profil/spieler/192279
+Victor Lindelöf -> https://www.transfermarkt.es/victor-lindelof/profil/spieler/184573
+Adrien Rabiot -> https://www.transfermarkt.es/adrien-rabiot/profil/spieler/182913
+Nathan Aké -> https://www.transfermarkt.es/nathan-ake/profil/spieler/177476
+Leander Dendoncker -> https://www.transfermarkt.es/leander-dendoncker/profil/spieler/168157
+Kurt Zouma -> https://www.transfermarkt.es/kurt-zouma/profil/spieler/157509
+Benjamin Mendy -> https://www.transfermarkt.es/benjamin-mendy/profil/spieler/157495
+Alex Oxlade-Chamberlain -> https://www.transfermarkt.es/alex-oxlade-chamberlain/profil/spieler/143424
+Nicolás Tagliafico -> https://www.transfermarkt.es/nicolas-tagliafico/profil/spieler/131225
+Jordan Pickford -> https://www.transfermarkt.es/jordan-pickford/profil/spieler/130164
+Paco Alcácer -> https://www.transfermarkt.es/paco-alcacer/profil/spieler/126716
+Lucas Digne -> https://www.transfermarkt.es/lucas-digne/profil/spieler/126664
+Allan -> https://www.transfermarkt.es/allan/profil/spieler/126422
+Kieran Trippier -> https://www.transfermarkt.es/kieran-trippier/profil/spieler/95810
+Kevin Volland -> https://www.transfermarkt.es/kevin-volland/profil/spieler/82009
+Pablo Sarabia -> https://www.transfermarkt.es/pablo-sarabia/profil/spieler/74230
+Sergio Busquets -> https://www.transfermarkt.es/sergio-busquets/profil/spieler/65230
+Jordan Henderson -> https://www.transfermarkt.es/jordan-henderson/profil/spieler/61651
+Luis Suárez -> https://www.transfermarkt.es/luis-suarez/profil/spieler/44352
+Gareth Bale -> https://www.transfermarkt.es/gareth-bale/profil/spieler/39381
+Jude Bellingham -> https://www.transfermarkt.es/jude-bellingham/profil/spieler/581678
+Samu Chukwueze -> https://www.transfermarkt.es/samu-chukwueze/profil/spieler/401922
+Boubacar Kamara -> https://www.transfermarkt.es/boubacar-kamara/profil/spieler/394327
+Merih Demiral -> https://www.transfermarkt.es/merih-demiral/profil/spieler/340879
+Franck Kessié -> https://www.transfermarkt.es/franck-kessie/profil/spieler/294808
+Robin Gosens -> https://www.transfermarkt.es/robin-gosens/profil/spieler/273132
+Andrej Kramaric -> https://www.transfermarkt.es/andrej-kramaric/profil/spieler/46580
+Emre Can -> https://www.transfermarkt.es/emre-can/profil/spieler/119296
+Alex Iwobi -> https://www.transfermarkt.es/alex-iwobi/profil/spieler/242631
+Corentin Tolisso -> https://www.transfermarkt.es/corentin-tolisso/profil/spieler/190393
+Tiemoué Bakayoko -> https://www.transfermarkt.es/tiemoue-bakayoko/profil/spieler/182618
+Iñigo Martínez -> https://www.transfermarkt.es/inigo-martinez/profil/spieler/158863
+Felipe -> https://www.transfermarkt.es/felipe/profil/spieler/156501
+Stefan Savic -> https://www.transfermarkt.es/stefan-savic/profil/spieler/107010
+Gabriel Martinelli -> https://www.transfermarkt.es/gabriel-martinelli/profil/spieler/655488
+Gabriel Veron -> https://www.transfermarkt.es/gabriel-veron/profil/spieler/627221
+Dwight McNeil -> https://www.transfermarkt.es/dwight-mcneil/profil/spieler/584769
+Jonathan David -> https://www.transfermarkt.es/jonathan-david/profil/spieler/533738
+Emerson -> https://www.transfermarkt.es/emerson/profil/spieler/476344
+Dominik Szoboszlai -> https://www.transfermarkt.es/dominik-szoboszlai/profil/spieler/451276
+Trincão -> https://www.transfermarkt.es/trincao/profil/spieler/412669
+Ryan Sessegnon -> https://www.transfermarkt.es/ryan-sessegnon/profil/spieler/392775
+Marash Kumbulla -> https://www.transfermarkt.es/marash-kumbulla/profil/spieler/371371
+Moise Kean -> https://www.transfermarkt.es/moise-kean/profil/spieler/364135
+Riqui Puig -> https://www.transfermarkt.es/riqui-puig/profil/spieler/331511
+Donyell Malen -> https://www.transfermarkt.es/donyell-malen/profil/spieler/326029
+Jarrod Bowen -> https://www.transfermarkt.es/jarrod-bowen/profil/spieler/314875
+Sergio Reguilón -> https://www.transfermarkt.es/sergio-reguilon/profil/spieler/282429
+Manuel Locatelli -> https://www.transfermarkt.es/manuel-locatelli/profil/spieler/265088
+Patrik Schick -> https://www.transfermarkt.es/patrik-schick/profil/spieler/242086
+Alex Meret -> https://www.transfermarkt.es/alex-meret/profil/spieler/240414
+Thomas Strakosha -> https://www.transfermarkt.es/thomas-strakosha/profil/spieler/222209
+Jérémie Boga -> https://www.transfermarkt.es/jeremie-boga/profil/spieler/216569
+Mario Pasalic -> https://www.transfermarkt.es/mario-pasalic/profil/spieler/205938
+Federico Bernardeschi -> https://www.transfermarkt.es/federico-bernardeschi/profil/spieler/197300
+Felipe Anderson -> https://www.transfermarkt.es/felipe-anderson/profil/spieler/159372
+Yussuf Poulsen -> https://www.transfermarkt.es/yussuf-poulsen/profil/spieler/157635
+Marco Reus -> https://www.transfermarkt.es/marco-reus/profil/spieler/35207
+Ismaïla Sarr -> https://www.transfermarkt.es/ismaila-sarr/profil/spieler/410225
+Boubakary Soumaré -> https://www.transfermarkt.es/boubakary-soumare/profil/spieler/344605
+Wesley -> https://www.transfermarkt.es/wesley/profil/spieler/381362
+Rafael Leão -> https://www.transfermarkt.es/rafael-leao/profil/spieler/357164
+Igor Zubeldia -> https://www.transfermarkt.es/igor-zubeldia/profil/spieler/355628
+Dominic Calvert-Lewin -> https://www.transfermarkt.es/dominic-calvert-lewin/profil/spieler/306024
+Yeray Álvarez -> https://www.transfermarkt.es/yeray-alvarez/profil/spieler/255488
+Ayoze Pérez -> https://www.transfermarkt.es/ayoze-perez/profil/spieler/246968
+Rafa Silva -> https://www.transfermarkt.es/rafa-silva/profil/spieler/238055
+Djené -> https://www.transfermarkt.es/djene/profil/spieler/221150
+Thomas Lemar -> https://www.transfermarkt.es/thomas-lemar/profil/spieler/205562
+Oleksandr Zinchenko -> https://www.transfermarkt.es/oleksandr-zinchenko/profil/spieler/203853
+Ruben Loftus-Cheek -> https://www.transfermarkt.es/ruben-loftus-cheek/profil/spieler/202886
+André Silva -> https://www.transfermarkt.es/andre-silva/profil/spieler/198008
+Andreas Christensen -> https://www.transfermarkt.es/andreas-christensen/profil/spieler/196948
+Jonathan Tah -> https://www.transfermarkt.es/jonathan-tah/profil/spieler/196357
+Emerson -> https://www.transfermarkt.es/emerson/profil/spieler/181778
+Kylian Mbappé -> https://www.transfermarkt.es/kylian-mbappe/profil/spieler/342229
+Raheem Sterling -> https://www.transfermarkt.es/raheem-sterling/profil/spieler/134425
+Neymar -> https://www.transfermarkt.es/neymar/profil/spieler/68290
+Sadio Mané -> https://www.transfermarkt.es/sadio-mane/profil/spieler/200512
+Mohamed Salah -> https://www.transfermarkt.es/mohamed-salah/profil/spieler/148455
+Harry Kane -> https://www.transfermarkt.es/harry-kane/profil/spieler/132098
+Kevin De Bruyne -> https://www.transfermarkt.es/kevin-de-bruyne/profil/spieler/88755
+Jadon Sancho -> https://www.transfermarkt.es/jadon-sancho/profil/spieler/401173
+Lionel Messi -> https://www.transfermarkt.es/lionel-messi/profil/spieler/28003
+Trent Alexander-Arnold -> https://www.transfermarkt.es/trent-alexander-arnold/profil/spieler/314353
+Antoine Griezmann -> https://www.transfermarkt.es/antoine-griezmann/profil/spieler/125781
+Serge Gnabry -> https://www.transfermarkt.es/serge-gnabry/profil/spieler/159471
+Joshua Kimmich -> https://www.transfermarkt.es/joshua-kimmich/profil/spieler/161056
+Romelu Lukaku -> https://www.transfermarkt.es/romelu-lukaku/profil/spieler/96341
+João Félix -> https://www.transfermarkt.es/joao-felix/profil/spieler/462250
+Kai Havertz -> https://www.transfermarkt.es/kai-havertz/profil/spieler/309400
+Alphonso Davies -> https://www.transfermarkt.es/alphonso-davies/profil/spieler/424204
+Erling Haaland -> https://www.transfermarkt.es/erling-haaland/profil/spieler/418560
+Marcus Rashford -> https://www.transfermarkt.es/marcus-rashford/profil/spieler/258923
+Bernardo Silva -> https://www.transfermarkt.es/bernardo-silva/profil/spieler/241641
+N'Golo Kanté -> https://www.transfermarkt.es/ngolo-kante/profil/spieler/225083
+Paulo Dybala -> https://www.transfermarkt.es/paulo-dybala/profil/spieler/206050
+Virgil van Dijk -> https://www.transfermarkt.es/virgil-van-dijk/profil/spieler/139208
+Paul Pogba -> https://www.transfermarkt.es/paul-pogba/profil/spieler/122153
+Jan Oblak -> https://www.transfermarkt.es/jan-oblak/profil/spieler/121483
+Eden Hazard -> https://www.transfermarkt.es/eden-hazard/profil/spieler/50202
+Frenkie de Jong -> https://www.transfermarkt.es/frenkie-de-jong/profil/spieler/326330
+Saúl Ñíguez -> https://www.transfermarkt.es/saul-niguez/profil/spieler/148928
+Roberto Firmino -> https://www.transfermarkt.es/roberto-firmino/profil/spieler/131789
+Alisson -> https://www.transfermarkt.es/alisson/profil/spieler/105470
+Marc-André ter Stegen -> https://www.transfermarkt.es/marc-andre-ter-stegen/profil/spieler/74857
+Lautaro Martínez -> https://www.transfermarkt.es/lautaro-martinez/profil/spieler/406625
+Matthijs de Ligt -> https://www.transfermarkt.es/matthijs-de-ligt/profil/spieler/326031
+Bruno Fernandes -> https://www.transfermarkt.es/bruno-fernandes/profil/spieler/240306
+Leroy Sané -> https://www.transfermarkt.es/leroy-sane/profil/spieler/192565
+Sergej Milinkovic-Savic -> https://www.transfermarkt.es/sergej-milinkovic-savic/profil/spieler/266302
+Kalidou Koulibaly -> https://www.transfermarkt.es/kalidou-koulibaly/profil/spieler/93128
+David Alaba -> https://www.transfermarkt.es/david-alaba/profil/spieler/59016
+Rodri -> https://www.transfermarkt.es/rodri/profil/spieler/357565
+Andrew Robertson -> https://www.transfermarkt.es/andrew-robertson/profil/spieler/234803
+Dele Alli -> https://www.transfermarkt.es/dele-alli/profil/spieler/207929
+Timo Werner -> https://www.transfermarkt.es/timo-werner/profil/spieler/170527
+Raphaël Varane -> https://www.transfermarkt.es/raphael-varane/profil/spieler/164770
+Heung-min Son -> https://www.transfermarkt.es/heung-min-son/profil/spieler/91845
+Casemiro -> https://www.transfermarkt.es/casemiro/profil/spieler/16306
+Mikel Oyarzabal -> https://www.transfermarkt.es/mikel-oyarzabal/profil/spieler/351478
+Dayot Upamecano -> https://www.transfermarkt.es/dayot-upamecano/profil/spieler/344695
+Gianluigi Donnarumma -> https://www.transfermarkt.es/gianluigi-donnarumma/profil/spieler/315858
+Christian Pulisic -> https://www.transfermarkt.es/christian-pulisic/profil/spieler/315779
+Aymeric Laporte -> https://www.transfermarkt.es/aymeric-laporte/profil/spieler/176553
+Leon Goretzka -> https://www.transfermarkt.es/leon-goretzka/profil/spieler/153084
+Stefan de Vrij -> https://www.transfermarkt.es/stefan-de-vrij/profil/spieler/111196
+Thibaut Courtois -> https://www.transfermarkt.es/thibaut-courtois/profil/spieler/108390
+Marco Verratti -> https://www.transfermarkt.es/marco-verratti/profil/spieler/102558
+Christian Eriksen -> https://www.transfermarkt.es/christian-eriksen/profil/spieler/69633
+Mauro Icardi -> https://www.transfermarkt.es/mauro-icardi/profil/spieler/68863
+Robert Lewandowski -> https://www.transfermarkt.es/robert-lewandowski/profil/spieler/38253
+Cristiano Ronaldo -> https://www.transfermarkt.es/cristiano-ronaldo/profil/spieler/8198
+Anthony Martial -> https://www.transfermarkt.es/anthony-martial/profil/spieler/182877
+Gabriel Jesus -> https://www.transfermarkt.es/gabriel-jesus/profil/spieler/363205
+Arthur -> https://www.transfermarkt.es/arthur/profil/spieler/362842
+Ousmane Dembélé -> https://www.transfermarkt.es/ousmane-dembele/profil/spieler/288230
+José Giménez -> https://www.transfermarkt.es/jose-gimenez/profil/spieler/250845
+Ederson -> https://www.transfermarkt.es/ederson/profil/spieler/238223
+Fabinho -> https://www.transfermarkt.es/fabinho/profil/spieler/225693
+Harry Maguire -> https://www.transfermarkt.es/harry-maguire/profil/spieler/177907
+Philippe Coutinho -> https://www.transfermarkt.es/philippe-coutinho/profil/spieler/80444
+Pierre-Emerick Aubameyang -> https://www.transfermarkt.es/pierre-emerick-aubameyang/profil/spieler/58864
+Nicolò Zaniolo -> https://www.transfermarkt.es/nicolo-zaniolo/profil/spieler/392085
+James Maddison -> https://www.transfermarkt.es/james-maddison/profil/spieler/294057
+Achraf Hakimi -> https://www.transfermarkt.es/achraf-hakimi/profil/spieler/398073
+Federico Valverde -> https://www.transfermarkt.es/federico-valverde/profil/spieler/369081
+Richarlison -> https://www.transfermarkt.es/richarlison/profil/spieler/378710
+Marquinhos -> https://www.transfermarkt.es/marquinhos/profil/spieler/181767
+Jorginho -> https://www.transfermarkt.es/jorginho/profil/spieler/102017
+Sergio Agüero -> https://www.transfermarkt.es/sergio-aguero/profil/spieler/26399
+Renan Lodi -> https://www.transfermarkt.es/renan-lodi/profil/spieler/476352
+Ansu Fati -> https://www.transfermarkt.es/ansu-fati/profil/spieler/466810
+Rodrigo Bentancur -> https://www.transfermarkt.es/rodrigo-bentancur/profil/spieler/354362
+Fabián Ruiz -> https://www.transfermarkt.es/fabian-ruiz/profil/spieler/350219
+Diego Carlos -> https://www.transfermarkt.es/diego-carlos/profil/spieler/329145
+Nicolò Barella -> https://www.transfermarkt.es/nicolo-barella/profil/spieler/255942
+Rúben Neves -> https://www.transfermarkt.es/ruben-neves/profil/spieler/225161
+Milan Skriniar -> https://www.transfermarkt.es/milan-skriniar/profil/spieler/204069
+Lucas Ocampos -> https://www.transfermarkt.es/lucas-ocampos/profil/spieler/189441
+Marcelo Brozovic -> https://www.transfermarkt.es/marcelo-brozovic/profil/spieler/156617
+Luis Alberto -> https://www.transfermarkt.es/luis-alberto/profil/spieler/128220
+Houssem Aouar -> https://www.transfermarkt.es/houssem-aouar/profil/spieler/395693
+Declan Rice -> https://www.transfermarkt.es/declan-rice/profil/spieler/357662
+Davinson Sánchez -> https://www.transfermarkt.es/davinson-sanchez/profil/spieler/341429
+Federico Chiesa -> https://www.transfermarkt.es/federico-chiesa/profil/spieler/341092
+Clément Lenglet -> https://www.transfermarkt.es/clement-lenglet/profil/spieler/182904
+Riyad Mahrez -> https://www.transfermarkt.es/riyad-mahrez/profil/spieler/171424
+Niklas Süle -> https://www.transfermarkt.es/niklas-sule/profil/spieler/166601
+Lorenzo Insigne -> https://www.transfermarkt.es/lorenzo-insigne/profil/spieler/133964
+Alexandre Lacazette -> https://www.transfermarkt.es/alexandre-lacazette/profil/spieler/93720
+Koke -> https://www.transfermarkt.es/koke/profil/spieler/74229
+Thiago -> https://www.transfermarkt.es/thiago/profil/spieler/60444
+Toni Kroos -> https://www.transfermarkt.es/toni-kroos/profil/spieler/31909
+Mason Greenwood -> https://www.transfermarkt.es/mason-greenwood/profil/spieler/532826
+Tanguy Ndombélé -> https://www.transfermarkt.es/tanguy-ndombele/profil/spieler/450936
+Rodrygo -> https://www.transfermarkt.es/rodrygo/profil/spieler/412363
+Ferran Torres -> https://www.transfermarkt.es/ferran-torres/profil/spieler/398184
+Vinícius Júnior -> https://www.transfermarkt.es/vinicius-junior/profil/spieler/371998
+Benjamin Pavard -> https://www.transfermarkt.es/benjamin-pavard/profil/spieler/353366
+Nicolas Pépé -> https://www.transfermarkt.es/nicolas-pepe/profil/spieler/343052
+Theo Hernández -> https://www.transfermarkt.es/theo-hernandez/profil/spieler/339808
+Martin Ödegaard -> https://www.transfermarkt.es/martin-odegaard/profil/spieler/316264
+Alessandro Bastoni -> https://www.transfermarkt.es/alessandro-bastoni/profil/spieler/315853
+Lucas Hernández -> https://www.transfermarkt.es/lucas-hernandez/profil/spieler/281963
+Wilfred Ndidi -> https://www.transfermarkt.es/wilfred-ndidi/profil/spieler/274839
+Ciro Immobile -> https://www.transfermarkt.es/ciro-immobile/profil/spieler/105521
+Miralem Pjanic -> https://www.transfermarkt.es/miralem-pjanic/profil/spieler/44162
+Donny van de Beek -> https://www.transfermarkt.es/donny-van-de-beek/profil/spieler/288255
+Youri Tielemans -> https://www.transfermarkt.es/youri-tielemans/profil/spieler/249565
+Memphis Depay -> https://www.transfermarkt.es/memphis-depay/profil/spieler/167850
+Wilfried Zaha -> https://www.transfermarkt.es/wilfried-zaha/profil/spieler/145988
+Ibrahima Konaté -> https://www.transfermarkt.es/ibrahima-konate/profil/spieler/357119
+Mason Mount -> https://www.transfermarkt.es/mason-mount/profil/spieler/346483
+Aaron Wan-Bissaka -> https://www.transfermarkt.es/aaron-wan-bissaka/profil/spieler/477758
+Dejan Kulusevski -> https://www.transfermarkt.es/dejan-kulusevski/profil/spieler/431755
+Phil Foden -> https://www.transfermarkt.es/phil-foden/profil/spieler/406635
+Victor Osimhen -> https://www.transfermarkt.es/victor-osimhen/profil/spieler/401923
+Carlos Soler -> https://www.transfermarkt.es/carlos-soler/profil/spieler/372246
+Giovani Lo Celso -> https://www.transfermarkt.es/giovani-lo-celso/profil/spieler/348795
+Denis Zakaria -> https://www.transfermarkt.es/denis-zakaria/profil/spieler/334526
+Tammy Abraham -> https://www.transfermarkt.es/tammy-abraham/profil/spieler/331726
+Caglar Söyüncü -> https://www.transfermarkt.es/caglar-soyuncu/profil/spieler/320141
+Ben Chilwell -> https://www.transfermarkt.es/ben-chilwell/profil/spieler/316125
+Naby Keïta -> https://www.transfermarkt.es/naby-keita/profil/spieler/302215
+Marco Asensio -> https://www.transfermarkt.es/marco-asensio/profil/spieler/296622
+Ferland Mendy -> https://www.transfermarkt.es/ferland-mendy/profil/spieler/291417
+Marcos Llorente -> https://www.transfermarkt.es/marcos-llorente/profil/spieler/282411
+Joe Gomez -> https://www.transfermarkt.es/joe-gomez/profil/spieler/256178
+Alex Telles -> https://www.transfermarkt.es/alex-telles/profil/spieler/255755
+Iñaki Williams -> https://www.transfermarkt.es/inaki-williams/profil/spieler/255508
+Kingsley Coman -> https://www.transfermarkt.es/kingsley-coman/profil/spieler/243714
+Nélson Semedo -> https://www.transfermarkt.es/nelson-semedo/profil/spieler/231572
+Thomas -> https://www.transfermarkt.es/thomas/profil/spieler/230784
+Moussa Dembélé -> https://www.transfermarkt.es/moussa-dembele/profil/spieler/229004
+José Gayà -> https://www.transfermarkt.es/jose-gaya/profil/spieler/221322
+Hakim Ziyech -> https://www.transfermarkt.es/hakim-ziyech/profil/spieler/217111
+Raúl Jiménez -> https://www.transfermarkt.es/raul-jimenez/profil/spieler/206040
+Jack Grealish -> https://www.transfermarkt.es/jack-grealish/profil/spieler/203460
+Julian Brandt -> https://www.transfermarkt.es/julian-brandt/profil/spieler/187492
+Wissam Ben Yedder -> https://www.transfermarkt.es/wissam-ben-yedder/profil/spieler/146854
+Daniel Carvajal -> https://www.transfermarkt.es/daniel-carvajal/profil/spieler/138927
+Rodrigo -> https://www.transfermarkt.es/rodrigo/profil/spieler/131505
+Kyle Walker -> https://www.transfermarkt.es/kyle-walker/profil/spieler/95424
+Antonio Rüdiger -> https://www.transfermarkt.es/antonio-rudiger/profil/spieler/86202
+Sergi Roberto -> https://www.transfermarkt.es/sergi-roberto/profil/spieler/85370
+Isco -> https://www.transfermarkt.es/isco/profil/spieler/85288
+Duván Zapata -> https://www.transfermarkt.es/duvan-zapata/profil/spieler/73794
+Jordi Alba -> https://www.transfermarkt.es/jordi-alba/profil/spieler/69751
+David de Gea -> https://www.transfermarkt.es/david-de-gea/profil/spieler/59377
+Ilkay Gündogan -> https://www.transfermarkt.es/ilkay-gundogan/profil/spieler/53622
+Mateo Kovacic -> https://www.transfermarkt.es/mateo-kovacic/profil/spieler/51471
+Georginio Wijnaldum -> https://www.transfermarkt.es/georginio-wijnaldum/profil/spieler/49499
+Lukas Klostermann -> https://www.transfermarkt.es/lukas-klostermann/profil/spieler/215599
+Eduardo Camavinga -> https://www.transfermarkt.es/eduardo-camavinga/profil/spieler/640428
+David Neres -> https://www.transfermarkt.es/david-neres/profil/spieler/469822
+Éder Militão -> https://www.transfermarkt.es/eder-militao/profil/spieler/401530
+Jonathan Ikoné -> https://www.transfermarkt.es/jonathan-ikone/profil/spieler/324690
+André Onana -> https://www.transfermarkt.es/andre-onana/profil/spieler/234509
+Alessio Romagnoli -> https://www.transfermarkt.es/alessio-romagnoli/profil/spieler/197747
+João Cancelo -> https://www.transfermarkt.es/joao-cancelo/profil/spieler/182712
+Sébastien Haller -> https://www.transfermarkt.es/sebastien-haller/profil/spieler/181375
+Álvaro Morata -> https://www.transfermarkt.es/alvaro-morata/profil/spieler/128223
+Bukayo Saka -> https://www.transfermarkt.es/bukayo-saka/profil/spieler/433177
+Mikel Merino -> https://www.transfermarkt.es/mikel-merino/profil/spieler/338424
+Rúben Dias -> https://www.transfermarkt.es/ruben-dias/profil/spieler/258004
+Adama Traoré -> https://www.transfermarkt.es/adama-traore/profil/spieler/204103
+Piotr Zielinski -> https://www.transfermarkt.es/piotr-zielinski/profil/spieler/181136
+Raphaël Guerreiro -> https://www.transfermarkt.es/raphael-guerreiro/profil/spieler/170986
+Andrea Belotti -> https://www.transfermarkt.es/andrea-belotti/profil/spieler/167727
+Marcel Sabitzer -> https://www.transfermarkt.es/marcel-sabitzer/profil/spieler/106987
+Alex Sandro -> https://www.transfermarkt.es/alex-sandro/profil/spieler/79960
+Thomas Müller -> https://www.transfermarkt.es/thomas-muller/profil/spieler/58358
+Wojciech Szczesny -> https://www.transfermarkt.es/wojciech-szczesny/profil/spieler/44058
+Christopher Nkunku -> https://www.transfermarkt.es/christopher-nkunku/profil/spieler/344381
+Mattéo Guendouzi -> https://www.transfermarkt.es/matteo-guendouzi/profil/spieler/465830
+Sandro Tonali -> https://www.transfermarkt.es/sandro-tonali/profil/spieler/397033
+Maxi Gómez -> https://www.transfermarkt.es/maxi-gomez/profil/spieler/396894
+Moussa Diaby -> https://www.transfermarkt.es/moussa-diaby/profil/spieler/395516
+Dani Ceballos -> https://www.transfermarkt.es/dani-ceballos/profil/spieler/319745
+Marcus Thuram -> https://www.transfermarkt.es/marcus-thuram/profil/spieler/318528
+Lorenzo Pellegrini -> https://www.transfermarkt.es/lorenzo-pellegrini/profil/spieler/286297
+Ángel Correa -> https://www.transfermarkt.es/angel-correa/profil/spieler/266807
+Luka Jovic -> https://www.transfermarkt.es/luka-jovic/profil/spieler/257462
+Ricardo Pereira -> https://www.transfermarkt.es/ricardo-pereira/profil/spieler/215876
+Nabil Fekir -> https://www.transfermarkt.es/nabil-fekir/profil/spieler/203496
+Arkadiusz Milik -> https://www.transfermarkt.es/arkadiusz-milik/profil/spieler/191891
+Héctor Bellerín -> https://www.transfermarkt.es/hector-bellerin/profil/spieler/191217
+Ante Rebic -> https://www.transfermarkt.es/ante-rebic/profil/spieler/187587
+Florian Thauvin -> https://www.transfermarkt.es/florian-thauvin/profil/spieler/184892
+Filip Kostic -> https://www.transfermarkt.es/filip-kostic/profil/spieler/161011
+Samuel Umtiti -> https://www.transfermarkt.es/samuel-umtiti/profil/spieler/126540
+Matthias Ginter -> https://www.transfermarkt.es/matthias-ginter/profil/spieler/124502
+Konstantinos Manolas -> https://www.transfermarkt.es/konstantinos-manolas/profil/spieler/104752
+Thorgan Hazard -> https://www.transfermarkt.es/thorgan-hazard/profil/spieler/102226
+James Rodríguez -> https://www.transfermarkt.es/james-rodriguez/profil/spieler/88103
+Joel Matip -> https://www.transfermarkt.es/joel-matip/profil/spieler/82105
+Lucas Moura -> https://www.transfermarkt.es/lucas-moura/profil/spieler/77100
+Bernd Leno -> https://www.transfermarkt.es/bernd-leno/profil/spieler/72476
+Ángel Di María -> https://www.transfermarkt.es/angel-di-maria/profil/spieler/45320
+Karim Benzema -> https://www.transfermarkt.es/karim-benzema/profil/spieler/18922
+Callum Hudson-Odoi -> https://www.transfermarkt.es/callum-hudson-odoi/profil/spieler/392768
+Dan-Axel Zagadou -> https://www.transfermarkt.es/dan-axel-zagadou/profil/spieler/344598
+Dani Olmo -> https://www.transfermarkt.es/dani-olmo/profil/spieler/293385
+Jules Koundé -> https://www.transfermarkt.es/jules-kounde/profil/spieler/411975
+Takefusa Kubo -> https://www.transfermarkt.es/takefusa-kubo/profil/spieler/405398
+Pau Torres -> https://www.transfermarkt.es/pau-torres/profil/spieler/399776
+Malcom -> https://www.transfermarkt.es/malcom/profil/spieler/323704
+Lucas Torreira -> https://www.transfermarkt.es/lucas-torreira/profil/spieler/318077
+Unai Simón -> https://www.transfermarkt.es/unai-simon/profil/spieler/262396
+Rodrigo de Paul -> https://www.transfermarkt.es/rodrigo-de-paul/profil/spieler/255901
+Wout Weghorst -> https://www.transfermarkt.es/wout-weghorst/profil/spieler/228645
+Joaquín Correa -> https://www.transfermarkt.es/joaquin-correa/profil/spieler/227081
+Konrad Laimer -> https://www.transfermarkt.es/konrad-laimer/profil/spieler/223967
+Nico Elvedi -> https://www.transfermarkt.es/nico-elvedi/profil/spieler/192635
+John Stones -> https://www.transfermarkt.es/john-stones/profil/spieler/186590
+Gerard Moreno -> https://www.transfermarkt.es/gerard-moreno/profil/spieler/177467
+Alassane Plea -> https://www.transfermarkt.es/alassane-plea/profil/spieler/167329
+Jesús Corona -> https://www.transfermarkt.es/jesus-corona/profil/spieler/125165
+Leon Bailey -> https://www.transfermarkt.es/leon-bailey/profil/spieler/387626
+Ozan Kabak -> https://www.transfermarkt.es/ozan-kabak/profil/spieler/361260
+Bruno Guimarães -> https://www.transfermarkt.es/bruno-guimaraes/profil/spieler/520624
+Nikola Milenkovic -> https://www.transfermarkt.es/nikola-milenkovic/profil/spieler/413507
+Ismaël Bennacer -> https://www.transfermarkt.es/ismael-bennacer/profil/spieler/351816
+Diogo Jota -> https://www.transfermarkt.es/diogo-jota/profil/spieler/340950
+Éverton -> https://www.transfermarkt.es/everton/profil/spieler/321239
+Hirving Lozano -> https://www.transfermarkt.es/hirving-lozano/profil/spieler/316889
+Kieran Tierney -> https://www.transfermarkt.es/kieran-tierney/profil/spieler/300716
+Steven Bergwijn -> https://www.transfermarkt.es/steven-bergwijn/profil/spieler/284165
+Presnel Kimpembe -> https://www.transfermarkt.es/presnel-kimpembe/profil/spieler/282041
+Allan Saint-Maximin -> https://www.transfermarkt.es/allan-saint-maximin/profil/spieler/272642
+Issa Diop -> https://www.transfermarkt.es/issa-diop/profil/spieler/272622
+Harry Winks -> https://www.transfermarkt.es/harry-winks/profil/spieler/249126
+Abdou Diallo -> https://www.transfermarkt.es/abdou-diallo/profil/spieler/229005
+Thilo Kehrer -> https://www.transfermarkt.es/thilo-kehrer/profil/spieler/228948
+Alejandro Grimaldo -> https://www.transfermarkt.es/alejandro-grimaldo/profil/spieler/193082
+Kepa -> https://www.transfermarkt.es/kepa/profil/spieler/192279
+Victor Lindelöf -> https://www.transfermarkt.es/victor-lindelof/profil/spieler/184573
+Adrien Rabiot -> https://www.transfermarkt.es/adrien-rabiot/profil/spieler/182913
+Nathan Aké -> https://www.transfermarkt.es/nathan-ake/profil/spieler/177476
+Leander Dendoncker -> https://www.transfermarkt.es/leander-dendoncker/profil/spieler/168157
+Kurt Zouma -> https://www.transfermarkt.es/kurt-zouma/profil/spieler/157509
+Benjamin Mendy -> https://www.transfermarkt.es/benjamin-mendy/profil/spieler/157495
+Alex Oxlade-Chamberlain -> https://www.transfermarkt.es/alex-oxlade-chamberlain/profil/spieler/143424
+Nicolás Tagliafico -> https://www.transfermarkt.es/nicolas-tagliafico/profil/spieler/131225
+Jordan Pickford -> https://www.transfermarkt.es/jordan-pickford/profil/spieler/130164
+Paco Alcácer -> https://www.transfermarkt.es/paco-alcacer/profil/spieler/126716
+Lucas Digne -> https://www.transfermarkt.es/lucas-digne/profil/spieler/126664
+Allan -> https://www.transfermarkt.es/allan/profil/spieler/126422
+Kieran Trippier -> https://www.transfermarkt.es/kieran-trippier/profil/spieler/95810
+Kevin Volland -> https://www.transfermarkt.es/kevin-volland/profil/spieler/82009
+Pablo Sarabia -> https://www.transfermarkt.es/pablo-sarabia/profil/spieler/74230
+Sergio Busquets -> https://www.transfermarkt.es/sergio-busquets/profil/spieler/65230
+Jordan Henderson -> https://www.transfermarkt.es/jordan-henderson/profil/spieler/61651
+Luis Suárez -> https://www.transfermarkt.es/luis-suarez/profil/spieler/44352
+Gareth Bale -> https://www.transfermarkt.es/gareth-bale/profil/spieler/39381
+Jude Bellingham -> https://www.transfermarkt.es/jude-bellingham/profil/spieler/581678
+Samu Chukwueze -> https://www.transfermarkt.es/samu-chukwueze/profil/spieler/401922
+Boubacar Kamara -> https://www.transfermarkt.es/boubacar-kamara/profil/spieler/394327
+Merih Demiral -> https://www.transfermarkt.es/merih-demiral/profil/spieler/340879
+Franck Kessié -> https://www.transfermarkt.es/franck-kessie/profil/spieler/294808
+Robin Gosens -> https://www.transfermarkt.es/robin-gosens/profil/spieler/273132
+Andrej Kramaric -> https://www.transfermarkt.es/andrej-kramaric/profil/spieler/46580
+Emre Can -> https://www.transfermarkt.es/emre-can/profil/spieler/119296
+Alex Iwobi -> https://www.transfermarkt.es/alex-iwobi/profil/spieler/242631
+Corentin Tolisso -> https://www.transfermarkt.es/corentin-tolisso/profil/spieler/190393
+Tiemoué Bakayoko -> https://www.transfermarkt.es/tiemoue-bakayoko/profil/spieler/182618
+Iñigo Martínez -> https://www.transfermarkt.es/inigo-martinez/profil/spieler/158863
+Felipe -> https://www.transfermarkt.es/felipe/profil/spieler/156501
+Stefan Savic -> https://www.transfermarkt.es/stefan-savic/profil/spieler/107010
+Gabriel Martinelli -> https://www.transfermarkt.es/gabriel-martinelli/profil/spieler/655488
+Gabriel Veron -> https://www.transfermarkt.es/gabriel-veron/profil/spieler/627221
+Dwight McNeil -> https://www.transfermarkt.es/dwight-mcneil/profil/spieler/584769
+Jonathan David -> https://www.transfermarkt.es/jonathan-david/profil/spieler/533738
+Emerson -> https://www.transfermarkt.es/emerson/profil/spieler/476344
+Dominik Szoboszlai -> https://www.transfermarkt.es/dominik-szoboszlai/profil/spieler/451276
+Trincão -> https://www.transfermarkt.es/trincao/profil/spieler/412669
+Ryan Sessegnon -> https://www.transfermarkt.es/ryan-sessegnon/profil/spieler/392775
+Marash Kumbulla -> https://www.transfermarkt.es/marash-kumbulla/profil/spieler/371371
+Moise Kean -> https://www.transfermarkt.es/moise-kean/profil/spieler/364135
+Riqui Puig -> https://www.transfermarkt.es/riqui-puig/profil/spieler/331511
+Donyell Malen -> https://www.transfermarkt.es/donyell-malen/profil/spieler/326029
+Jarrod Bowen -> https://www.transfermarkt.es/jarrod-bowen/profil/spieler/314875
+Sergio Reguilón -> https://www.transfermarkt.es/sergio-reguilon/profil/spieler/282429
+Manuel Locatelli -> https://www.transfermarkt.es/manuel-locatelli/profil/spieler/265088
+Patrik Schick -> https://www.transfermarkt.es/patrik-schick/profil/spieler/242086
+Alex Meret -> https://www.transfermarkt.es/alex-meret/profil/spieler/240414
+Thomas Strakosha -> https://www.transfermarkt.es/thomas-strakosha/profil/spieler/222209
+Jérémie Boga -> https://www.transfermarkt.es/jeremie-boga/profil/spieler/216569
+Mario Pasalic -> https://www.transfermarkt.es/mario-pasalic/profil/spieler/205938
+Federico Bernardeschi -> https://www.transfermarkt.es/federico-bernardeschi/profil/spieler/197300
+Felipe Anderson -> https://www.transfermarkt.es/felipe-anderson/profil/spieler/159372
+Yussuf Poulsen -> https://www.transfermarkt.es/yussuf-poulsen/profil/spieler/157635
+Marco Reus -> https://www.transfermarkt.es/marco-reus/profil/spieler/35207
+Ismaïla Sarr -> https://www.transfermarkt.es/ismaila-sarr/profil/spieler/410225
+Boubakary Soumaré -> https://www.transfermarkt.es/boubakary-soumare/profil/spieler/344605
+Wesley -> https://www.transfermarkt.es/wesley/profil/spieler/381362
+Rafael Leão -> https://www.transfermarkt.es/rafael-leao/profil/spieler/357164
+Igor Zubeldia -> https://www.transfermarkt.es/igor-zubeldia/profil/spieler/355628
+Dominic Calvert-Lewin -> https://www.transfermarkt.es/dominic-calvert-lewin/profil/spieler/306024
+Yeray Álvarez -> https://www.transfermarkt.es/yeray-alvarez/profil/spieler/255488
+Ayoze Pérez -> https://www.transfermarkt.es/ayoze-perez/profil/spieler/246968
+Rafa Silva -> https://www.transfermarkt.es/rafa-silva/profil/spieler/238055
+Djené -> https://www.transfermarkt.es/djene/profil/spieler/221150
+Thomas Lemar -> https://www.transfermarkt.es/thomas-lemar/profil/spieler/205562
+Oleksandr Zinchenko -> https://www.transfermarkt.es/oleksandr-zinchenko/profil/spieler/203853
+Ruben Loftus-Cheek -> https://www.transfermarkt.es/ruben-loftus-cheek/profil/spieler/202886
+André Silva -> https://www.transfermarkt.es/andre-silva/profil/spieler/198008
+Andreas Christensen -> https://www.transfermarkt.es/andreas-christensen/profil/spieler/196948
+Jonathan Tah -> https://www.transfermarkt.es/jonathan-tah/profil/spieler/196357
+Emerson -> https://www.transfermarkt.es/emerson/profil/spieler/181778
+Domenico Berardi -> https://www.transfermarkt.es/domenico-berardi/profil/spieler/177843
+Jordan Veretout -> https://www.transfermarkt.es/jordan-veretout/profil/spieler/164771
+Danilo Pereira -> https://www.transfermarkt.es/danilo-pereira/profil/spieler/141050
+Idrissa Gueye -> https://www.transfermarkt.es/idrissa-gueye/profil/spieler/126665
+Kerem Demirbay -> https://www.transfermarkt.es/kerem-demirbay/profil/spieler/125858
+Willian José -> https://www.transfermarkt.es/willian-jose/profil/spieler/122155
+Granit Xhaka -> https://www.transfermarkt.es/granit-xhaka/profil/spieler/111455
+Thomas Meunier -> https://www.transfermarkt.es/thomas-meunier/profil/spieler/100986
+Julian Draxler -> https://www.transfermarkt.es/julian-draxler/profil/spieler/85148
+César Azpilicueta -> https://www.transfermarkt.es/cesar-azpilicueta/profil/spieler/57500
+Toby Alderweireld -> https://www.transfermarkt.es/toby-alderweireld/profil/spieler/42710
+Nordi Mukiele -> https://www.transfermarkt.es/nordi-mukiele/profil/spieler/348026
+Cengiz Ünder -> https://www.transfermarkt.es/cengiz-under/profil/spieler/341647
+Nahitan Nández -> https://www.transfermarkt.es/nahitan-nandez/profil/spieler/315063
+Florian Neuhaus -> https://www.transfermarkt.es/florian-neuhaus/profil/spieler/278332
+Duje Caleta-Car -> https://www.transfermarkt.es/duje-caleta-car/profil/spieler/238266
+Remo Freuler -> https://www.transfermarkt.es/remo-freuler/profil/spieler/148252
+Marten de Roon -> https://www.transfermarkt.es/marten-de-roon/profil/spieler/133179
+Hakan Calhanoglu -> https://www.transfermarkt.es/hakan-calhanoglu/profil/spieler/126414
+Reinier -> https://www.transfermarkt.es/reinier/profil/spieler/627226
+William Saliba -> https://www.transfermarkt.es/william-saliba/profil/spieler/495666
+Reece James -> https://www.transfermarkt.es/reece-james/profil/spieler/472423
+Evan N'Dicka -> https://www.transfermarkt.es/evan-ndicka/profil/spieler/371149
+Alexander Isak -> https://www.transfermarkt.es/alexander-isak/profil/spieler/349066
+Jeff Reine-Adélaïde -> https://www.transfermarkt.es/jeff-reine-adelaide/profil/spieler/326300
+Scott McTominay -> https://www.transfermarkt.es/scott-mctominay/profil/spieler/315969
+Tyrone Mings -> https://www.transfermarkt.es/tyrone-mings/profil/spieler/253677
+Gonçalo Guedes -> https://www.transfermarkt.es/goncalo-guedes/profil/spieler/225122
+André Gomes -> https://www.transfermarkt.es/andre-gomes/profil/spieler/221025
+Jean-Philippe Gbamin -> https://www.transfermarkt.es/jean-philippe-gbamin/profil/spieler/182894
+Morgan Sanson -> https://www.transfermarkt.es/morgan-sanson/profil/spieler/174094
+Yannick Carrasco -> https://www.transfermarkt.es/yannick-carrasco/profil/spieler/140776
+Geoffrey Kondogbia -> https://www.transfermarkt.es/geoffrey-kondogbia/profil/spieler/127189
+Willian -> https://www.transfermarkt.es/willian/profil/spieler/52769
+Edmond Tapsoba -> https://www.transfermarkt.es/edmond-tapsoba/profil/spieler/564545
+Matheus Cunha -> https://www.transfermarkt.es/matheus-cunha/profil/spieler/517894
+Luiz Felipe -> https://www.transfermarkt.es/luiz-felipe/profil/spieler/457931
+Douglas Luiz -> https://www.transfermarkt.es/douglas-luiz/profil/spieler/447661
+Harvey Barnes -> https://www.transfermarkt.es/harvey-barnes/profil/spieler/398065
+Riccardo Orsolini -> https://www.transfermarkt.es/riccardo-orsolini/profil/spieler/368482
+Nikola Vlasic -> https://www.transfermarkt.es/nikola-vlasic/profil/spieler/293200
+Milot Rashica -> https://www.transfermarkt.es/milot-rashica/profil/spieler/291739
+Gianluca Mancini -> https://www.transfermarkt.es/gianluca-mancini/profil/spieler/256448
+Luke Shaw -> https://www.transfermarkt.es/luke-shaw/profil/spieler/183288
+Giovanni Di Lorenzo -> https://www.transfermarkt.es/giovanni-di-lorenzo/profil/spieler/169880
+Matteo Politano -> https://www.transfermarkt.es/matteo-politano/profil/spieler/165895
+Luis Muriel -> https://www.transfermarkt.es/luis-muriel/profil/spieler/119228
+Mário Fernandes -> https://www.transfermarkt.es/mario-fernandes/profil/spieler/102740
+Pizzi -> https://www.transfermarkt.es/pizzi/profil/spieler/64339
+Aaron Ramsey -> https://www.transfermarkt.es/aaron-ramsey/profil/spieler/50057
+Krzysztof Piatek -> https://www.transfermarkt.es/krzysztof-piatek/profil/spieler/327757
+Ross Barkley -> https://www.transfermarkt.es/ross-barkley/profil/spieler/131978
+Ruslan Malinovskyi -> https://www.transfermarkt.es/ruslan-malinovskyi/profil/spieler/207877
+Rayan Aït Nouri -> https://www.transfermarkt.es/rayan-ait-nouri/profil/spieler/578391
+Matheus Henrique -> https://www.transfermarkt.es/matheus-henrique/profil/spieler/552549
+Carlos Vinícius -> https://www.transfermarkt.es/carlos-vinicius/profil/spieler/525287
+Mohamed Ihattaren -> https://www.transfermarkt.es/mohamed-ihattaren/profil/spieler/503638
+Krépin Diatta -> https://www.transfermarkt.es/krepin-diatta/profil/spieler/490426
+Lisandro Martínez -> https://www.transfermarkt.es/lisandro-martinez/profil/spieler/480762
+Max Aarons -> https://www.transfermarkt.es/max-aarons/profil/spieler/471690
+Benoît Badiashile -> https://www.transfermarkt.es/benoit-badiashile/profil/spieler/463603
+Lucas Paquetá -> https://www.transfermarkt.es/lucas-paqueta/profil/spieler/444523
+Gabriel -> https://www.transfermarkt.es/gabriel/profil/spieler/435338
+Youcef Atal -> https://www.transfermarkt.es/youcef-atal/profil/spieler/416108
+Júnior Firpo -> https://www.transfermarkt.es/junior-firpo/profil/spieler/374139
+Amine Harit -> https://www.transfermarkt.es/amine-harit/profil/spieler/372711
+Patson Daka -> https://www.transfermarkt.es/patson-daka/profil/spieler/365172
+Amadou Diawara -> https://www.transfermarkt.es/amadou-diawara/profil/spieler/355501
+André Zambo Anguissa -> https://www.transfermarkt.es/andre-zambo-anguissa/profil/spieler/354361
+Lucas Tousart -> https://www.transfermarkt.es/lucas-tousart/profil/spieler/353948
+Joelinton -> https://www.transfermarkt.es/joelinton/profil/spieler/333241
+Sander Berge -> https://www.transfermarkt.es/sander-berge/profil/spieler/333014
+Weston McKennie -> https://www.transfermarkt.es/weston-mckennie/profil/spieler/332697
+Todd Cantwell -> https://www.transfermarkt.es/todd-cantwell/profil/spieler/332341
+Justin Kluivert -> https://www.transfermarkt.es/justin-kluivert/profil/spieler/330659
+Gaetano Castrovilli -> https://www.transfermarkt.es/gaetano-castrovilli/profil/spieler/303116
+Mauro Arambarri -> https://www.transfermarkt.es/mauro-arambarri/profil/spieler/290249
+Yerry Mina -> https://www.transfermarkt.es/yerry-mina/profil/spieler/289446
+Sofyan Amrabat -> https://www.transfermarkt.es/sofyan-amrabat/profil/spieler/287579
+Manuel Akanji -> https://www.transfermarkt.es/manuel-akanji/profil/spieler/284730
+Kasper Dolberg -> https://www.transfermarkt.es/kasper-dolberg/profil/spieler/283196
+Moussa Marega -> https://www.transfermarkt.es/moussa-marega/profil/spieler/283130
+Mario Hermoso -> https://www.transfermarkt.es/mario-hermoso/profil/spieler/281769
+Angeliño -> https://www.transfermarkt.es/angelino/profil/spieler/277179
+David Brooks -> https://www.transfermarkt.es/david-brooks/profil/spieler/277033
+Nemanja Maksimovic -> https://www.transfermarkt.es/nemanja-maksimovic/profil/spieler/273152
+Aleksandr Golovin -> https://www.transfermarkt.es/aleksandr-golovin/profil/spieler/263918
+Jefferson Lerma -> https://www.transfermarkt.es/jefferson-lerma/profil/spieler/262980
+Suat Serdar -> https://www.transfermarkt.es/suat-serdar/profil/spieler/261905
+Dean Henderson -> https://www.transfermarkt.es/dean-henderson/profil/spieler/258919
+Renato Sanches -> https://www.transfermarkt.es/renato-sanches/profil/spieler/258027
+Gelson Martins -> https://www.transfermarkt.es/gelson-martins/profil/spieler/257448
+Diego Llorente -> https://www.transfermarkt.es/diego-llorente/profil/spieler/246291
+Enis Bardhi -> https://www.transfermarkt.es/enis-bardhi/profil/spieler/245014
+Gabriel Barbosa -> https://www.transfermarkt.es/gabriel-barbosa/profil/spieler/244275
+Juan Musso -> https://www.transfermarkt.es/juan-musso/profil/spieler/242359
+Alexander Sörloth -> https://www.transfermarkt.es/alexander-sorloth/profil/spieler/238407
+Neal Maupay -> https://www.transfermarkt.es/neal-maupay/profil/spieler/217115
+Stefano Sensi -> https://www.transfermarkt.es/stefano-sensi/profil/spieler/216179
+Julian Weigl -> https://www.transfermarkt.es/julian-weigl/profil/spieler/196792
+Florian Grillitsch -> https://www.transfermarkt.es/florian-grillitsch/profil/spieler/195736
+Eric Dier -> https://www.transfermarkt.es/eric-dier/profil/spieler/175722
+James Tarkowski -> https://www.transfermarkt.es/james-tarkowski/profil/spieler/173504
+Pierre-Emile Höjbjerg -> https://www.transfermarkt.es/pierre-emile-hojbjerg/profil/spieler/167799
+Leandro Paredes -> https://www.transfermarkt.es/leandro-paredes/profil/spieler/166237
+Lewis Dunk -> https://www.transfermarkt.es/lewis-dunk/profil/spieler/148153
+Danny Ings -> https://www.transfermarkt.es/danny-ings/profil/spieler/134294
+Gerard Deulofeu -> https://www.transfermarkt.es/gerard-deulofeu/profil/spieler/129476
+Abdoulaye Doucouré -> https://www.transfermarkt.es/abdoulaye-doucoure/profil/spieler/127187
+Callum Wilson -> https://www.transfermarkt.es/callum-wilson/profil/spieler/123682
+José Campaña -> https://www.transfermarkt.es/jose-campana/profil/spieler/120095
+Michael Keane -> https://www.transfermarkt.es/michael-keane/profil/spieler/118534
+Chris Smalling -> https://www.transfermarkt.es/chris-smalling/profil/spieler/103427
+Douglas Costa -> https://www.transfermarkt.es/douglas-costa/profil/spieler/75615
+Luka Milivojevic -> https://www.transfermarkt.es/luka-milivojevic/profil/spieler/74300
+Marcel Halstenberg -> https://www.transfermarkt.es/marcel-halstenberg/profil/spieler/70243
+Sergio Canales -> https://www.transfermarkt.es/sergio-canales/profil/spieler/66106
+Dani Parejo -> https://www.transfermarkt.es/dani-parejo/profil/spieler/59561
+Henrikh Mkhitaryan -> https://www.transfermarkt.es/henrikh-mkhitaryan/profil/spieler/55735
+Aleksandar Mitrovic -> https://www.transfermarkt.es/aleksandar-mitrovic/profil/spieler/51152
+Edinson Cavani -> https://www.transfermarkt.es/edinson-cavani/profil/spieler/48280
+Moussa Sissoko -> https://www.transfermarkt.es/moussa-sissoko/profil/spieler/46001
+Mats Hummels -> https://www.transfermarkt.es/mats-hummels/profil/spieler/39728
+Dusan Tadic -> https://www.transfermarkt.es/dusan-tadic/profil/spieler/36139
+Ivan Rakitic -> https://www.transfermarkt.es/ivan-rakitic/profil/spieler/32467
+Gerard Piqué -> https://www.transfermarkt.es/gerard-pique/profil/spieler/18944
+Alessio Cragno -> https://www.transfermarkt.es/alessio-cragno/profil/spieler/12907
+Daley Blind -> https://www.transfermarkt.es/daley-blind/profil/spieler/12282
+Daniel James -> https://www.transfermarkt.es/daniel-james/profil/spieler/319301
+Dodi Lukebakio -> https://www.transfermarkt.es/dodi-lukebakio/profil/spieler/303259
+Viktor Tsygankov -> https://www.transfermarkt.es/viktor-tsygankov/profil/spieler/264372
+Stanislav Lobotka -> https://www.transfermarkt.es/stanislav-lobotka/profil/spieler/192735
+Dennis Praet -> https://www.transfermarkt.es/dennis-praet/profil/spieler/129588
+Oscar -> https://www.transfermarkt.es/oscar/profil/spieler/85314
+Paulinho -> https://www.transfermarkt.es/paulinho/profil/spieler/57229
+Rayan Cherki -> https://www.transfermarkt.es/rayan-cherki/profil/spieler/607223
+Antony -> https://www.transfermarkt.es/antony/profil/spieler/602105
+Thiago Almada -> https://www.transfermarkt.es/thiago-almada/profil/spieler/576028
+Musa Barrow -> https://www.transfermarkt.es/musa-barrow/profil/spieler/486624
+Myron Boadu -> https://www.transfermarkt.es/myron-boadu/profil/spieler/412932
+Calvin Stengs -> https://www.transfermarkt.es/calvin-stengs/profil/spieler/409344
+Exequiel Palacios -> https://www.transfermarkt.es/exequiel-palacios/profil/spieler/401578
+Eljif Elmas -> https://www.transfermarkt.es/eljif-elmas/profil/spieler/400489
+Sergiño Dest -> https://www.transfermarkt.es/sergino-dest/profil/spieler/361104
+Florentino -> https://www.transfermarkt.es/florentino/profil/spieler/357162
+Mason Holgate -> https://www.transfermarkt.es/mason-holgate/profil/spieler/348623
+Takehiro Tomiyasu -> https://www.transfermarkt.es/takehiro-tomiyasu/profil/spieler/331560
+Manuel Lazzari -> https://www.transfermarkt.es/manuel-lazzari/profil/spieler/331401
+Diego Rossi -> https://www.transfermarkt.es/diego-rossi/profil/spieler/317454
+Marc Cucurella -> https://www.transfermarkt.es/marc-cucurella/profil/spieler/284857
+Carles Aleñá -> https://www.transfermarkt.es/carles-alena/profil/spieler/284854
+Tomas Soucek -> https://www.transfermarkt.es/tomas-soucek/profil/spieler/283628
+Hans Hateboer -> https://www.transfermarkt.es/hans-hateboer/profil/spieler/275303
+Timothy Castagne -> https://www.transfermarkt.es/timothy-castagne/profil/spieler/262226
+Aleksey Miranchuk -> https://www.transfermarkt.es/aleksey-miranchuk/profil/spieler/255450
+Otávio -> https://www.transfermarkt.es/otavio/profil/spieler/231289
+Bryan Cristante -> https://www.transfermarkt.es/bryan-cristante/profil/spieler/199248
+James Ward-Prowse -> https://www.transfermarkt.es/james-ward-prowse/profil/spieler/181579
+Sardar Azmoun -> https://www.transfermarkt.es/sardar-azmoun/profil/spieler/180337
+Nathan Redmond -> https://www.transfermarkt.es/nathan-redmond/profil/spieler/129078
+Conor Coady -> https://www.transfermarkt.es/conor-coady/profil/spieler/128901
+Nikola Maksimovic -> https://www.transfermarkt.es/nikola-maksimovic/profil/spieler/124715
+Marcos Alonso -> https://www.transfermarkt.es/marcos-alonso/profil/spieler/112515
+Emil Forsberg -> https://www.transfermarkt.es/emil-forsberg/profil/spieler/111078
+Gylfi Sigurdsson -> https://www.transfermarkt.es/gylfi-sigurdsson/profil/spieler/90466
+Martin Hinteregger -> https://www.transfermarkt.es/martin-hinteregger/profil/spieler/85789
+Dries Mertens -> https://www.transfermarkt.es/dries-mertens/profil/spieler/56416
+Leonardo Bonucci -> https://www.transfermarkt.es/leonardo-bonucci/profil/spieler/39983
+Manuel Neuer -> https://www.transfermarkt.es/manuel-neuer/profil/spieler/17259
+Orkun Kökcü -> https://www.transfermarkt.es/orkun-kokcu/profil/spieler/454567
+Sean Longstaff -> https://www.transfermarkt.es/sean-longstaff/profil/spieler/346707
+Christian Kouamé -> https://www.transfermarkt.es/christian-kouame/profil/spieler/337725
+Eric Bailly -> https://www.transfermarkt.es/eric-bailly/profil/spieler/286384
+Harry Wilson -> https://www.transfermarkt.es/harry-wilson/profil/spieler/279455
+Ben Davies -> https://www.transfermarkt.es/ben-davies/profil/spieler/192765
+Fred -> https://www.transfermarkt.es/fred/profil/spieler/191614
+Mike Maignan -> https://www.transfermarkt.es/mike-maignan/profil/spieler/182906
+Quincy Promes -> https://www.transfermarkt.es/quincy-promes/profil/spieler/182381
+Gabriel Paulista -> https://www.transfermarkt.es/gabriel-paulista/profil/spieler/149498
+Ryan Fraser -> https://www.transfermarkt.es/ryan-fraser/profil/spieler/146795
+Jesse Lingard -> https://www.transfermarkt.es/jesse-lingard/profil/spieler/141660
+Suso -> https://www.transfermarkt.es/suso/profil/spieler/111961
+Thomas Delaney -> https://www.transfermarkt.es/thomas-delaney/profil/spieler/91849
+Josip Ilicic -> https://www.transfermarkt.es/josip-ilicic/profil/spieler/80351
