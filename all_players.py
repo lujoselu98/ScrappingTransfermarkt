@@ -51,9 +51,6 @@ if __name__ == '__main__':
                 f.write(f"{nombre} -> {link}\n")
             i += 1
 
-            if nombre == "Emerson":
-                print("Emerson")
-
             nombre_para_fichero = ''.join([str(char) for char in nombre if char in string.printable])
             filename = f"htmls/{nombre_para_fichero}"
 
