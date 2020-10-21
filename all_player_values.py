@@ -43,13 +43,11 @@ if __name__ == '__main__':
     lines = f.readlines()
     links = [line.strip().split('->')[1].strip().replace('profil', 'marktwertverlauf') for line in lines]
     links = list(dict.fromkeys(links))
-    links = [link for link in links if '8198' in link]
     # print(*links, sep='\n')
     for link in links:
+        print(link)
         extracted_data = extract_market_value(link)
         print(extracted_data)
-
-        break
     '''
     a_file = open("data.pkl", "wb")
     pickle.dump(extracted_data, a_file)
