@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265e13c0-231e-4c3e-9d35-276d663233bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_player_values.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_players.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_players.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -40,6 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,11 +53,47 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jllav\IdeaProjects\ScrappingTransfermarkt" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jllav\IdeaProjects\ScrappingTransfermarkt\Good_Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.all_players">
+  <component name="RunManager" selected="Python.all_player_values">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all_player_values" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ScrappingTransfermarkt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all_player_values.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="all_players" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ScrappingTransfermarkt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,6 +108,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all_players.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ScrappingTransfermarkt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_selenium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,8 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.all_player_values" />
+        <item itemvalue="Python.test_selenium" />
         <item itemvalue="Python.all_players" />
+        <item itemvalue="Python.testing" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +187,7 @@
       <workItem from="1602253184365" duration="654000" />
       <workItem from="1603044669459" duration="146000" />
       <workItem from="1603044828698" duration="13000" />
-      <workItem from="1603208882803" duration="606000" />
+      <workItem from="1603208882803" duration="6919000" />
     </task>
     <servers />
   </component>
@@ -158,60 +219,64 @@
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1601996881817" />
     <state x="510" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602175973428" />
-    <state x="491" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602078688634">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603269523869">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602078688634" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602067691880" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1602078692865">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603269523869" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1603270365854">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602078692865" />
-    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602068910224" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1602078692865">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603270365854" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1603270365854">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602078692865" />
-    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602068910224" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1602078692865">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603270365854" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1603270365854">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602078692865" />
-    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602068910223" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1602078692865">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603270365854" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1603270365854">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602078692865" />
-    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602068910224" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1602078986294">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603270365854" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1603268673579">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602078986294" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1602078986294">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603268673579" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1603268673579">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602078986294" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1602078986294">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603268673579" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1603268673579">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602078986294" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1602078986294">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603268673579" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1603268673579">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602078986294" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603268673579" />
     <state x="540" y="175" key="editAsTableFormatDialogDimension" timestamp="1602062403951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="175" key="editAsTableFormatDialogDimension/0.0.1920.1040@0.0.1920.1040" timestamp="1602062403951" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1602068538457">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603267373835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602068538457" />
-    <state x="443" y="158" width="672" height="678" key="search.everywhere.popup" timestamp="1601999882809">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603267373835" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603269338460">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="443" y="158" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601999882809" />
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601902318237" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603269338460" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -219,6 +284,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$testing.coverage" NAME="testing Coverage Results" MODIFIED="1602061859701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$all_players.coverage" NAME="all_players Coverage Results" MODIFIED="1602078692558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$all_player_values.coverage" NAME="all_player_values Coverage Results" MODIFIED="1603270365849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$all_players.coverage" NAME="all_players Coverage Results" MODIFIED="1603264954611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$test_selenium.coverage" NAME="test_selenium Coverage Results" MODIFIED="1603268205991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
