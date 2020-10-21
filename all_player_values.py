@@ -31,10 +31,6 @@ def extract_market_value(link, no_before=datetime.datetime(2015,1,1)):
             single_value['Value'] = str(item['y'])
             value_dict[str(item['datum_mw'])] = single_value
 
-            # print('Team: ' + item['verein'])
-            # print('Age: ' + str(item['age']))
-            # print('Date: ' + str(item['datum_mw']))
-            # print('Value: ' + str(item['y']))
     return value_dict
 
 
