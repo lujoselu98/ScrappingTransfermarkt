@@ -137,7 +137,9 @@ if __name__ == '__main__':
     df = pd.DataFrame(columns=['Id', 'Name', 'Edad', 'Precio'])
 
     # Semilla
-    most_valuable_players_url = prefix + "/spieler-statistik/wertvollstespieler/marktwertetop"
+    most_valuable_players_url = prefix + "/spieler-statistik/wertvollstespieler/marktwertetop" + \
+                                "/plus/0/galerie/0?ausrichtung=Sturm&spielerposition_id=alle" \
+                                "&altersklasse=23-30&jahrgang=0&land_id=0&kontinent_id=0&yt0=Mostrar"
 
     response = request_robusto(most_valuable_players_url)
     sel = Selector(text=response.content)
@@ -160,6 +162,12 @@ if __name__ == '__main__':
 
         parent = sel.css('td.hauptlink  b')
         precios = [precio for precio in parent.css(' ::text').extract()]
+
+        filename = f"{DATA_PATH}/urls.txt"
+        with open(filename, 'a') as f:
+            f.writelines("\n".join(links))
+        with open(filename, 'a') as f:
+            f.write("\n")
 
         for nombre, link, edad, precio in zip(nombres, links, edades, precios):
             # Por cada jugador en la pagina
