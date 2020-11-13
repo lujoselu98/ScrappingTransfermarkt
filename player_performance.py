@@ -1,6 +1,11 @@
-import requests
+import os
+import pickle
+
 from scrapy.selector import Selector
 from tqdm import tqdm
+
+from final_crawler import DATA_PATH
+from final_crawler import request_robusto
 
 
 def extract_performace(link, temporadas=None):
@@ -11,9 +16,8 @@ def extract_performace(link, temporadas=None):
 
     for temporada in temporadas:
         actual_link = link + f'/saison/{temporada}/verein/0/liga/0/wettbewerb//pos/0/trainer_id/0/plus/1='
-        headers = {'User-Agent': 'Custom'}
 
-        res = requests.get(actual_link, headers=headers)
+        res = request_robusto(actual_link)
         sel = Selector(text=res.content)
 
         info = sel.css("#yw1 > table > tfoot > tr > td ::text").extract()
@@ -54,8 +58,12 @@ if __name__ == '__main__':
     links = [line.strip().replace('profil', 'leistungsdatendetails') for line in lines]
     # links = [links[0]] + [link for link in links if 'joelinton' in link]
     # print(*links[:10], sep="\n")
-
+    os.makedirs(f"{DATA_PATH}/performace/", exist_ok=True)
     for link in tqdm(links):
-        print(link)
+        nombre_canonico = link.split("/")[3]
+        id = link.split("/")[-1]
+        nombre_fichero = nombre_canonico + "-" + str(id)
+        filename = f"{DATA_PATH}/performace/{nombre_fichero}.pickle"
         rendimiento = extract_performace(link)
-        print(rendimiento)
+        with open(filename, "wb") as f:
+            pickle.dump(rendimiento, f)
