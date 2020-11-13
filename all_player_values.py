@@ -35,15 +35,16 @@ def extract_market_value(link, no_before=datetime.datetime(2015,1,1)):
 
 
 if __name__ == '__main__':
-    f = open('Raw_All_Players_Data_Links.txt', 'r')
+    f = open('data/urls.txt', 'r')
     lines = f.readlines()
-    links = [line.strip().split('->')[1].strip().replace('profil', 'marktwertverlauf') for line in lines]
+    links = [line.strip().replace('profil', 'marktwertverlauf') for line in lines]
     links = list(dict.fromkeys(links))
     # print(*links, sep='\n')
     for link in links:
         print(link)
         extracted_data = extract_market_value(link)
         print(extracted_data)
+        break
     '''
     a_file = open("data.pkl", "wb")
     pickle.dump(extracted_data, a_file)
