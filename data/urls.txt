@@ -110,6 +110,7 @@ https://www.transfermarkt.es/danny-ings/profil/spieler/134294
 https://www.transfermarkt.es/suso/profil/spieler/111961
 https://www.transfermarkt.es/douglas-costa/profil/spieler/75615
 https://www.transfermarkt.es/dodi-lukebakio/profil/spieler/303259
+https://www.transfermarkt.es/viktor-tsygankov/profil/spieler/264372
 https://www.transfermarkt.es/raphinha/profil/spieler/411295
 https://www.transfermarkt.es/david-brooks/profil/spieler/277033
 https://www.transfermarkt.es/thomas-lemar/profil/spieler/205562
@@ -118,6 +119,8 @@ https://www.transfermarkt.es/emil-forsberg/profil/spieler/111078
 https://www.transfermarkt.es/goncalo-guedes/profil/spieler/225122
 https://www.transfermarkt.es/quincy-promes/profil/spieler/182381
 https://www.transfermarkt.es/vedat-muriqi/profil/spieler/256267
+https://www.transfermarkt.es/emmanuel-dennis/profil/spieler/448854
+https://www.transfermarkt.es/daniel-james/profil/spieler/319301
 https://www.transfermarkt.es/harry-wilson/profil/spieler/279455
 https://www.transfermarkt.es/breel-embolo/profil/spieler/237662
 https://www.transfermarkt.es/luca-waldschmidt/profil/spieler/196095
@@ -127,6 +130,7 @@ https://www.transfermarkt.es/erik-lamela/profil/spieler/111630
 https://www.transfermarkt.es/portu/profil/spieler/99353
 https://www.transfermarkt.es/xherdan-shaqiri/profil/spieler/86792
 https://www.transfermarkt.es/jean-philippe-mateta/profil/spieler/420002
+https://www.transfermarkt.es/cristian-pavon/profil/spieler/373170
 https://www.transfermarkt.es/loren-moron/profil/spieler/354741
 https://www.transfermarkt.es/alfredo-morelos/profil/spieler/338962
 https://www.transfermarkt.es/oliver-mcburnie/profil/spieler/298477
@@ -184,7 +188,6 @@ https://www.transfermarkt.es/stephan-el-shaarawy/profil/spieler/94529
 https://www.transfermarkt.es/dario-benedetto/profil/spieler/92693
 https://www.transfermarkt.es/luuk-de-jong/profil/spieler/72522
 https://www.transfermarkt.es/karim-bellarabi/profil/spieler/61087
-https://www.transfermarkt.es/cristian-pavon/profil/spieler/373170
 https://www.transfermarkt.es/brais-mendez/profil/spieler/309110
 https://www.transfermarkt.es/bruno-petkovic/profil/spieler/256358
 https://www.transfermarkt.es/keita-balde/profil/spieler/238752
@@ -229,6 +232,7 @@ https://www.transfermarkt.es/alan-pulido/profil/spieler/143045
 https://www.transfermarkt.es/tiquinho-soares/profil/spieler/103381
 https://www.transfermarkt.es/christian-benteke/profil/spieler/50201
 https://www.transfermarkt.es/cenk-tosun/profil/spieler/45671
+https://www.transfermarkt.es/jonas-hofmann/profil/spieler/7161
 https://www.transfermarkt.es/roger-guedes/profil/spieler/348263
 https://www.transfermarkt.es/boulaye-dia/profil/spieler/626913
 https://www.transfermarkt.es/luiz-araujo/profil/spieler/435485
@@ -425,7 +429,7 @@ https://www.transfermarkt.es/moussa-konate/profil/spieler/192774
 https://www.transfermarkt.es/taxiarchis-fountas/profil/spieler/192409
 https://www.transfermarkt.es/christian-atsu/profil/spieler/186997
 https://www.transfermarkt.es/nicolas-lopez/profil/spieler/185593
-https://www.transfermarkt.es/wesley-said/profil/spieler/182916
+https://www.transfermarkt.es/felipe-mora/profil/spieler/176927
 https://www.transfermarkt.es/nahki-wells/profil/spieler/173483
 https://www.transfermarkt.es/garry-rodrigues/profil/spieler/170895
 https://www.transfermarkt.es/yimmi-chara/profil/spieler/165361
@@ -487,7 +491,6 @@ https://www.transfermarkt.es/mauro-quiroga/profil/spieler/158770
 https://www.transfermarkt.es/heber/profil/spieler/150601
 https://www.transfermarkt.es/pablo/profil/spieler/148765
 https://www.transfermarkt.es/kenneth-zohore/profil/spieler/135213
-https://www.transfermarkt.es/stiven-mendoza/profil/spieler/131101
 https://www.transfermarkt.es/kenan-karaman/profil/spieler/119557
 https://www.transfermarkt.es/karim-onisiwo/profil/spieler/119234
 https://www.transfermarkt.es/javier-aquino/profil/spieler/111082
@@ -495,6 +498,3 @@ https://www.transfermarkt.es/federico-santander/profil/spieler/99180
 https://www.transfermarkt.es/viktor-fischer/profil/spieler/95755
 https://www.transfermarkt.es/diego-farias/profil/spieler/83877
 https://www.transfermarkt.es/niclas-fullkrug/profil/spieler/75489
-https://www.transfermarkt.es/carlos-gonzalez/profil/spieler/366620
-https://www.transfermarkt.es/victor-davila/profil/spieler/366143
-https://www.transfermarkt.es/david-barbona/profil/spieler/356089

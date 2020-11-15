@@ -8,6 +8,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup as bs
 from scrapy import Selector
+from tqdm import tqdm
 
 
 # Remove not alpha characters and no-spaces
@@ -84,7 +85,7 @@ def extract_market_value(link, no_before=datetime.datetime(2015, 1, 1)):
 
 
 # Scrapping (manual) de la tabla con todos los titulos del jugador que sean no anteriores a la temporada 15/16 o el 2015
-def extract_cups(link, no_before="15"):
+def extract_cups(link, no_before="14"):
     res = request_robusto(link)
     sel = Selector(text=res.content)
     # Cogemos todas la filas de la tabla de titulos
@@ -130,6 +131,50 @@ def extract_cups(link, no_before="15"):
     return titulos_dict
 
 
+def extract_performance(link, temporadas=None):
+    if temporadas is None:
+        temporadas = ['2014', '2015', '2016', '2017', '2018']
+
+    rendimiento = dict((t, dict()) for t in temporadas)
+
+    for temporada in temporadas:
+        actual_link = link + f'/saison/{temporada}/verein/0/liga/0/wettbewerb//pos/0/trainer_id/0/plus/1='
+
+        res = request_robusto(actual_link)
+        sel = Selector(text=res.content)
+
+        info = sel.css("#yw1 > table > tfoot > tr > td ::text").extract()
+        info = [i.strip("\'").replace('.', '').replace(',', '.') for i in info if 'Total' not in i and '\xa0' not in i]
+        info = [i if i != '-' else 0 for i in info]
+
+        if len(info) == 0:
+            rendimiento[temporada] = {
+                'alineaciones': 0,
+                'puntos_por_partido': 0,
+                'minutos_jugados': 0,
+                'minutos_por_asistencia': 0
+            }
+        else:
+            alineaciones = int(info[1])
+            puntos_por_partido = float(info[2])
+            asistencias = int(info[4])
+            minutos_por_gol = int(info[-2])
+            minutos_jugados = int(info[-1])
+            if asistencias == 0:
+                minutos_por_asistencia = 0
+            else:
+                minutos_por_asistencia = round(minutos_jugados / asistencias)
+
+            rendimiento[temporada] = {
+                'alineaciones': alineaciones,
+                'puntos_por_partido': puntos_por_partido,
+                'minutos_jugados': minutos_jugados,
+                'minutos_por_gol': minutos_por_gol,
+                'minutos_por_asistencia': minutos_por_asistencia
+            }
+    return rendimiento
+
+
 if __name__ == '__main__':
     prefix = 'https://www.transfermarkt.es'
 
@@ -146,6 +191,9 @@ if __name__ == '__main__':
 
     # Mirar a ver si hay link a la siguiente pagina
     selector_siguiente = sel.css('li.naechste-seite > a')
+
+    progress_bar = tqdm(total=500)
+    os.makedirs(f"{DATA_PATH}", exist_ok=True)
 
     while True:  # Mientras haya siguiente
         # Coger todas las primeras celdas (el link dentro)
@@ -164,9 +212,9 @@ if __name__ == '__main__':
         precios = [precio for precio in parent.css(' ::text').extract()]
 
         filename = f"{DATA_PATH}/urls.txt"
-        with open(filename, 'a') as f:
+        with open(filename, 'a+') as f:
             f.writelines("\n".join(links))
-        with open(filename, 'a') as f:
+        with open(filename, 'a+') as f:
             f.write("\n")
 
         for nombre, link, edad, precio in zip(nombres, links, edades, precios):
@@ -195,7 +243,7 @@ if __name__ == '__main__':
             with open(filename, "wb") as f:
                 f.write(response.content)
 
-            print(f"Finish {nombre_fichero} html y dataframe")
+            # print(f"Finish {nombre_fichero} html y dataframe")
 
             # Funcion para extraer el valor a partir del link (modificado) del perfil
             link_value = link.replace('profil', 'marktwertverlauf')
@@ -209,7 +257,7 @@ if __name__ == '__main__':
             with open(filename, "wb") as f:
                 pickle.dump(value_dict, f)
 
-            print(f"Finish {nombre_fichero} value")
+            # print(f"Finish {nombre_fichero} value")
 
             # Funcion para extraer los titulos a partir del link (modificado) del perfil
             link_cups = link.replace('profil', 'erfolge')
@@ -223,7 +271,22 @@ if __name__ == '__main__':
             with open(filename, "wb") as f:
                 pickle.dump(cups_dict, f)
 
-            print(f"Finish {nombre_fichero} cups")
+            # print(f"Finish {nombre_fichero} cups")
+
+            # Funcion para extraer rendimiento a partir del link (modificado) del perfil
+            link_redimiento = link.replace('profil', 'leistungsdatendetails')
+            rendimiento_dict = extract_performance(link_redimiento)
+
+            os.makedirs(f"{DATA_PATH}/performance/", exist_ok=True)
+
+            filename = f"{DATA_PATH}/performance/{nombre_fichero}.pickle"
+
+            # Salvamos diccionario con todos los rendimiento (formato pickle)
+            with open(filename, "wb") as f:
+                pickle.dump(rendimiento_dict, f)
+
+            # print(f"Finish {nombre_fichero} performance")
+            progress_bar.update(1)
 
         selector_siguiente = sel.css('li.naechste-seite > a')
 
@@ -240,3 +303,5 @@ if __name__ == '__main__':
 
     # Save pandas dataframe to csv
     df.to_csv(f'{DATA_PATH}/Raw_All_Players_Data.csv')
+
+    progress_bar.close()

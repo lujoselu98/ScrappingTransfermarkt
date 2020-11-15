@@ -7,7 +7,7 @@ import pandas as pd
 from final_crawler import DATA_PATH
 
 datos = ['alineaciones', 'puntos_por_partido', 'minutos_jugados', 'minutos_por_gol', 'minutos_por_asistencia']
-temporadas = ['2015', '2016', '2017', '2018', '2019']
+temporadas = ['2014','2015', '2016', '2017', '2018']
 
 
 def create_dataframe():

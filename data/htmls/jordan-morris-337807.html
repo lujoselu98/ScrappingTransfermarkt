@@ -19,7 +19,7 @@ window._sp_ = {
 <script src="https://cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js"></script>
 
     <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta http-equiv="x-ua-compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"ffbc20d834",applicationID:"4489554"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
     <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#1a3151"/>
 	    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
@@ -72,35 +72,36 @@ window._sp_ = {
 <link hreflang="x-default" rel="alternate" href="https://www.transfermarkt.com/jordan-morris/profil/spieler/337807" />
 <link hreflang="en" rel="alternate" href="https://www.transfermarkt.com/jordan-morris/profil/spieler/337807" />
 <link hreflang="id" rel="alternate" href="https://www.transfermarkt.co.id/jordan-morris/profil/spieler/337807" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/menue.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/tm-grid.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/foundation-icons.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//assets/708b5bb8/jui/css/base/jquery-ui.css?lm=1604497033" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main_desktop.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/sprite-main.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/chosen.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery-ui-1.10.4.custom.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery-ui-1.10.4.tm-theme.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main_werbung.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/shortclasses.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/print.css?_sn=1?lm=1604496726" media="print" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/spielerprofil.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/spielerprofil.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/desktop.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/domainspezifisch/desktop-es.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/meintm.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/swiper.4.4.6.min.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/ldWidget.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/ldWidgetLeistungsdaten.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/statistiken.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/gridview.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery.bxslider.min.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery.custom.bxslider.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/relevante_news.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/fanshopBox.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/beliebtheit.css?lm=1604496726" />
-<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//assets/745bff0/css/tooltipster.css?lm=1604497033" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/menue.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/tm-grid.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/foundation-icons.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//assets/8f0e90ee/jui/css/base/jquery-ui.css?lm=1605183698" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main_desktop.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/sprite-main.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/chosen.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery-ui-1.10.4.custom.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery-ui-1.10.4.tm-theme.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main_werbung.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/shortclasses.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/print.css?_sn=1?lm=1605177847" media="print" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/spielerprofil.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/spielerprofil.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/desktop.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/domainspezifisch/desktop-es.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/meintm.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/swiper.4.4.6.min.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/ldWidget.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/ldWidgetLeistungsdaten.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/ldWidgetGalerie.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/statistiken.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/gridview.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery.bxslider.min.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery.custom.bxslider.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/relevante_news.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/fanshopBox.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/beliebtheit.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//assets/f8c074a6/css/tooltipster.css?lm=1605183699" />
 <style type="text/css">
 /*<![CDATA[*/
 @keyframes heim {
@@ -121,27 +122,29 @@ window._sp_ = {
 }
 /*]]>*/
 </style>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/vendor/jquery.min.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//assets/708b5bb8/jquery.ba-bbq.min.js?lm=1604497033"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/swiper.4.4.6.min.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/ldWidgetLeistungsdaten.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//assets/7dd61c61/highcharts.js?lm=1604497033"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//assets/7dd61c61/themes/tmMini.js?lm=1604497033"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//assets/7dd61c61/lang/lang_es.js?lm=1604497033"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.bxslider.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/chosen.jquery.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/localStorage.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/foundation.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/main.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery-ui-1.10.4.custom.min.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.lazyload.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/clipboard.min.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/chosen.ajaxaddition.jquery.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.icheck.min.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/functions.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/tmevent.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//js/main_desktop.js?lm=1604496719"></script>
-<script type="text/javascript" src="https://tmssl.akamaized.net//assets/745bff0/js/jquery.tooltipster.js?lm=1604497033"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/vendor/jquery.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8f0e90ee/jquery.ba-bbq.min.js?lm=1605183699"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/swiper.4.4.6.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/ldWidget.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/ldWidgetLeistungsdaten.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/ldWidgetGalerie.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8253d737/highcharts.js?lm=1605183699"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8253d737/themes/tmMini.js?lm=1605183699"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8253d737/lang/lang_es.js?lm=1605183699"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.bxslider.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/chosen.jquery.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/localStorage.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/foundation.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/main.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery-ui-1.10.4.custom.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.lazyload.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/clipboard.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/chosen.ajaxaddition.jquery.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.icheck.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/functions.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/tmevent.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/main_desktop.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/f8c074a6/js/jquery.tooltipster.js?lm=1605183699"></script>
 <script type="text/javascript">
 /*<![CDATA[*/
 <!-- DFPV2 --->
@@ -201,7 +204,8 @@ googletag.enableServices();
 /*]]>*/
 </script>
 <title>Jordan Morris - Perfil del jugador 2020 | Transfermarkt</title>
-	
+                <script type="module" src="https://tmsi.akamaized.net/js/globals/tm-global-elements.esm.js?v=4"></script>
+            <script nomodule="" src="https://tmsi.akamaized.net/js/globals/tm-global-elements.js?v=4"></script>
 <script type="text/javascript">
    tmData = {
        loggedIn : "0",
@@ -328,7 +332,8 @@ googletag.enableServices();
             font-style: normal;
         }
     </style>
-    </head>
+    
+</head>
 <body x-ms-format-detection="none" style="overflow-y: scroll;"
       class="" itemscope
       itemtype="http://schema.org/WebPage">
@@ -509,39 +514,23 @@ googletag.enableServices();
                 <a name="ToTop-Menu" id="arrow-up-xy" href="#" onClick="">
                     <i class="fi-arrow-up"></i>
                 </a>
-                <div id="userprofil-box">
-					    <div class="userbox ub-abgemeldet" id="login">
-        <a>
-            <span onClick="ga('send','event','anmeldebox','click','');
-"><i
-                    class="fi-torso"></i></span>
-            <span class="anmelden">Iniciar sesión</span>
-        </a>
-    </div>
-                    </div>
+                <div class="userbox ub-abgemeldet" id="login">
+    <a>
+        <span onClick="ga('send','event','anmeldebox','click','');
+">
+            <i class="fi-torso"></i>
+        </span>
+        <span class="anmelden">Iniciar sesión</span>
+    </a>
+</div>
             </div>
         </div>
     </div>
 
     <div class="row popuphalter">
-				    <div id="loginbox" class="small-12"></div>
+		    <div id="loginbox" class="small-12"></div>
 <div id="registerbox"></div>
 <div id="passwortVergessenBox"></div>
-<div id="notificationsbox" class="noclose toggle-div"></div>
-<div id="pnbox" class="noclose toggle-div"></div>
-<div id="profilbox" class="noclose toggle-div">
-    <a href="/profil/index"
-       style="line-height: 30px; display: inline-block; padding-left: 27px; background: url(/images/bc-spieler.png) left center no-repeat;">
-        Perfil    </a><br/>
-    <a id="einstellungen" href="/profil/einstellungen"
-       style="line-height: 30px; display: inline-block; padding-left: 27px; background: url(/images/options.png) 3px center no-repeat;">
-        Configuraciónes    </a><br/>
-                    <a href="/profil/logout"
-       style="line-height: 30px; display: inline-block; padding-left: 27px; background: url(/images/logout.png) 3px center no-repeat;">
-        Cerrar sesión    </a>
-</div>
-<div id="vereinbox" class="noclose toggle-div"><img src="/images/bx_loader.gif" alt=""/></div>
-
     </div>
 
 	        <script>
@@ -554,136 +543,16 @@ googletag.enableServices();
             <div id="breadcrumb" class="large-12 columns" itemscope itemtype="https://schema.org/BreadcrumbList">
                 <div class="breadcrumb-box">
                     <div class="breadcrumb">
-						<a href="/" class="breadcrumb_home_button hide-for-small" onClick="ga('send','event','breadcrumb_home_button','click','');
-">
-    <div class="container">
-		<img src="https://tmsi.akamaized.net/breadcrumb/home.svg" alt="Inicio" />    </div>
-</a>
-<form class="breadcrumb-form breadcrumb-land" action="/es/jumplist/breadcrumb/site" method="post"><div class="breadcrumb-select alternative-select chzn-land" itemprop="itemListElement">
-    <div class="container">
-	    <img src="https://tmsi.akamaized.net/breadcrumb/bc-land.svg" alt="País" />    </div>
-	<select class="chzn-select" data-placeholder="País" tabindex="0" name="land_select_breadcrumb" id="land_select_breadcrumb">
-<option value="184" selected="selected">Estados Unidos</option>
-</select></div>
-<div class="breadcrumb-text">
-	    <input type="submit" class="breadcrumb-button " value="">
-</div>
-</form>
-<form class="breadcrumb-form breadcrumb-wettbewerb" action="/es/jumplist/breadcrumb/site" method="post"><div class="breadcrumb-select alternative-select chzn-wettbewerb" itemprop="itemListElement">
-    <div class="container">
-	    <img src="https://tmsi.akamaized.net/breadcrumb/bc-wettbewerb.svg" alt="Competición " />    </div>
-	<select class="chzn-select" data-placeholder="Competición " tabindex="0" name="wettbewerb_select_breadcrumb" id="wettbewerb_select_breadcrumb">
-<option value=""></option>
-<option value="MLS1" selected="selected">MLS</option>
-<option value="USL">USLC</option>
-<option value="USC3">USL1</option>
-<option value="USSP">MLS is Back</option>
-<option value="US3P">USL1 Playoffs</option>
-<option value="USLP">USLC Playoffs</option>
-</select></div>
-<div class="breadcrumb-text">
-	    <input type="hidden" name="wettbewerb_site" value="">
-    <input type="submit" class="breadcrumb-button  "  value="">
-</div>
-</form>
-<form class="breadcrumb-form breadcrumb-verein" action="/es/jumplist/breadcrumb/site" method="post"><div class="breadcrumb-select alternative-select chzn-verein" itemprop="itemListElement">
-    <div class="container">
-	    <img src="https://tmsi.akamaized.net/breadcrumb/bc-verein.svg" alt="Club" />    </div>
-	<select class="chzn-select" data-placeholder="Club" tabindex="0" name="verein_select_breadcrumb" id="verein_select_breadcrumb">
-<option value="">Club</option>
-<option value="432">Chicago Fire FC</option>
-<option value="623">New York Red Bulls</option>
-<option value="626">New England Revolution</option>
-<option value="813">Columbus Crew SC</option>
-<option value="2440">D.C. United</option>
-<option value="4078">Montreal Impact</option>
-<option value="11141">Toronto FC</option>
-<option value="25467">Philadelphia Union</option>
-<option value="40058">New York City FC</option>
-<option value="45604">Orlando City SC</option>
-<option value="51663">Atlanta United FC</option>
-<option value="51772">FC Cincinnati</option>
-<option value="63966">Nashville SC</option>
-<option value="69261">Inter Miami CF</option>
-<option value="218">San Jose Earthquakes</option>
-<option value="1061">Los Ángeles Galaxy</option>
-<option value="1247">Colorado Rapids</option>
-<option value="4284">Sporting Kansas City</option>
-<option value="4291">Portland Timbers</option>
-<option value="6321">Vancouver Whitecaps FC</option>
-<option value="6643">Real Salt Lake City</option>
-<option value="8816">FC Dallas</option>
-<option value="9168">Houston Dynamo</option>
-<option value="9636" selected="selected">Seattle Sounders FC</option>
-<option value="51828">Los Ángeles FC</option>
-<option value="56089">Minnesota United FC</option>
-</select></div>
-<div class="breadcrumb-text">
-	    <input type="hidden" name="verein_site" value="">
-    <input type="submit" class="breadcrumb-button  "  value="">
-</div>
-</form>
-<form class="breadcrumb-form breadcrumb-spieler" action="/es/jumplist/breadcrumb/site" method="post"><div class="breadcrumb-select alternative-select chzn-spieler" itemprop="itemListElement">
-    <div class="container">
-	    <img src="https://tmsi.akamaized.net/breadcrumb/bc-spieler.svg" alt="Jugadores" />    </div>
-	<select class="chzn-select" data-placeholder="Jugadores" tabindex="0" name="spieler_select_breadcrumb" id="spieler_select_breadcrumb">
-<option value="">Jugadores</option>
-<optgroup label="Portero">
-<option value="99617">(24) Stefan Frei</option>
-<option value="482647">(30) Stefan Cleveland</option>
-<option value="497575">(1) Trey Muse</option>
-</optgroup>
-<optgroup label="Defensa">
-<option value="343359">(28) Yeimar Gómez Andrade</option>
-<option value="323854">(3) Xavier Arreaga</option>
-<option value="92936">(18) Kelvin Leerdam</option>
-<option value="175745">(2) Brad Smith</option>
-<option value="283624">Jimmy Medranda</option>
-<option value="436332">(5) Nouhou Tolo</option>
-<option value="229912">(27) Shane O&#039;Neill</option>
-<option value="74182">(29) Román Torres</option>
-</optgroup>
-<optgroup label="Medio campo">
-<option value="72653">(10) Nicolás Lodeiro</option>
-<option value="354792">(7) Cristian Roldán</option>
-<option value="135984">(6) João Paulo</option>
-<option value="154194">(33) Joevin Jones</option>
-<option value="41362">(4) Gustav Svensson</option>
-<option value="220521">(11) Miguel Ibarra</option>
-<option value="269944">(8) Jordy Delem</option>
-<option value="623444">(75) Danny Leyva</option>
-<option value="504205">(84) Josh Atencio</option>
-<option value="688746">(45) Ethan Dobbelaere</option>
-</optgroup>
-<optgroup label="Delantero">
-<option value="129724">(9) Raúl Ruidíaz</option>
-<option value="337807" selected="selected">(13) Jordan Morris</option>
-<option value="173486">(17) Will Bruin</option>
-<option value="562560">(16) Alex Roldán</option>
-<option value="242320">(99) Justin Dhillon</option>
-<option value="463777">(37) Shandon Hopeau</option>
-</optgroup>
-</select></div>
-<div class="breadcrumb-text">
-	    <input type="hidden" name="spieler_site" value="profil">
-    <input type="submit" class="breadcrumb-button aktiv "  value="">
-</div>
-</form>
-<script type="text/javascript">
-	$(document).ready(function () {
-		var laenderGeladen=false;
-		$("#land_select_breadcrumb_chzn").on('click', function (event) {
-			if (laenderGeladen===false) {
-				$.getJSON("/site/dropDownLaender", function (data) {
-				    console.log(data);
-					jQuery("#land_select_breadcrumb").html(data);
-					jQuery("#land_select_breadcrumb").trigger("liszt:updated");
-					laenderGeladen=true;
-				});
-			}
-		});
-	});
-</script>
+						
+<tm-quick-select-bar
+    default-country="184"
+    default-competition="MLS1"
+    default-club="9636"
+    default-player="337807"
+    dropdown-visible=""
+    translations='{&quot;home&quot;:&quot;Inicio&quot;,&quot;country&quot;:&quot;Pa\u00eds&quot;,&quot;competition&quot;:&quot;Competici\u00f3n &quot;,&quot;club&quot;:&quot;Club&quot;,&quot;player&quot;:&quot;Jugadores&quot;,&quot;attack&quot;:&quot;Delantero&quot;,&quot;midfield&quot;:&quot;Centrocampista&quot;,&quot;defense&quot;:&quot;Defensa&quot;,&quot;goalkeeper&quot;:&quot;Portero&quot;}'
+    >
+</tm-quick-select-bar>
                     </div>
                 </div>
             </div>
@@ -841,7 +710,7 @@ googletag.enableServices();
 </div>
 
         <div class="banner sub-banner">
-        <a href="/whatsMyValue?cp=fifa" onclick="ga('send', 'event', 'banner', /whatsMyValue?cp=fifa, 'd-day-banner');"><img src="https://tmsi.akamaized.net/games/whatsmyvalue/fifa/WMV_FIFA21_Banner_Desktop_ES.jpg" alt="deadline-day banner"></a>
+        <a href="/whatsMyValue?cp=ES1" onclick="ga('send', 'event', 'banner', /whatsMyValue?cp=ES1, 'd-day-banner');"><img src="https://tmsi.akamaized.net/games/whatsmyvalue/new/WMV_Banner_Desktop_ES.jpg" alt="deadline-day banner"></a>
     </div>
             <div class="row hide-on-print" id="subnavi">
         <div class="page_wrapper subnavi">
@@ -933,11 +802,15 @@ googletag.enableServices();
     <div class="row">
 	<div class="large-8 columns">
 		<div class="box spielerDatenContainer">
-    <div class="spielerDatenSliderThumbs swiper-container" data-groesse-id="1">
+    <div class="spielerDatenSliderThumbs swiper-container" data-groesse-id="2">
         <div class="swiper-wrapper">
-			                <div class="swiper-slide spielerDatenSliderThumbnails  " id="leistungsdaten" data-id="1" data-groesse-id="1"
+			                <div class="swiper-slide spielerDatenSliderThumbnails  " id="leistungsdaten" data-id="1" data-groesse-id="2"
                     onclick="ga('send', 'event', 'LDWidget', 'click', 'thumbnail leistungsdaten')">
                     <span>Datos de rendimiento</span>
+                </div>
+				                <div class="swiper-slide spielerDatenSliderThumbnails  " id="galerie" data-id="2" data-groesse-id="2"
+                    onclick="ga('send', 'event', 'LDWidget', 'click', 'thumbnail galerie')">
+                    <span>Galería</span>
                 </div>
 				        </div>
     </div>
@@ -962,13 +835,13 @@ googletag.enableServices();
         <div class="swiper-wrapper">
                             <div class="swiper-slide" data-id="MLS1">
                     <div class="leistungsdatenHeadline flexCenter">
-                        <h4><a href="/jordan-morris/leistungsdatendetails/spieler/337807/wettbewerb/MLS1/saison/2020">MLS 2020</a>                                                            <br>17 posibles partidos</h4>
+                        <h4><a href="/jordan-morris/leistungsdatendetails/spieler/337807/wettbewerb/MLS1/saison/2020">MLS 2020</a>                                                            <br>19 posibles partidos</h4>
                     </div>
                     <div class="tabelle">
                         <div class="zeile">
                             <img src="https://tmsi.akamaized.net/icons/Spiele.svg" alt="Partidos" />                            <span class="bezeichnung">Partidos</span>
                             <a name="link spiele" href="/jordan-morris/leistungsdatendetails/spieler/337807/wettbewerb/MLS1/saison/2020">
-                                <span class="wert">17</span>
+                                <span class="wert">19</span>
                             </a>
                         </div>
                         <div class="zeile">
@@ -984,7 +857,7 @@ googletag.enableServices();
                                name="link Goles"
                                href="/jordan-morris/leistungsdatendetails/spieler/337807/wettbewerb/MLS1/saison/2020">
                                 <span
-                                    class="wert">8</span>
+                                    class="wert">9</span>
                             </a>
                         </div>
                         <div class="zeile">
@@ -1000,7 +873,7 @@ googletag.enableServices();
                                name="link Asistencias"
                                href="/jordan-morris/leistungsdatendetails/spieler/337807/wettbewerb/MLS1/saison/2020">
                                 <span
-                                    class="wert">4</span>
+                                    class="wert">5</span>
                             </a>
                         </div>
                         <div class="zeile">
@@ -1013,7 +886,7 @@ googletag.enableServices();
                     <div class="quoten">
                         <div class="large-4 small-4 column flexCenter">
                             <div class="progress-pie-chart"
-                                 data-percent="88"
+                                 data-percent="84"
                                  id="startelfquote">
                                 <div class="ppc-progress">
                                     <div class="ppc-progress-fill"></div>
@@ -1029,7 +902,7 @@ googletag.enableServices();
                         </div>
                         <div class="large-4 small-4 column flexCenter">
                             <div class="progress-pie-chart"
-                                 data-percent="91"
+                                 data-percent="89"
                                  id="minutenquote">
                                 <div class="ppc-progress">
                                     <div class="ppc-progress-fill"></div>
@@ -1045,7 +918,7 @@ googletag.enableServices();
                         </div>
                         <div class="large-4 small-4 column flexCenter">
                             <div class="progress-pie-chart"
-                                 data-percent="34.285714285714"
+                                 data-percent="35"
                                  id="torquote">
                                 <div class="ppc-progress">
                                     <div class="ppc-progress-fill"></div>
@@ -1172,7 +1045,23 @@ googletag.enableServices();
 
     <script>
         var anzahlWettbewerbPerSlide = 2    </script>
-            </div>
+    
+<div class="galerie-content swiper-slide  swiper-slide-active">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <img data-src="https://tmssl.akamaized.net/images/foto/normal/jordan-morris-1604715906-50771.jpg"
+                         class="swiper-lazy" alt="">
+                    <div class="swiper-lazy-preloader"></div>
+                    <div class="premium-profil-quelle">
+                        Matt Stith &amp; Devin L'Amoreaux/MLS                    </div>
+                </div>
+                        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+        </div>
     </div>
 </div>
 <div class="box">
@@ -1521,10 +1410,10 @@ googletag.enableServices();
 </thead>
 <tfoot>
 <tr>
-<td colspan="2" class="rechts hide-for-small">Total :</td><td class="hide hide-for-small">&nbsp;</td><td class="zentriert">23</td><td class="zentriert">10</td><td class="zentriert">7</td><td class="zentriert">185</td><td class="zentriert">1.851</td></tr>
+<td colspan="2" class="rechts hide-for-small">Total :</td><td class="hide hide-for-small">&nbsp;</td><td class="zentriert">25</td><td class="zentriert">11</td><td class="zentriert">8</td><td class="zentriert">180</td><td class="zentriert">1.977</td></tr>
 </tfoot>
 <tbody>
-<tr><td class="extrarow ueberzeile hauptlink show-for-small tabellen-wappen" colspan="7"><img src="https://tmssl.akamaized.net/images/logo/tiny/mls1.png?lm=1581161734" title="Major League Soccer" alt="Major League Soccer" class="" /><a title="MLS" href="/major-league-soccer/startseite/wettbewerb/MLS1">MLS</a></td></tr><tr class="odd"><td class="hauptlink no-border-rechts hide-for-small"><img src="https://tmssl.akamaized.net/images/logo/tiny/mls1.png?lm=1581161734" title="Major League Soccer" alt="Major League Soccer" class="" /></td><td class="hauptlink no-border-links hide-for-small"><a title="MLS" href="/major-league-soccer/startseite/wettbewerb/MLS1">MLS</a></td><td class="zentriert"><a title="Jordan Morris" href="/jordan-morris/leistungsdatendetails/spieler/337807/saison/2019/wettbewerb/MLS1/verein/9636">17</a></td><td class="zentriert">8</td><td class="zentriert">4</td><td class="zentriert">175</td><td class="zentriert">1.396</td></tr>
+<tr><td class="extrarow ueberzeile hauptlink show-for-small tabellen-wappen" colspan="7"><img src="https://tmssl.akamaized.net/images/logo/tiny/mls1.png?lm=1581161734" title="Major League Soccer" alt="Major League Soccer" class="" /><a title="MLS" href="/major-league-soccer/startseite/wettbewerb/MLS1">MLS</a></td></tr><tr class="odd"><td class="hauptlink no-border-rechts hide-for-small"><img src="https://tmssl.akamaized.net/images/logo/tiny/mls1.png?lm=1581161734" title="Major League Soccer" alt="Major League Soccer" class="" /></td><td class="hauptlink no-border-links hide-for-small"><a title="MLS" href="/major-league-soccer/startseite/wettbewerb/MLS1">MLS</a></td><td class="zentriert"><a title="Jordan Morris" href="/jordan-morris/leistungsdatendetails/spieler/337807/saison/2019/wettbewerb/MLS1/verein/9636">19</a></td><td class="zentriert">9</td><td class="zentriert">5</td><td class="zentriert">169</td><td class="zentriert">1.522</td></tr>
 <tr><td class="extrarow ueberzeile hauptlink show-for-small tabellen-wappen" colspan="7"><img src="https://tmssl.akamaized.net/images/logo/tiny/ussp.png?lm=1592068812" title="MLS is Back Tournament" alt="MLS is Back Tournament" class="" /><a title="MLS is Back" href="/mls-is-back-tournament/startseite/pokalwettbewerb/USSP">MLS is Back</a></td></tr><tr class="even"><td class="hauptlink no-border-rechts hide-for-small"><img src="https://tmssl.akamaized.net/images/logo/tiny/ussp.png?lm=1592068812" title="MLS is Back Tournament" alt="MLS is Back Tournament" class="" /></td><td class="hauptlink no-border-links hide-for-small"><a title="MLS is Back" href="/mls-is-back-tournament/startseite/pokalwettbewerb/USSP">MLS is Back</a></td><td class="zentriert"><a title="Jordan Morris" href="/jordan-morris/leistungsdatendetails/spieler/337807/saison/2019/wettbewerb/USSP/verein/9636">4</a></td><td class="zentriert">1</td><td class="zentriert">2</td><td class="zentriert">287</td><td class="zentriert">287</td></tr>
 <tr><td class="extrarow ueberzeile hauptlink show-for-small tabellen-wappen" colspan="7"><img src="https://tmssl.akamaized.net/images/logo/tiny/ccl.png?lm=1481538809" title="CONCACAF Champions League" alt="CONCACAF Champions League" class="" /><a title="CONCACAF Champions League" href="/concacaf-champions-league/startseite/pokalwettbewerb/CCL">CONCACAF Champions League</a></td></tr><tr class="odd"><td class="hauptlink no-border-rechts hide-for-small"><img src="https://tmssl.akamaized.net/images/logo/tiny/ccl.png?lm=1481538809" title="CONCACAF Champions League" alt="CONCACAF Champions League" class="" /></td><td class="hauptlink no-border-links hide-for-small"><a title="CONCACAF Champions League" href="/concacaf-champions-league/startseite/pokalwettbewerb/CCL">CONCACAF Champions League</a></td><td class="zentriert"><a title="Jordan Morris" href="/jordan-morris/leistungsdatendetails/spieler/337807/saison/2019/wettbewerb/CCL/verein/9636">2</a></td><td class="zentriert">1</td><td class="zentriert">1</td><td class="zentriert">168</td><td class="zentriert">168</td></tr>
 </tbody>
@@ -1548,27 +1437,6 @@ googletag.enableServices();
 	</script>
 	</div>
 </div>
-            <script type="module" src="https://tmsi.akamaized.net/js/next-matches/tm-next-matches.esm.js?v=4"></script>
-            <script nomodule="" src="https://tmsi.akamaized.net/js/next-matches/tm-next-matches.js?v=4"></script><tm-next-matches headline="Próximos encuentros" locale='es' lang="es" raw-data="{&quot;matches&quot;:[{&quot;id&quot;:&quot;3458146&quot;,&quot;competition&quot;:&quot;Major League Soccer&quot;,&quot;competitionId&quot;:&quot;MLS1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/major-league-soccer\/startseite\/wettbewerb\/MLS1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3458146&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/MLS1\/saison_id\/2019\/spieltag\/15&quot;,&quot;day&quot;:&quot;15&quot;,&quot;time&quot;:1604878200,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;9636&quot;,&quot;away&quot;:&quot;218&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false}],&quot;imgHost&quot;:&quot;https:\/\/tmsi.akamaized.net&quot;,&quot;content&quot;:{&quot;group&quot;:&quot;Grupo&quot;,&quot;matchDay&quot;:&quot; Jornada&quot;},&quot;teams&quot;:{&quot;9636&quot;:{&quot;name&quot;:&quot;Sounders FC\t&quot;,&quot;link&quot;:&quot;\/seattle-sounders-fc\/startseite\/verein\/9636&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/9636.png?lm=1458928136&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/9636.png?lm=1458928136&quot;,&quot;isNT&quot;:false},&quot;218&quot;:{&quot;name&quot;:&quot;Quakes&quot;,&quot;link&quot;:&quot;\/san-jose-earthquakes\/startseite\/verein\/218&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/218.png?lm=1410197504&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/218.png?lm=1410197504&quot;,&quot;isNT&quot;:false}}}">
-    <div class="quote-slot" slot="quotes">
-            </div>
-</tm-next-matches>
-
-<script>
-    var nextMatchesEl = document.getElementsByTagName('tm-next-matches')[0];
-    if(nextMatchesEl) {
-        nextMatchesEl.addEventListener('nextMatchesReloadQuotes', (event) => {
-            jQuery(document).trigger('begegnungenVereinSliderLoad');
-        });
-      nextMatchesEl.addEventListener('ticketShopTracking', (tracking) => {
-        if(typeof ga === 'function') {
-          ga('send', 'event', 'Button', 'click_extern', tracking.detail + ' Spielerprofil');
-        } else {
-          console.warn('GA is not a function')
-        }
-      });
-    }
-</script>
 <div class="box">
     <div class="subkategorie-header"><h2>Carrera en la selección</h2></div>
     <table class="borderloser_odd_even_style">
@@ -1674,12 +1542,12 @@ googletag.enableServices();
 		<div class="content">
 							<p class="beliebtheit-text">¿Con cuál te quedarías?</p>
 							<img src="https://tmssl.akamaized.net//images/beliebtheit/versus.png" alt="versus" class="beliebtheit-versus" />
-			<a href="/beliebtheit/speichernSpieler?spieler_id_gewinner=337807&spieler_id_verlierer=129724&kontinent=0&land=0&wettbewerb=MLS1&verein=9636&position=0&marktwert=0&spieler_id_1=337807&lieblingsverein=0" class="beliebtheit-wahl-spieler beliebtheit-wahl-heim">
+			<a href="/beliebtheit/speichernSpieler?spieler_id_gewinner=337807&spieler_id_verlierer=173486&kontinent=0&land=0&wettbewerb=MLS1&verein=9636&position=0&marktwert=0&spieler_id_1=337807&lieblingsverein=0" class="beliebtheit-wahl-spieler beliebtheit-wahl-heim">
 				<img src="https://tmssl.akamaized.net/images/portrait/medium/337807-1584467191.jpg?lm=1584467218" title="Jordan Morris - Fuente: Major League Soccer" alt="Jordan Morris" class="" style="-webkit-filter: drop-shadow(0px 0px 10px #4F8A10); filter: drop-shadow(0px 0px 10px #4F8A10);" />Jordan Morris				<div class="beliebtheit-wahl-spieler-wappen">
 					<img src="https://tmssl.akamaized.net/images/wappen/kaderquad/9636.png?lm=1458928136" title="&nbsp;" alt="Seattle Sounders FC" class="" />				</div>
 			</a>
-			<a href="/beliebtheit/speichernSpieler?spieler_id_gewinner=129724&spieler_id_verlierer=337807&kontinent=0&land=0&wettbewerb=MLS1&verein=9636&position=0&marktwert=0&spieler_id_1=337807&lieblingsverein=0" class="beliebtheit-wahl-spieler beliebtheit-wahl-gast">
-				<img src="https://tmssl.akamaized.net/images/portrait/medium/129724-1584468071.jpg?lm=1584468122" title="Raúl Ruidíaz - Fuente: Major League Soccer" alt="Raúl Ruidíaz" class="" style="-webkit-filter: drop-shadow(0px 0px 10px #11568C); filter: drop-shadow(0px 0px 10px #11568C);" />Raúl Ruidíaz				<div class="beliebtheit-wahl-spieler-wappen">
+			<a href="/beliebtheit/speichernSpieler?spieler_id_gewinner=173486&spieler_id_verlierer=337807&kontinent=0&land=0&wettbewerb=MLS1&verein=9636&position=0&marktwert=0&spieler_id_1=337807&lieblingsverein=0" class="beliebtheit-wahl-spieler beliebtheit-wahl-gast">
+				<img src="https://tmssl.akamaized.net/images/portrait/medium/173486-1584465627.jpg?lm=1584465663" title="Will Bruin - Fuente: Major League Soccer" alt="Will Bruin" class="" style="-webkit-filter: drop-shadow(0px 0px 10px #11568C); filter: drop-shadow(0px 0px 10px #11568C);" />Will Bruin				<div class="beliebtheit-wahl-spieler-wappen">
 					<img src="https://tmssl.akamaized.net/images/wappen/kaderquad/9636.png?lm=1458928136" title="&nbsp;" alt="Seattle Sounders FC" class="" />				</div>
 			</a>
 		</div>
@@ -1788,7 +1656,7 @@ iom.c(iam_data,1);
 </div>
     </div>
 
-<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8ed752c2/gridview/jquery.yiigridview.js?lm=1604497033"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/71529994/gridview/jquery.yiigridview.js?lm=1605183699"></script>
 <script type="text/javascript">
 /*<![CDATA[*/
 	function initCss() {
@@ -1871,9 +1739,6 @@ iom.c(iam_data,1);
 }
 jQuery(function($) {
 jQuery('#yw2').yiiGridView({'ajaxUpdate':['yw2'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'grid\x2Dview\x2Dloading','filterClass':'filters','tableClass':'items','selectableRows':1,'enableHistory':false,'updateSelector':'\x7Bpage\x7D,\x20\x7Bsort\x7D','filterSelector':'\x7Bfilter\x7D'});
-jQuery('body').on('change','#land_select_breadcrumb',function(){jQuery.ajax({'type':'POST','url':'\x2Fsite\x2FDropDownWettbewerbe','data':{land_id:this.value},'success':function(html) {jQuery("#wettbewerb_select_breadcrumb").html(html); jQuery("#wettbewerb_select_breadcrumb").trigger("liszt:updated");},'cache':false});return false;});
-jQuery('body').on('change','#wettbewerb_select_breadcrumb',function(){jQuery.ajax({'type':'POST','url':'\x2Fsite\x2FDropDownVereine','data':{wettbewerb_id:this.value},'success':function(html) {jQuery(".breadcrumb-verein").removeClass("disabled"); jQuery("#verein_select_breadcrumb").html(html); jQuery("#verein_select_breadcrumb").trigger("liszt:updated");},'cache':false});return false;});
-jQuery('body').on('change','#verein_select_breadcrumb',function(){jQuery.ajax({'type':'POST','url':'\x2Fsite\x2FDropDownSpieler','data':{verein_id:this.value},'success':function(html) {jQuery(".breadcrumb-spieler").removeClass("disabled"); jQuery("#spieler_select_breadcrumb").html(html); jQuery("#spieler_select_breadcrumb").trigger("liszt:updated");},'cache':false});return false;});
 
           $(".spielprofil_tooltip").tooltipster({'position':'right','arrowColor':'white','delay':'100','speed':0,'contentAsHTML':true,'interactive':true,'content':'\x0A\x09\x09\x09\x3Cimg\x20src\x3D\x22https\x3A\x2F\x2Ftmssl.akamaized.net\x2F\x2Fimages\x2Fspinner.gif\x22\x20style\x3D\x22vertical\x2Dalign\x3A\x20middle\x3B\x22\x20\x2F\x3E\x0A\x09\x09','functionBefore':function(origin, continueTooltip) { continueTooltip(); id_array = origin.context.id.split("/"); var spieler_id = id_array[0]; $.post( "/spieler/_profilTooltip", { spieler_id : spieler_id }, function(data) { if(data) { origin.tooltipster("update", data); } }); }});
           
@@ -1891,5 +1756,5 @@ Highcharts.setOptions([]); var chart = new Highcharts.Chart({'chart':{'renderTo'
 });
 /*]]>*/
 </script>
-</body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"ffbc20d834","applicationID":"4489554","transactionName":"ZVVSbREEDUMEUEYPX1wfcVoXDAxeSmBCD1VeVUJ6DAsXQgpfXgNCHUBCVgUMDw==","queueTime":0,"applicationTime":363,"atts":"SRJRG1keHk0=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
 </html>

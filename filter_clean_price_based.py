@@ -1,8 +1,10 @@
 import datetime
 import pickle
+from collections import Counter
 from os import listdir
 from os.path import isfile, join
 from statistics import mean, median, stdev
+import matplotlib.pyplot as plt
 
 import pandas as pd
 
@@ -18,6 +20,8 @@ if __name__ == '__main__':
 
     filter_names = list(player_data['nombre'])
     temporadas = ['2015', '2016', '2017', '2018', '2019']
+
+    # months = []
 
     quitar_nombres = []
 

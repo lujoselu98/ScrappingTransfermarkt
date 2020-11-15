@@ -10,7 +10,7 @@ from final_crawler import request_robusto
 
 def extract_performace(link, temporadas=None):
     if temporadas is None:
-        temporadas = ['2015', '2016', '2017', '2018', '2019']
+        temporadas = ['2014', '2015', '2016', '2017', '2018', '2019']
 
     rendimiento = dict((t, dict()) for t in temporadas)
 
@@ -55,7 +55,7 @@ def extract_performace(link, temporadas=None):
 if __name__ == '__main__':
     f = open('data/urls.txt', 'r')
     lines = f.readlines()
-    links = [line.strip().replace('profil', 'leistungsdatendetails') for line in lines]
+    links = list(set([line.strip().replace('profil', 'leistungsdatendetails') for line in lines]))
     # links = [links[0]] + [link for link in links if 'joelinton' in link]
     # print(*links[:10], sep="\n")
     os.makedirs(f"{DATA_PATH}/performance/", exist_ok=True)

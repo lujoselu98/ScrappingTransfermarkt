@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 7]>
+<html class="ie7 oldie" lang="es"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="es"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js" lang="es"> <!--<![endif]-->
+<head>
+	
+<script type="text/javascript">
+    !function () { var e = function () { var e, t = "__tcfapiLocator", a = [], n = window; for (; n;) { try { if (n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
+</script>
+<script>
+window._sp_ = {
+    config: {"accountId":1254,"propertyId":7429,"baseEndpoint":"https://cdn.privacy-mgmt.com"}}
+</script>
+<script src="https://cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js"></script>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"ffbc20d834",applicationID:"4489554"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#1a3151"/>
+	    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="shortcut icon" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-152x152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no" />
+<meta name="keywords" content="Kelechi Iheanacho,Nigeria,Premier League,Nigeria" />
+<meta name="description" content="Kelechi Iheanacho, 24, Nigeria ➤ Leicester City, desde 2017 ➤ Delantero centro ➤ Valor de mercado: 15,00 mill. € ➤ * 03/10/1996 en Imo, Nigeria." />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://tmssl.akamaized.net/images/portrait/originals/295330-1443789707.jpg" />
+<meta property="og:description" content="" />
+<meta property="og:title" content="Kelechi Iheanacho - Perfil del jugador 20/21" />
+<meta property="og:url" content="https://_/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="de" rel="alternate" href="https://www.transfermarkt.de/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="de-LU" rel="alternate" href="https://www.transfermarkt.de/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="de-AT" rel="alternate" href="https://www.transfermarkt.at/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="de-CH" rel="alternate" href="https://www.transfermarkt.ch/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="tr" rel="alternate" href="https://www.transfermarkt.com.tr/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="it-CH" rel="alternate" href="https://www.transfermarkt.it/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="it" rel="alternate" href="https://www.transfermarkt.it/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="pl" rel="alternate" href="https://www.transfermarkt.pl/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="en-GB" rel="alternate" href="https://www.transfermarkt.co.uk/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="en-IE" rel="alternate" href="https://www.transfermarkt.co.uk/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-ES" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-MX" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-AR" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-CL" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-CO" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-VE" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-PE" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-EC" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="es-CU" rel="alternate" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="nl" rel="alternate" href="https://www.transfermarkt.nl/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="nl-BE" rel="alternate" href="https://www.transfermarkt.nl/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="pt" rel="alternate" href="https://www.transfermarkt.pt/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="ru" rel="alternate" href="https://www.transfermarkt.ru/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="fr-CH" rel="alternate" href="https://www.transfermarkt.fr/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="fr" rel="alternate" href="https://www.transfermarkt.fr/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="fr-CA" rel="alternate" href="https://www.transfermarkt.fr/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="fr-CI" rel="alternate" href="https://www.transfermarkt.fr/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="fr-LU" rel="alternate" href="https://www.transfermarkt.fr/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="fr-BE" rel="alternate" href="https://www.transfermarkt.fr/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="pt-BR" rel="alternate" href="https://www.transfermarkt.com.br/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="en-US" rel="alternate" href="https://www.transfermarkt.us/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="en-CA" rel="alternate" href="https://www.transfermarkt.us/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="en-IN" rel="alternate" href="https://www.transfermarkt.co.in/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="en-ZA" rel="alternate" href="https://www.transfermarkt.co.za/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="x-default" rel="alternate" href="https://www.transfermarkt.com/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="en" rel="alternate" href="https://www.transfermarkt.com/kelechi-iheanacho/profil/spieler/295330" />
+<link hreflang="id" rel="alternate" href="https://www.transfermarkt.co.id/kelechi-iheanacho/profil/spieler/295330" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/menue.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/tm-grid.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/foundation-icons.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//assets/8f0e90ee/jui/css/base/jquery-ui.css?lm=1605183698" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main_desktop.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/sprite-main.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/chosen.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery-ui-1.10.4.custom.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery-ui-1.10.4.tm-theme.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/main_werbung.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/shortclasses.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/print.css?_sn=1?lm=1605177847" media="print" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/spielerprofil.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/spielerprofil.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/desktop.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/domainspezifisch/desktop-es.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/meintm.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/swiper.4.4.6.min.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/ldWidget.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/ldWidgetLeistungsdaten.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/ldWidgetGalerie.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/statistiken.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/gridview.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery.bxslider.min.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/jquery.custom.bxslider.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/relevante_news.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/stylesheets/fanshopBox.css?lm=1605177848" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//css/beliebtheit.css?lm=1605177847" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net//assets/f8c074a6/css/tooltipster.css?lm=1605183699" />
+<style type="text/css">
+/*<![CDATA[*/
+@keyframes heim {
+    0%   {width: 0%;}
+    100% {width: 0%}
+}
+@keyframes gast {
+    0%   {width: 0%;}
+    100% {width: 0%}
+}
+.beliebtheit-vote-heim {
+    animation-name: heim;
+    animation-duration: 4s;
+}
+.beliebtheit-vote-gast {
+    animation-name: gast;
+    animation-duration: 4s;
+}
+/*]]>*/
+</style>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/vendor/jquery.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8f0e90ee/jquery.ba-bbq.min.js?lm=1605183699"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/swiper.4.4.6.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/ldWidget.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/ldWidgetLeistungsdaten.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/ldWidgetGalerie.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8253d737/highcharts.js?lm=1605183699"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8253d737/themes/tmMini.js?lm=1605183699"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/8253d737/lang/lang_es.js?lm=1605183699"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.bxslider.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/chosen.jquery.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/localStorage.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/foundation.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/main.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery-ui-1.10.4.custom.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.lazyload.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/clipboard.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/chosen.ajaxaddition.jquery.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/jquery.icheck.min.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/functions.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/tmevent.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//js/main_desktop.js?lm=1605177829"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/f8c074a6/js/jquery.tooltipster.js?lm=1605183699"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+<!-- DFPV2 --->
+		var gptscript = document.createElement("script");
+			gptscript.type = "text/javascript";
+			gptscript.src = 'https://www.googletagservices.com/tag/js/gpt.js';
+			//gptscript.charset = "utf-8";
+			gptscript.async = true;
+			var gptfirstScript = document.getElementsByTagName("script")[0];
+			gptfirstScript.parentNode.insertBefore(gptscript, gptfirstScript);
+
+		var googletag = googletag || {};
+			googletag.cmd = googletag.cmd || [];
+			googletag.cmd.push(function() {
+var rectangle1_mapping = googletag.sizeMapping().
+		addSize([0, 0], [[300, 250]]).
+		addSize([640, 480], [[300, 250]]).
+		addSize([980, 690], [[300, 250]]).
+		addSize([1024, 768], [[300, 250]]).build();
+googletag.defineSlot('/58778164/TM_Desktop_TopRectangle_300x250', [[300, 250]], 'Rectangle1').defineSizeMapping(rectangle1_mapping).addService(googletag.pubads());
+var rectangle2_mapping = googletag.sizeMapping().
+		addSize([0, 0], [[300, 250], 'fluid']).
+		addSize([640, 480], [[300, 250], 'fluid']).
+		addSize([980, 690], [[300, 250], 'fluid']).
+		addSize([1024, 768], [[300, 250], [300, 600], 'fluid']).build();
+googletag.defineSlot('/58778164/TM_Desktop_BottomRectangle_300x250', [[300, 250], [300, 600], 'fluid'], 'Rectangle2').defineSizeMapping(rectangle2_mapping).addService(googletag.pubads());
+var skyscraper_mapping = googletag.sizeMapping().
+		addSize([0, 0], [[160, 600], [120, 600]]).
+		addSize([640, 480], [[160, 600], [120, 600]]).
+		addSize([980, 690], [[160, 600], [120, 600]]).
+		addSize([1024, 768], [[160, 600], [300, 600], [120, 600]]).build();
+googletag.defineSlot('/58778164/TM_Desktop_Skyscraper_300x600', [[160, 600], [120, 600], [300, 600]], 'Skyscraper').defineSizeMapping(skyscraper_mapping).addService(googletag.pubads());
+var billboard_mapping = googletag.sizeMapping().
+		addSize([0, 0], [[468, 60], 'fluid']).
+		addSize([640, 480], [[468, 60], 'fluid']).
+		addSize([980, 690], [[970, 250], [970, 90], [970, 66], [728, 90]]).
+		addSize([1024, 768], [[970, 250], [970, 90], [970, 66], [728, 90]]).build();
+googletag.defineSlot('/58778164/TM_Desktop_CenterLeaderboard_970x250', [[468, 60], [970, 90], [970, 250], [728, 90], 'fluid', [970, 66]], 'Billboard').defineSizeMapping(billboard_mapping).addService(googletag.pubads());
+var fullsize_contentad_mapping = googletag.sizeMapping().
+		addSize([0, 0], [468, 60]).
+		addSize([640, 480], [[728, 90], [468, 60]]).
+		addSize([980, 690], [[728, 90], [970, 90], [970, 250]]).
+		addSize([1024, 768], [[970, 250], [970, 90], [728, 90]]).build();
+googletag.defineSlot('/58778164/TM_Desktop_BottomLeaderboard_970x250', [[468, 60], [728, 90], [970, 90], [970, 250]], 'BillboardFooter').defineSizeMapping(fullsize_contentad_mapping).addService(googletag.pubads());
+googletag.defineOutOfPageSlot('/58778164/TM_Desktop_RichMedia_1x1', 'Richmedia').addService(googletag.pubads());
+googletag.pubads().setCentering(true);
+googletag.pubads().collapseEmptyDivs();
+googletag.pubads().enableSingleRequest();
+googletag.pubads().setTargeting("URL","www.transfermarkt.es")
+googletag.pubads().setTargeting("cg1", ["statistik"]);
+googletag.pubads().setTargeting("cg2", ["spieler"]);
+googletag.pubads().setTargeting("cg3", ["profil"]);
+googletag.pubads().setTargeting("cg4", ["295330"]);
+googletag.enableServices();
+})
+<!-- DFPV2-ENDE -->
+/*]]>*/
+</script>
+<title>Kelechi Iheanacho - Perfil del jugador 20/21 | Transfermarkt</title>
+                <script type="module" src="https://tmsi.akamaized.net/js/globals/tm-global-elements.esm.js?v=4"></script>
+            <script nomodule="" src="https://tmsi.akamaized.net/js/globals/tm-global-elements.js?v=4"></script>
+<script type="text/javascript">
+   tmData = {
+       loggedIn : "0",
+       tmTraffic: "0",
+   };
+</script>
+<!-- components GoogleAnalyticsUniversal start -->
+<script>
+// Set to the same value as the web property used on the site
+		var gaProperty = 'UA-3816204-13';
+
+		// Disable tracking if the opt-out cookie exists.
+		var disableStr = 'ga-disable-' + gaProperty;
+		if (document.cookie.indexOf(disableStr + '=true') > -1) {
+			window[disableStr] = true;
+		}
+
+		// Opt-out function
+		function gaOptout() {
+			document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+			window[disableStr] = true;
+		}
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-3816204-13', 'auto', {allowLinker: true, sampleRate: 100});
+	ga('set', 'anonymizeIp', true);
+	ga('set', 'contentGroup1', 'statistik');
+	ga('set', 'contentGroup2', 'spieler');
+	ga('set', 'contentGroup3', 'profil');
+	ga('set', 'contentGroup4', '295330');
+	ga('set', 'dimension1', tmData.loggedIn);
+	ga('set', 'dimension2', tmData.tmTraffic);
+	ga('require','linker');
+	ga('linker:autoLink', [/^transfermarkt\.(com|de|nl|it|at|ch|es|fr|com\.tr|pt|tv|pl|co\.uk)$/]);
+	ga('send', 'pageview');
+</script>
+
+<!-- components GoogleAnalyticsUniversal end --><script type="text/javascript">var yieldlove_site_id = 'transfermarkt.es_desktop';</script><script type="text/javascript" src="//cdn-a.yieldlove.com/yieldlove-bidder.js?transfermarkt.es_desktop"></script>
+<!--  SZM 2.0 (IVW/AGOF) -->
+<script type="text/javascript" src="https://script.ioam.de/iam.js"></script>    <script type="text/javascript" src="https://tmssl.akamaized.net//ads/ads.js"></script>
+    <script type="text/javascript">
+		if(self == top) {
+			document.documentElement.style.display = 'block';
+		} else {
+			top.location = self.location;
+		}
+    </script>
+    <noscript>
+        <style>html body *:not(.noscript) {
+                display: none;
+            }</style>
+        <div class="noscript">
+			Para utilizar esta página, por favor active su Javascript.        </div>
+    </noscript>
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie.css"/><![endif]-->
+	        <link rel="canonical" href="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330">
+	<!-- no Tisoomi -->    <style>
+        @font-face {
+            font-family: 'OSL';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'),
+            url(https://tmsi.akamaized.net/fonts/OpenSans-CondensedLight.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'OSB';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'),
+            url(https://tmsi.akamaized.net/fonts/OpenSans-CondensedLight.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Source Sans Pro'), local('SourceSansPro-Regular'),
+            url(https://tmsi.akamaized.net/fonts/SourceSansPro-Regular.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: bold;
+            src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+            url(https://tmsi.akamaized.net/fonts/SourceSansPro-Bold.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: lighter;
+            src: url(https://tmsi.akamaized.net/fonts/oswald_light.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: normal;
+            src: url(https://tmsi.akamaized.net/fonts/oswald_regular.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: bold;
+            src: url(https://tmsi.akamaized.net/fonts/oswald_bold.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: "socicon";
+            src: url("https://tmsi.akamaized.net/fonts/socicon.eot");
+            src: url("https://tmsi.akamaized.net/fonts/socicon.eot?#iefix") format("embedded-opentype"),
+            url("https://tmsi.akamaized.net/fonts/socicon.woff") format("woff"),
+            url("https://tmsi.akamaized.net/fonts/socicon.ttf") format("truetype"),
+            url("https://tmsi.akamaized.net/fonts/socicon.svg#socicon") format("svg");
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    
+</head>
+<body x-ms-format-detection="none" style="overflow-y: scroll;"
+      class="" itemscope
+      itemtype="http://schema.org/WebPage">
+<tm-language-hint></tm-language-hint>
+<div id="navibalken" class="navibalken hide-for-small"></div>
+<div id="main">
+	    <div class="row" id="logobereich">
+        <div id="header" class="large-12 columns">
+            <div class="naviback hide-for-small hide-for-print"></div>
+            <div class="werbung-skyscraper-container hide-for-small">
+				
+<div class="werbung werbung-skyscraper">
+	<!-- DFPV2 -->
+	<div id="Skyscraper" >
+	<script>
+		googletag.cmd.push(function() { googletag.display('Skyscraper'); });
+	</script>
+	</div>
+</div>
+            </div>
+
+            <div class="werbung-skyscraperbtf-container hide-for-small">
+				            </div>
+            <div class="row" style="margin: 0;">
+                <div class="large-3 columns">
+                    <a href="/" class="hide-for-small">
+                        <img class="icon-logo" src="https://tmsi.akamaized.net/head/transfermarkt_logo.svg" title="Transfermarkt" alt="Transfermarkt">
+                    </a>
+                                            <tm-domainswitcher open-list="false" tld="es"></tm-domainswitcher>
+                                    </div>
+
+
+				    <div id="header-social-icons" class="large-3 columns flexCenter">
+		                <a name="SocMedia" href="https://www.facebook.com/transfermarkt.es" target="_blank" onclick="ga('send','event','SM-Icons_Header','click','Facebook');
+"><span class="icon-facebook">&nbsp;</span></a>|
+                <a name="SocMedia" href="https://twitter.com/TMes_news" target="_blank" onclick="ga('send','event','SM-Icons_Header','click','Twitter');
+"><span class="icon-twitter">&nbsp;</span></a>|
+                <a name="SocMedia" href="http://instagram.com/transfermarkt_official" target="_blank" onclick="ga('send','event','SM-Icons_Header','click','Instagram');
+"><span class="icon-instagram_grau">&nbsp;</span></a>|
+                <a name="SocMedia" href="/intern/rssguide" target="_blank" onclick="ga('send','event','SM-Icons_Header','click','RSS');
+"><span class="icon-rss_feed_grau">&nbsp;</span></a>
+				    </div>
+
+
+				                    <div class="large-6 columns " id="schnellsuche-platz">
+                        <form name="schnellsuche" id="schnellsuche" class="noclose"
+                              action="/schnellsuche/ergebnis/schnellsuche">
+                            <input type="text" name="query" class="header-suche"
+                                   onClick=""
+                                   placeholder="Introducir término (p.ej. jugador, club,...)"
+                                   autocorrect="off" spellcheck="false"" value=""/>
+                            <input type="image" class="header-suche-abschicken" src="/images/suche-grau.svg"
+                                   alt="Buscar"/>
+                        </form>
+                        <a href="/detailsuche/spielerdetail/suche"
+                           title="Acceder a la búsqueda detallada" id="detailsuche-head"
+                           class="header-suche-detailsuche">
+                            <span class="icon-detailsuche"></span>
+                        </a>
+                    </div>
+					            </div>
+        </div>
+    </div>
+	    <div class="row hide-on-print navihalter ">
+        <div class="page_wrapper">
+            <div class="large-12 columns megamenu_container megamenu_dark_bar megamenu_dark">
+                <a href="/" class="sticky-logo hide-for-small">
+                    <span title="Transfermarkt" class="tm_svg"></span>
+                </a>
+				    <!-- Begin Menu Container -->
+<ul class="megamenu  extra-domain " id="mainmenue" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+    <!-- Begin Mega Menu -->
+    <li id="mobile_hauptmenu_button">
+                <ul id="hauptmenuepunkte">
+                                    <li id="naviid_news"class=" megamenu_drop_list">
+                        <a class="megamenu_drop"
+                                                       onClick="ga('send','event','Noticias','click','menu');
+">
+                            Noticias                        </a>
+                                                <div class="dropdown_fullwidth">
+                            <div class="col_12 menue_main_col">
+                                                                    <img src="/images/bx_loader.gif"/>
+                                                                </div>
+                            <div class="col_3 menue_right_col hide-for-small">
+                            </div>
+                        </div>
+                                            </li>
+                                            <li id="naviid_transfers"class=" megamenu_drop_list">
+                        <a class="megamenu_drop"
+                                                       onClick="ga('send','event','Fichajes & rumores','click','menu');
+">
+                            Fichajes & rumores                        </a>
+                                                <div class="dropdown_fullwidth">
+                            <div class="col_12 menue_main_col">
+                                                                    <img src="/images/bx_loader.gif"/>
+                                                                </div>
+                            <div class="col_3 menue_right_col hide-for-small">
+                            </div>
+                        </div>
+                                            </li>
+                                            <li id="naviid_marktwerte"class=" megamenu_drop_list">
+                        <a class="megamenu_drop"
+                                                       onClick="ga('send','event','Valores de mercado','click','menu');
+">
+                            Valores de mercado                        </a>
+                                                <div class="dropdown_fullwidth">
+                            <div class="col_12 menue_main_col">
+                                                                    <img src="/images/bx_loader.gif"/>
+                                                                </div>
+                            <div class="col_3 menue_right_col hide-for-small">
+                            </div>
+                        </div>
+                                            </li>
+                                            <li id="naviid_wettbewerbe"class="aktiv megamenu_drop_list">
+                        <a class="megamenu_drop"
+                                                       onClick="ga('send','event','Competiciones','click','menu');
+">
+                            Competiciones                        </a>
+                                                <div class="dropdown_fullwidth">
+                            <div class="col_12 menue_main_col">
+                                                                    <img src="/images/bx_loader.gif"/>
+                                                                </div>
+                            <div class="col_3 menue_right_col hide-for-small">
+                            </div>
+                        </div>
+                                            </li>
+                                            <li id="naviid_foren"class=" megamenu_drop_list">
+                        <a class="megamenu_drop"
+                                                       onClick="ga('send','event','Foros','click','menu');
+">
+                            Foros                        </a>
+                                                <div class="dropdown_fullwidth">
+                            <div class="col_12 menue_main_col">
+                                                                    <img src="/images/bx_loader.gif"/>
+                                                                </div>
+                            <div class="col_3 menue_right_col hide-for-small">
+                            </div>
+                        </div>
+                                            </li>
+                                            <li id="naviid_meintm"class=" megamenu_drop_list">
+                        <a class="megamenu_drop"
+                                                       onClick="ga('send','event','Mi TM','click','menu');
+">
+                            Mi TM                        </a>
+                                                <div class="dropdown_fullwidth">
+                            <div class="col_12 menue_main_col">
+                                                                    <img src="/images/bx_loader.gif"/>
+                                                                </div>
+                            <div class="col_3 menue_right_col hide-for-small">
+                            </div>
+                        </div>
+                                            </li>
+                                            <li id="naviid_live" class="">
+                        <a href="/ticker/index/live" class="live-navilink"
+                           onClick="ga('send','event','En vivo','click','menu');
+">En vivo                            <tm-live-match-counter auto-request="true" content='["Partido en vivo", "Partidos en directo"]'></tm-live-match-counter>
+                        </a>
+                                            </li>
+                            </ul>
+    </li>
+</ul>
+                <a href="/" id="logo_klein" class="show-for-small">
+                    <img class="icon-logo" src="https://tmsi.akamaized.net/head/transfermarkt_logo.svg" title="Transfermarkt" alt="Transfermarkt">
+                </a>
+                                <form name="schnellsuche" id="schnellsuche-sticky" class="noclose sticky-suche"
+                      action="/schnellsuche/ergebnis/schnellsuche">
+                    <input type="text" name="query" class="header-suche" onClick=""
+                           placeholder="Introducir término (p.ej. jugador, club,...)"/>
+                    <input type="image" class="header-suche-abschicken"
+                           src="https://tmssl.akamaized.net//images/suchicon.png"
+                           alt="Buscar"/>
+                </form>
+                <a href="/detailsuche/spielerdetail/suche"
+                   title="Acceder a la búsqueda detallada" id="detailsuche-head"
+                   class="header-suche-detailsuche">
+                    <span class="icon-detailsuche"></span>
+                </a>
+                <a name="ToTop-Menu" id="arrow-up-xy" href="#" onClick="">
+                    <i class="fi-arrow-up"></i>
+                </a>
+                <div class="userbox ub-abgemeldet" id="login">
+    <a>
+        <span onClick="ga('send','event','anmeldebox','click','');
+">
+            <i class="fi-torso"></i>
+        </span>
+        <span class="anmelden">Iniciar sesión</span>
+    </a>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row popuphalter">
+		    <div id="loginbox" class="small-12"></div>
+<div id="registerbox"></div>
+<div id="passwortVergessenBox"></div>
+    </div>
+
+	        <script>
+			function googleEvent(string) {
+				//_gaq.push(['_trackEvent', string, 'click', 'menu']);
+				ga('send', 'event', string, 'click', 'menu');
+			}
+        </script>
+	        <div class="row hide-for-small">
+            <div id="breadcrumb" class="large-12 columns" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <div class="breadcrumb-box">
+                    <div class="breadcrumb">
+						
+<tm-quick-select-bar
+    default-country="189"
+    default-competition="GB1"
+    default-club="1003"
+    default-player="295330"
+    dropdown-visible=""
+    translations='{&quot;home&quot;:&quot;Inicio&quot;,&quot;country&quot;:&quot;Pa\u00eds&quot;,&quot;competition&quot;:&quot;Competici\u00f3n &quot;,&quot;club&quot;:&quot;Club&quot;,&quot;player&quot;:&quot;Jugadores&quot;,&quot;attack&quot;:&quot;Delantero&quot;,&quot;midfield&quot;:&quot;Centrocampista&quot;,&quot;defense&quot;:&quot;Defensa&quot;,&quot;goalkeeper&quot;:&quot;Portero&quot;}'
+    >
+</tm-quick-select-bar>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+    <div style="text-align:right"></div>
+	
+<div class="werbung werbung-billboard">
+	<!-- DFPV2 -->
+	<div id="Billboard" >
+	<script>
+		googletag.cmd.push(function() { googletag.display('Billboard'); });
+	</script>
+	</div>
+</div>
+	
+<div id="modalHolder"></div>
+	<style type="text/css">
+    .dataName {
+        font-size: 38px;
+    }
+    @media only screen and (max-width: 767px) {
+        .dataName {
+            font-size: 30px;
+            white-space: nowrap;
+            padding: 5px;
+        }
+    }
+</style>
+<div class="row">
+    <div class="large-12 columns">
+        <div class="dataHeader dataExtended" itemscope itemtype="https://schema.org/Person">
+						            <div class="dataMain">
+                <div class="dataTop">
+                    <div class="dataName">
+						<span class="dataRN">#14</span> <h1 itemprop="name">Kelechi <b>Iheanacho</b></h1>
+
+						
+
+																			
+                    </div>
+											<div class="dataErfolge hide-for-small">
+																						<a
+                                    href="/kelechi-iheanacho/erfolge/spieler/295330"
+                                    title="Englischer Ligapokalsieger"
+                                    class="dataErfolg"
+                                >
+										<img src="https://tmssl.akamaized.net/images/erfolge/header/47.png?lm=1520606999" title="Englischer Ligapokalsieger" alt="Englischer Ligapokalsieger" class="dataErfolgImage" />										<span class="dataErfolgAnzahl">1</span>
+								</a>
+															<a
+                                    href="/kelechi-iheanacho/erfolge/spieler/295330"
+                                    title="U17-Weltmeister"
+                                    class="dataErfolg"
+                                >
+										<img src="https://tmssl.akamaized.net/images/erfolge/header/158.png?lm=1472215928" title="U17-Weltmeister" alt="U17-Weltmeister" class="dataErfolgImage" />										<span class="dataErfolgAnzahl">1</span>
+								</a>
+																				</div>
+					                </div>
+
+            </div>
+            <div class="dataContent">
+                <div class="dataBottom">
+                    <div class="dataDaten">
+													<p>
+								<span class="dataItem">Nacimiento / edad:</span>
+								<span itemprop="birthDate" class="dataValue">
+									03/10/1996																			(24)
+																	</span>
+							</p>
+															<p class="hide-for-small">
+									<span class="dataItem">Lugar de nacimiento:</span>
+									<span class="dataValue">
+										<img src="https://tmssl.akamaized.net/images/flagge/tiny/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen" /><span itemprop="birthPlace">Imo</span>
+									</span>
+								</p>
+																											<p>
+								<span class="dataItem">Nacionalidad:</span>
+								<span class="dataValue">
+									<img src="https://tmssl.akamaized.net/images/flagge/tiny/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen" /><span itemprop="nationality">Nigeria</span>
+								</span>
+							</p>
+						
+                    </div>
+                    <div class="dataDaten">
+													<p>
+								<span class="dataItem">Altura:</span>
+								<span itemprop="height" class="dataValue">1,85 m</span>
+							</p>
+						                        <p>
+                            <span class="dataItem">Posición:</span>
+                            <span class="dataValue">
+								Delantero centro                            </span>
+                        </p>
+													<p class="show-for-small">
+								<span class="dataItem">Contrato hasta:</span>
+								<span class="dataValue">
+									30/06/2022								</span>
+							</p>
+																			<p>
+								<span class="dataItem">Agente:</span>
+								<span class="dataValue">
+																			<a href="/stellar-football-ltd/beraterfirma/berater/190">Stellar Football Ltd</a>																	</span>
+							</p>
+						                    </div>
+                    <div class="dataDaten">
+													<p class="notTablet forMobile">
+								<span class="dataItem">
+																			Selección:
+																	</span>
+								<span class="dataValue">
+									<img src="https://tmssl.akamaized.net/images/flagge/tiny/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen flagge" /><a class="vereinprofil_tooltip" id="3444" href="/nigeria/startseite/verein/3444">Nigeria</a>								</span>
+							</p>
+							<p class="hide-for-small notTablet">
+								<span class="dataItem">Partidos internacionales/goles:</span>
+								<span class="dataValue"><a href="/kelechi-iheanacho/nationalmannschaft/spieler/295330/verein_id/3444">23</a>/<a href="/kelechi-iheanacho/nationalmannschaft/spieler/295330/verein_id/3444">7</a></span>
+							</p>
+						                    </div>
+                </div>
+            </div>
+
+            <div class="dataBild">
+								<img src="https://tmssl.akamaized.net/images/portrait/header/295330-1443789707.jpg?lm=1443789751" title="Kelechi Iheanacho" alt="Kelechi Iheanacho" class="" /><div class="bildquelle"><span title="imago images">imago images</span></div>            </div>
+							<div class="dataZusatzbox">
+					<div class="dataZusatzImage"><a class="vereinprofil_tooltip" id="1003" href="/leicester-city/startseite/verein/1003"><img src="https://tmssl.akamaized.net/images/wappen/normquad/1003.png?lm=1472229265" title="&nbsp;" alt="Leicester City" class="" /></a></div>
+					<div class="dataZusatzDaten">
+						<span class="hauptpunkt" itemprop="affiliation"><a class="vereinprofil_tooltip" id="1003" href="/leicester-city/startseite/verein/1003">Leicester City</a></span><br />
+																											<span class="mediumpunkt">
+									<a href="/premier-league/startseite/wettbewerb/GB1">
+
+										<img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra" class="flaggenrahmen show-for-small" /><img src="https://tmssl.akamaized.net/images/logo/verytiny/gb1.png?lm=1521104656" title="Premier League" alt="Premier League" class="hide-for-small" />Premier League									</a>
+								</span>
+								<br />
+																							<span class="dataItem">Liga:</span>
+								<span class="dataValue">
+									<img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra" class="flaggenrahmen" />Primera División								</span>
+								
+							<br />
+																							Fichado: 03/08/2017								<br />
+								Contrato hasta 30/06/2022								<br />
+																		</div>
+				</div>
+										<div class="dataMarktwert">
+										<a href="/kelechi-iheanacho/marktwertverlauf/spieler/295330">15,00 <span class="waehrung">mill. €</span>					<p>Última revisión: 13/10/2020</p></a>
+				</div>
+				
+        </div>
+				    </div>
+</div>
+
+        <div class="banner sub-banner">
+        <a href="/whatsMyValue?cp=ES1" onclick="ga('send', 'event', 'banner', /whatsMyValue?cp=ES1, 'd-day-banner');"><img src="https://tmsi.akamaized.net/games/whatsmyvalue/new/WMV_Banner_Desktop_ES.jpg" alt="deadline-day banner"></a>
+    </div>
+            <div class="row hide-on-print" id="subnavi">
+        <div class="page_wrapper subnavi">
+            <div class="large-12 columns">
+                <div class="subnavi_box" id="subnavigation">
+                    <div class="submenu-text show-for-small">
+                        <a name="SubNavi" title="Navigation">
+                            <span>≡ Sub-navegación </span>
+                        </a>
+                    </div>
+                    <nav>
+                        <ul id="submenu">
+                                                        <li id="close_submenu" class="show-for-small">
+                                <div id="submenu-icon">
+                                    <span class="clicked"></span>
+                                    <span class="clicked"></span>
+                                </div>
+                                <a>Cerrar sub-navegación</a>
+                            </li>
+                                                                <li id="perfil" data-name="perfil" class="first-button aktiv ">
+                                        <a name="SubNavi" href="/kelechi-iheanacho/profil/spieler/295330" class="megamenu" onClick="ga('send','event','subnavigation_spieler','click','profil');
+">Perfil</a>
+                                                                            </li>
+                                                                        <li id="rendimiento" data-name="rendimiento" class="  ">
+                                        <a name="SubNavi" href="#subnavi" class="megamenu_drop" onClick="ga('send','event','subnavigation_spieler','click','leistungsdaten');
+">Rendimiento</a>
+                                        <div class="dropdown_fullwidth " title=""><div><img src="/images/bx_loader.gif" /></div></div>                                    </li>
+                                                                        <li id="valor-de-mercado" data-name="valor-de-mercado" class="  ">
+                                        <a name="SubNavi" href="/kelechi-iheanacho/marktwertverlauf/spieler/295330" class="megamenu" onClick="ga('send','event','subnavigation_spieler','click','marktwert');
+">Valor de mercado</a>
+                                                                            </li>
+                                                                        <li id="fichajes" data-name="fichajes" class="  ">
+                                        <a name="SubNavi" href="/kelechi-iheanacho/transfers/spieler/295330" class="megamenu" onClick="ga('send','event','subnavigation_spieler','click','transfers');
+">Fichajes</a>
+                                                                            </li>
+                                                                        <li id="rumores" data-name="rumores" class="  ">
+                                        <a name="SubNavi" href="/kelechi-iheanacho/geruechte/spieler/295330" class="megamenu" onClick="ga('send','event','subnavigation_spieler','click','geruchte');
+">Rumores</a>
+                                                                            </li>
+                                                                        <li id="seleccion" data-name="seleccion" class="  ">
+                                        <a name="SubNavi" href="/kelechi-iheanacho/nationalmannschaft/spieler/295330" class="megamenu" onClick="ga('send','event','subnavigation_spieler','click','nationalmannschaft');
+">Selección</a>
+                                                                            </li>
+                                                                        <li id="noticias" data-name="noticias" class="  ">
+                                        <a name="SubNavi" href="/kelechi-iheanacho/news/spieler/295330" class="megamenu" onClick="ga('send','event','subnavigation_spieler','click','news');
+">Noticias</a>
+                                                                            </li>
+                                                                        <li id="exitos" data-name="exitos" class="  ">
+                                        <a name="SubNavi" href="/kelechi-iheanacho/erfolge/spieler/295330" class="megamenu" onClick="ga('send','event','subnavigation_spieler','click','erfolge');
+">Éxitos</a>
+                                                                            </li>
+                                                                        <li id="carrera" data-name="carrera" class="  ">
+                                        <a name="SubNavi" href="#subnavi" class="megamenu_drop" onClick="ga('send','event','subnavigation_spieler','click','karriere');
+">Carrera</a>
+                                        <div class="dropdown_fullwidth " title=""><div><img src="/images/bx_loader.gif" /></div></div>                                    </li>
+                                                                        <li id="" data-name="subnavi-edit" class="  subnavi-edit">
+                                        <a name="SubNavi" href="#subnavi" class="megamenu_drop" onClick="ga('send','event','subnavigation_spieler','click','edit');
+"></a>
+                                        <div class="dropdown_fullwidth gasthinweis" title="Iniciar sesión o registrar"><div><img src="/images/bx_loader.gif" /></div></div>                                    </li>
+                                                            </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var stickySubTop = $('#subnavigation').offset().top;
+        stickySubTop = stickySubTop - 60;
+        var main = $("#main");
+        $(document).ready(function () {
+            $(window).on('scroll load', function () {
+                if (!main.hasClass("stickySubnavigation")) {
+                    stickySubTop = $('#subnavigation').offset().top;
+                }
+                if ($(window).scrollTop() > stickySubTop) {
+                    main.addClass("stickySubnavigation");
+                } else {
+                    main.removeClass("stickySubnavigation");
+                }
+            });
+        });
+    </script>
+    <style>
+        .forum-anchor {
+            margin-top: -80px;
+        }
+    </style>
+
+    <div class="row">
+	<div class="large-8 columns">
+		<div class="box spielerDatenContainer">
+    <div class="spielerDatenSliderThumbs swiper-container" data-groesse-id="2">
+        <div class="swiper-wrapper">
+			                <div class="swiper-slide spielerDatenSliderThumbnails  " id="leistungsdaten" data-id="1" data-groesse-id="2"
+                    onclick="ga('send', 'event', 'LDWidget', 'click', 'thumbnail leistungsdaten')">
+                    <span>Datos de rendimiento</span>
+                </div>
+				                <div class="swiper-slide spielerDatenSliderThumbnails  " id="galerie" data-id="2" data-groesse-id="2"
+                    onclick="ga('send', 'event', 'LDWidget', 'click', 'thumbnail galerie')">
+                    <span>Galería</span>
+                </div>
+				        </div>
+    </div>
+    <div class="spielerDatenSlider swiper-container">
+        <div class="spielerDatenSliderContent swiper-wrapper">
+			<div class="swiper-slide  swiper-slide-active">
+    <div class="leistungsdatenThumbsContainer">
+        <div class="swiper-container leistungsdatenThumbs">
+            <div class="swiper-wrapper">
+                                    <div
+                        class="flexCenter swiper-slide"
+                        onclick="ga('send', 'event', 'LDWidget', 'click', 'wettbewerbIcon GB1')">
+                        <img src="https://tmssl.akamaized.net/images/logo/normal/gb1.png?lm=1521104656" title="Premier League" alt="Premier League" class="" />                    </div>
+                                        <div
+                        class="flexCenter swiper-slide"
+                        onclick="ga('send', 'event', 'LDWidget', 'click', 'wettbewerbIcon EL')">
+                        <img src="https://tmssl.akamaized.net/images/logo/normal/el.png?lm=1520938734" title="Europa League" alt="Europa League" class="" />                    </div>
+                                        <div
+                        class="flexCenter swiper-slide"
+                        onclick="ga('send', 'event', 'LDWidget', 'click', 'wettbewerbIcon CGB')">
+                        <img src="https://tmssl.akamaized.net/images/logo/normal/cgb.png?lm=1566937342" title="EFL Cup" alt="EFL Cup" class="" />                    </div>
+                                </div>
+        </div>
+    </div>
+    <div class="leistungsdatenContent swiper-container">
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-id="GB1">
+                    <div class="leistungsdatenHeadline flexCenter">
+                        <h4><a href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/GB1/saison/2020">Premier League 20/21</a>                                                            <br>8 posibles partidos</h4>
+                    </div>
+                    <div class="tabelle">
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/Spiele.svg" alt="Partidos" />                            <span class="bezeichnung">Partidos</span>
+                            <a name="link spiele" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/GB1/saison/2020">
+                                <span class="wert">3</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/gelbe_karte.svg" alt="Tarjeta amarilla" />                            <span class="bezeichnung">Tarjetas amarillas</span>
+                            <a name="link gelbe-karten" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/GB1/saison/2020">
+                                <span class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/ball_blau.svg" alt="Goles" />                            <span
+                                class="bezeichnung">Goles</span>
+                            <a
+                               name="link Goles"
+                               href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/GB1/saison/2020">
+                                <span
+                                    class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/gelb_rote_karte.svg?v=2" alt="Segunda tarjeta amarilla" />                            <span class="bezeichnung">Segundas tarjetas amarillas</span>
+                            <a name="link gelbrote" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/GB1/saison/2020">
+                                <span class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/ball_gruen.svg" alt="Asistencias" />                            <span
+                                class="bezeichnung">Asistencias</span>
+                            <a
+                               name="link Asistencias"
+                               href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/GB1/saison/2020">
+                                <span
+                                    class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/rote_karte.svg" alt="Tarjetas rojas" />                            <span class="bezeichnung">Tarjetas rojas</span>
+                            <a name="link rote" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/GB1/saison/2020">
+                                <span class="wert">-</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="quoten">
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="13"
+                                 id="startelfquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Cuota XI inicial</p>
+                        </div>
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="14"
+                                 id="minutenquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Minutos jugados</p>
+                        </div>
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="0"
+                                 id="torquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Participaciones de gol</p>
+                        </div>
+                                                <div class="clearfix"></div>
+                        <a class="button" name="link Zu allen Detailierten Leistungsdaten" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/GB1/saison/2020">Datos de rendimiento detallados</a>                    </div>
+                </div>
+                                <div class="swiper-slide" data-id="EL">
+                    <div class="leistungsdatenHeadline flexCenter">
+                        <h4><a href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/EL/saison/2020">Europa League 20/21</a>                                                            <br>3 posibles partidos</h4>
+                    </div>
+                    <div class="tabelle">
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/Spiele.svg" alt="Partidos" />                            <span class="bezeichnung">Partidos</span>
+                            <a name="link spiele" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/EL/saison/2020">
+                                <span class="wert">3</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/gelbe_karte.svg" alt="Tarjeta amarilla" />                            <span class="bezeichnung">Tarjetas amarillas</span>
+                            <a name="link gelbe-karten" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/EL/saison/2020">
+                                <span class="wert">1</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/ball_blau.svg" alt="Goles" />                            <span
+                                class="bezeichnung">Goles</span>
+                            <a
+                               name="link Goles"
+                               href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/EL/saison/2020">
+                                <span
+                                    class="wert">3</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/gelb_rote_karte.svg?v=2" alt="Segunda tarjeta amarilla" />                            <span class="bezeichnung">Segundas tarjetas amarillas</span>
+                            <a name="link gelbrote" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/EL/saison/2020">
+                                <span class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/ball_gruen.svg" alt="Asistencias" />                            <span
+                                class="bezeichnung">Asistencias</span>
+                            <a
+                               name="link Asistencias"
+                               href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/EL/saison/2020">
+                                <span
+                                    class="wert">3</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/rote_karte.svg" alt="Tarjetas rojas" />                            <span class="bezeichnung">Tarjetas rojas</span>
+                            <a name="link rote" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/EL/saison/2020">
+                                <span class="wert">-</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="quoten">
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="67"
+                                 id="startelfquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Cuota XI inicial</p>
+                        </div>
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="60"
+                                 id="minutenquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Minutos jugados</p>
+                        </div>
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="66.666666666667"
+                                 id="torquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Participaciones de gol</p>
+                        </div>
+                                                <div class="clearfix"></div>
+                        <a class="button" name="link Zu allen Detailierten Leistungsdaten" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/EL/saison/2020">Datos de rendimiento detallados</a>                    </div>
+                </div>
+                                <div class="swiper-slide" data-id="CGB">
+                    <div class="leistungsdatenHeadline flexCenter">
+                        <h4><a href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/CGB/saison/2020">EFL Cup 20/21</a>                                                            <br>1 posible partido</h4>
+                    </div>
+                    <div class="tabelle">
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/Spiele.svg" alt="Partidos" />                            <span class="bezeichnung">Partidos</span>
+                            <a name="link spiele" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/CGB/saison/2020">
+                                <span class="wert">1</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/gelbe_karte.svg" alt="Tarjeta amarilla" />                            <span class="bezeichnung">Tarjetas amarillas</span>
+                            <a name="link gelbe-karten" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/CGB/saison/2020">
+                                <span class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/ball_blau.svg" alt="Goles" />                            <span
+                                class="bezeichnung">Goles</span>
+                            <a
+                               name="link Goles"
+                               href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/CGB/saison/2020">
+                                <span
+                                    class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/gelb_rote_karte.svg?v=2" alt="Segunda tarjeta amarilla" />                            <span class="bezeichnung">Segundas tarjetas amarillas</span>
+                            <a name="link gelbrote" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/CGB/saison/2020">
+                                <span class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/ball_gruen.svg" alt="Asistencias" />                            <span
+                                class="bezeichnung">Asistencias</span>
+                            <a
+                               name="link Asistencias"
+                               href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/CGB/saison/2020">
+                                <span
+                                    class="wert">-</span>
+                            </a>
+                        </div>
+                        <div class="zeile">
+                            <img src="https://tmsi.akamaized.net/icons/rote_karte.svg" alt="Tarjetas rojas" />                            <span class="bezeichnung">Tarjetas rojas</span>
+                            <a name="link rote" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/CGB/saison/2020">
+                                <span class="wert">-</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="quoten">
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="100"
+                                 id="startelfquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Cuota XI inicial</p>
+                        </div>
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="100"
+                                 id="minutenquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Minutos jugados</p>
+                        </div>
+                        <div class="large-4 small-4 column flexCenter">
+                            <div class="progress-pie-chart"
+                                 data-percent="0"
+                                 id="torquote">
+                                <div class="ppc-progress">
+                                    <div class="ppc-progress-fill"></div>
+                                </div>
+                                <div class="ppc-percents flexCenter">
+                                    <div class="pcc-percents-wrapper">
+                                        <span class="value"></span>
+                                        <span class="percent">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="hide-for-small">Participaciones de gol</p>
+                        </div>
+                                                <div class="clearfix"></div>
+                        <a class="button" name="link Zu allen Detailierten Leistungsdaten" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/wettbewerb/CGB/saison/2020">Datos de rendimiento detallados</a>                    </div>
+                </div>
+                        </div>
+        <div class="swiper-button-next perfomance-slider"></div>
+        <div class="swiper-button-prev perfomance-slider"></div>
+    </div>
+</div>
+
+    <script>
+        var anzahlWettbewerbPerSlide = 3    </script>
+    
+<div class="galerie-content swiper-slide  swiper-slide-active">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <img data-src="https://tmssl.akamaized.net/images/foto/normal/kelechi-iheanacho-leicester-city-1571740121-26790.jpg"
+                         class="swiper-lazy" alt="">
+                    <div class="swiper-lazy-preloader"></div>
+                    <div class="premium-profil-quelle">
+                        imago images                    </div>
+                </div>
+                                <div class="swiper-slide">
+                    <img data-src="https://tmssl.akamaized.net/images/foto/normal/iheanacho-1487776580-8545.jpg"
+                         class="swiper-lazy" alt="">
+                    <div class="swiper-lazy-preloader"></div>
+                    <div class="premium-profil-quelle">
+                        imago images                    </div>
+                </div>
+                        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<div class="box">
+    <div class="subkategorie-header">
+        <h2>Ficha del jugador</h2>
+    </div>
+    <div class="row collapse">
+        <div class="large-6 large-push-6 small-12 columns">
+                        <div class="weitere-daten-spielerprofil">
+                                    <div class="blauerbalken"><span>Posición en detalle</span></div>
+                    <div class="detailpositionen">
+                        <div class="row collapse">
+                            <div class="large-5 columns infos small-12">
+                                <div class="auflistung">
+                                                                            <div class="hauptposition-left">
+                                                    <span>Posición principal                                                         :</span><br/>Delantero centro                                        </div>
+                                                                                <div class="nebenpositionen">
+                                            <span>Posición secundaria:</span>
+                                                                                            <br/>Mediapunta                                                                                        </div>
+                                                                        </div>
+                            </div>
+                            <div class="large-7 columns feld small-12">
+                                                                    <img src="/images/icons/pos_gross.png"
+                                         class="hauptposition_14"
+                                         title="Delantero centro"/>
+                                                                        <img src="/images/icons/pos_klein.png"
+                                         class="nebenposition_13"
+                                         title="Mediapunta"/>
+                                                                </div>
+                        </div>
+                    </div>
+                                        <div class="blauerbalken"><span>Valor de mercado</span></div>
+                    <div class="marktwertentwicklung">
+                        <div class="row collapse">
+                            <div class="large-5 columns small-12">
+                                <div class="auflistung">
+                                    <div class="zeile-oben">
+                                        <div class="left-td">
+                                            Valor de mercado actual:
+                                        </div>
+                                        <div class="right-td">
+                                            15,00 mill. €                                                                                    </div>
+                                    </div>
+                                    <div class="zeile-mitte">
+                                        <div class="left-td">
+                                            <span>Última revisión:</span>
+                                        </div>
+                                        <div class="right-td">
+                                            <span>13/10/2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="zeile-unten">
+                                        <div class="left-td">
+                                            Valor más alto:
+                                            <span class="show-for-small">Última revisión                                                        :</span>
+                                        </div>
+                                        <div class="right-td">
+                                            15,00 mill. €                                            <br class="hide-for-small">
+                                            <span>28/06/2017</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="large-7 columns small-12 marktwertentwicklung-graph">
+                                <a href="/kelechi-iheanacho/marktwertverlauf/spieler/295330">	<div id="yw0"></div></a>
+                            </div>
+                        </div>
+                        <div class="c2action-footer">
+							<a title="Kelechi Iheanacho" class="spielprofil_tooltip" id="295330" href="/kelechi-iheanacho/marktwertverlauf/spieler/295330">Ver página de valores detallados</a>                        </div>
+                    </div>
+                                </div>
+        </div>
+        <div class="large-6 large-pull-6 small-12 columns spielerdatenundfakten">
+            <div class="blauerbalken show-for-small"><span>Información y cifras</span>
+            </div>
+            <div class="spielerdaten ">
+                <table class="auflistung">
+                                            <tr>
+                            <th>Nombre en país de origen:</th>
+                            <td>Kelechi Promise Iheanacho</td>
+                        </tr>
+                                                <tr>
+                            <th>Fecha de nacimiento:</th>
+                            <td><a href="/aktuell/waspassiertheute/aktuell/new/datum/1996-10-03">03/10/1996</a>                                </td>
+                        </tr>
+                                                <tr>
+                            <th>Lugar de nacimiento:</th>
+                            <td>
+                                 <span >Imo&nbsp;&nbsp;<img src="https://tmssl.akamaized.net/images/flagge/tiny/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen" /></span>                            </td>
+                        </tr>
+                                                                                            <tr>
+                                <th>Edad:</th>
+                                <td>24</td>
+                            </tr>
+                                                                                        <tr>
+                            <th>Altura:</th>
+                            <td>1,85&nbsp;m</td>
+                        </tr>
+                                                                                    <tr>
+                            <th>Nacionalidad:</th>
+                            <td>
+                                <img src="https://tmssl.akamaized.net/images/flagge/tiny/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen" />&nbsp;&nbsp;Nigeria                            </td>
+                        </tr>
+                                        <tr>
+                        <th>Posición:</th>
+                        <td>
+                            Delantero - Delantero centro                        </td>
+                    </tr>
+                                            <tr>
+                            <th>Pie:</th>
+                            <td>izquierdo</td>
+                        </tr>
+                                                                <tr>
+                            <th>Agente:</th>
+                            <td>
+                                                                    <a href="/stellar-football-ltd/beraterfirma/berater/190">Stellar Football Ltd</a>                                                            </td>
+                        </tr>
+                                        <tr>
+                        <th>
+                            Club actual:
+                        </th>
+                        <td>
+                            <a class="vereinprofil_tooltip" id="1003" href="/leicester-city/startseite/verein/1003"><img src="https://tmssl.akamaized.net/images/wappen/tiny/1003.png?lm=1472229265" title="&nbsp;" alt="Leicester City" class="tiny_wappen" /></a>                            <a class="vereinprofil_tooltip" id="1003" href="/leicester-city/startseite/verein/1003">Leicester City</a>                        </td>
+                    </tr>
+                                            <tr>
+                            <th>Fichado:</th>
+                            <td>
+                                03/08/2017                            </td>
+                        </tr>
+                        <tr>
+                            <th>Contrato hasta:</th>
+                            <td>30/06/2022</td>
+                        </tr>
+                                                                    <tr>
+                            <th>Proveedor:</th>
+                            <td>Nike</td>
+                        </tr>
+                                            <tr class="hide-for-small">
+                            <th>Redes sociales:</th>
+                            <td><div class="socialmedia-icons">
+			<a href="http://twitter.com/67kelechi"
+		   target="_blank" title="Twitter">
+			<img src="https://tmsi.akamaized.net/icons/twitter.svg" alt="" />		</a>
+			<a href="http://www.instagram.com/kelechi72"
+		   target="_blank" title="Instagram">
+			<img src="https://tmsi.akamaized.net/icons/instagram.svg" alt="" />		</a>
+	</div></td>
+                        </tr>
+                                        </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box">
+    <div class="subkategorie-header">
+        <span class="headerueberschrift">Otros datos</span>
+    </div>
+    <div class="content">
+		Kelechi Iheanacho es el tío de <a title="Lateef Omidiji" class="spielprofil_tooltip" id="498210" href="/lateef-omidiji/profil/spieler/498210">Lateef Omidiji</a> (<a class="vereinprofil_tooltip" id="74945" href="/sportclub-deventer/startseite/verein/74945">Sportclub Deventer</a>).<br /><br />    </div>
+</div>
+<div class="box transferhistorie">
+    <div class="subkategorie-header">
+		<h2>Historial de fichajes</h2>
+    </div>
+    <div class="responsive-table">
+        <table>
+            <thead>
+            <tr>
+                <th class="zentriert hide-for-small">Temporada</th>
+                <th class="zentriert hide-for-small">Dato</th>
+                <th colspan="3" class="hide-for-small">Último club</th>
+                <th colspan="2" class="show-for-small">Desde el club</th>
+                <th colspan="3" class="hide-for-small">Nuevo club</th>
+                <th colspan="2" class="show-for-small">Al club</th>
+                <th class="zelle-mw">Valor</th>
+
+                <th class="zelle-abloese">Coste</th>
+                <th class="zentriert hide-for-small">&nbsp;</th>
+            </tr>
+            </thead>
+            <tbody>
+							                <tr class="show-for-small-table-row ueberzeile">
+                    <td colspan="7" class="show-for-small"><span
+                                class="fb">Dato: </span>03/08/2017                    </td>
+                </tr>
+                <tr class="zeile-transfer" >
+                    <td class="zentriert hide-for-small">17/18</td>
+                    <td class="zentriert hide-for-small">03/08/2017</td>
+                    <td class="no-border-rechts vereinswappen">
+						<a class="vereinprofil_tooltip" id="281" href="/manchester-city/transfers/verein/281/saison_id/2017"><img src="https://tmssl.akamaized.net/images/wappen/tiny/281.png?lm=1467356331" title="&nbsp;" alt="Manchester City" class="tiny_wappen" /></a>                    </td>
+                    <td class="no-border-rechts no-border-links flagge hide-for-small">
+						<img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra" class="flaggenrahmen" />                    </td>
+                    <td class="hauptlink no-border-links show-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="281" href="/manchester-city/transfers/verein/281/saison_id/2017">MCI</a>                    </td>
+                    <td class="hauptlink no-border-links hide-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="281" href="/manchester-city/transfers/verein/281/saison_id/2017">Manchester City</a>                    </td>
+                    <td class="no-border-rechts vereinswappen">
+						<a class="vereinprofil_tooltip" id="1003" href="/leicester-city/transfers/verein/1003/saison_id/2017"><img src="https://tmssl.akamaized.net/images/wappen/tiny/1003.png?lm=1472229265" title="&nbsp;" alt="Leicester City" class="tiny_wappen" /></a>                    </td>
+                    <td class="no-border-rechts no-border-links flagge hide-for-small">
+						<img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra" class="flaggenrahmen" />                    </td>
+                    <td class="hauptlink no-border-links show-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="1003" href="/leicester-city/transfers/verein/1003/saison_id/2017">LEI</a>                    </td>
+                    <td class="hauptlink no-border-links hide-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="1003" href="/leicester-city/transfers/verein/1003/saison_id/2017">Leicester City</a>                    </td>
+                    <td class="zelle-mw">15,00 mill. €</td>
+
+                    <td class="zelle-abloese">27,70 mill. €</td>
+                    <td class="zentriert hide-for-small">
+                        <a href="/kelechi-iheanacho/transfers/spieler/295330/transfer_id/1866276">
+                            <img src="/images/pfeil_rechts_blau_k.png"/>
+                        </a>
+                    </td>
+                </tr>
+
+								                <tr class="show-for-small-table-row ueberzeile">
+                    <td colspan="7" class="show-for-small"><span
+                                class="fb">Dato: </span>01/07/2015                    </td>
+                </tr>
+                <tr class="zeile-transfer" >
+                    <td class="zentriert hide-for-small">15/16</td>
+                    <td class="zentriert hide-for-small">01/07/2015</td>
+                    <td class="no-border-rechts vereinswappen">
+						<a class="vereinprofil_tooltip" id="6930" href="/manchester-city-u18/transfers/verein/6930/saison_id/2015"><img src="https://tmssl.akamaized.net/images/wappen/tiny/9265_1469811032.png?lm=1469811032" title="&nbsp;" alt="Manchester City U18" class="" /></a>                    </td>
+                    <td class="no-border-rechts no-border-links flagge hide-for-small">
+						<img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra" class="flaggenrahmen" />                    </td>
+                    <td class="hauptlink no-border-links show-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="6930" href="/manchester-city-u18/transfers/verein/6930/saison_id/2015">MCI 18</a>                    </td>
+                    <td class="hauptlink no-border-links hide-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="6930" href="/manchester-city-u18/transfers/verein/6930/saison_id/2015">Man City U18</a>                    </td>
+                    <td class="no-border-rechts vereinswappen">
+						<a class="vereinprofil_tooltip" id="281" href="/manchester-city/transfers/verein/281/saison_id/2015"><img src="https://tmssl.akamaized.net/images/wappen/tiny/281_1467356275.png?lm=1467356275" title="&nbsp;" alt="Manchester City" class="" /></a>                    </td>
+                    <td class="no-border-rechts no-border-links flagge hide-for-small">
+						<img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra" class="flaggenrahmen" />                    </td>
+                    <td class="hauptlink no-border-links show-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="281" href="/manchester-city/transfers/verein/281/saison_id/2015">MCI</a>                    </td>
+                    <td class="hauptlink no-border-links hide-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="281" href="/manchester-city/transfers/verein/281/saison_id/2015">Manchester City</a>                    </td>
+                    <td class="zelle-mw">100 mil €</td>
+
+                    <td class="zelle-abloese">-</td>
+                    <td class="zentriert hide-for-small">
+                        <a href="/kelechi-iheanacho/transfers/spieler/295330/transfer_id/1427143">
+                            <img src="/images/pfeil_rechts_blau_k.png"/>
+                        </a>
+                    </td>
+                </tr>
+
+								                <tr class="show-for-small-table-row ueberzeile">
+                    <td colspan="7" class="show-for-small"><span
+                                class="fb">Dato: </span>10/01/2014                    </td>
+                </tr>
+                <tr class="zeile-transfer" >
+                    <td class="zentriert hide-for-small">13/14</td>
+                    <td class="zentriert hide-for-small">10/01/2014</td>
+                    <td class="no-border-rechts vereinswappen">
+						<a class="vereinprofil_tooltip" id="42049" href="/taye-academy-owerri/transfers/verein/42049/saison_id/2013"><img src="https://tmssl.akamaized.net/images/wappen/tiny/default.png?lm=1457423031" title="&nbsp;" alt="Taye Academy Owerri" class="tiny_wappen" /></a>                    </td>
+                    <td class="no-border-rechts no-border-links flagge hide-for-small">
+						<img src="https://tmssl.akamaized.net/images/flagge/tiny/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen" />                    </td>
+                    <td class="hauptlink no-border-links show-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="42049" href="/taye-academy-owerri/transfers/verein/42049/saison_id/2013">Taye A</a>                    </td>
+                    <td class="hauptlink no-border-links hide-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="42049" href="/taye-academy-owerri/transfers/verein/42049/saison_id/2013">Taye Academy</a>                    </td>
+                    <td class="no-border-rechts vereinswappen">
+						<a class="vereinprofil_tooltip" id="6930" href="/manchester-city-u18/transfers/verein/6930/saison_id/2013"><img src="https://tmssl.akamaized.net/images/wappen/tiny/9265_1469811032.png?lm=1469811032" title="&nbsp;" alt="Manchester City U18" class="" /></a>                    </td>
+                    <td class="no-border-rechts no-border-links flagge hide-for-small">
+						<img src="https://tmssl.akamaized.net/images/flagge/tiny/189.png?lm=1520611569" title="Inglaterra" alt="Inglaterra" class="flaggenrahmen" />                    </td>
+                    <td class="hauptlink no-border-links show-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="6930" href="/manchester-city-u18/transfers/verein/6930/saison_id/2013">MCI 18</a>                    </td>
+                    <td class="hauptlink no-border-links hide-for-small vereinsname">
+						<a class="vereinprofil_tooltip" id="6930" href="/manchester-city-u18/transfers/verein/6930/saison_id/2013">Man City U18</a>                    </td>
+                    <td class="zelle-mw">-</td>
+
+                    <td class="zelle-abloese">1,10 mill. €</td>
+                    <td class="zentriert hide-for-small">
+                        <a href="/kelechi-iheanacho/transfers/spieler/295330/transfer_id/991857">
+                            <img src="/images/pfeil_rechts_blau_k.png"/>
+                        </a>
+                    </td>
+                </tr>
+
+				            </tbody>
+            <tfoot>
+            <tr>
+                <td class="rechts hide-for-small" colspan="9">Coste total                    :
+                </td>
+                <td class="rechts show-for-small" colspan="5">Coste total                    :
+                </td>
+                <td class="rechts">28,80 mill. €</td>
+                <td class="zentriert hide-for-small">&nbsp;</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+    <div class="box">
+        <div class="subkategorie-header">
+            <span class="headerueberschrift">Clubes juveniles</span>
+        </div>
+        <div class="content">
+			Taye Academy        </div>
+    </div>
+	            <script src="//player.daznservices.com/player.js#6f0c211a1a3ebee869510a642a.qhcy7srjtfqs12e5txms5dxtj"
+                    async></script>
+            <div class="box">
+    <div class="subkategorie-header">
+		<h2>
+            Rendimiento 20/21        </h2>
+    </div>
+	<div id="yw2" class="grid-view">
+<div class="summary"></div>
+<table class="items">
+<thead>
+<tr>
+<th colspan="2" class="hide-for-small" id="yw2_c0"><a class="sort-link" href="/kelechi-iheanacho/profil/spieler/295330/sort/wettbewerb">Competición </a></th><th class="hide" id="yw2_c1"><a class="sort-link" href="/kelechi-iheanacho/profil/spieler/295330/sort/wettbewerb">wettbewerb</a></th><th class="zentriert" id="yw2_c2"><a class="sort-link" href="/kelechi-iheanacho/profil/spieler/295330/sort/einsaetze.desc"><span class="icons_sprite icon-einsaetze-table-header" title="Alineaciones">&nbsp;</span></a></th><th class="zentriert" id="yw2_c3"><a class="sort-link" href="/kelechi-iheanacho/profil/spieler/295330/sort/tore.desc"><span class="icons_sprite icon-tor-table-header" title="Goles">&nbsp;</span></a></th><th class="zentriert" id="yw2_c4"><a class="sort-link" href="/kelechi-iheanacho/profil/spieler/295330/sort/vorlagen.desc"><span class="icons_sprite icon-vorlage-table-header" title="Pases de gol">&nbsp;</span></a></th><th class="zentriert" id="yw2_c5"><a class="sort-link" href="/kelechi-iheanacho/profil/spieler/295330/sort/minuten_pro_tor.desc"><span class="icons_sprite icon-minuteprotor-table-header" title="Minutos por gol">&nbsp;</span></a></th><th class="zentriert" id="yw2_c6"><a class="sort-link" href="/kelechi-iheanacho/profil/spieler/295330/sort/einsatzzeit.desc"><span class="icons_sprite icon-minuten-table-header" title="Minutos jugados">&nbsp;</span></a></th></tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="2" class="rechts hide-for-small">Total :</td><td class="hide hide-for-small">&nbsp;</td><td class="zentriert">7</td><td class="zentriert">3</td><td class="zentriert">3</td><td class="zentriert">118</td><td class="zentriert">355</td></tr>
+</tfoot>
+<tbody>
+<tr><td class="extrarow ueberzeile hauptlink show-for-small tabellen-wappen" colspan="7"><img src="https://tmssl.akamaized.net/images/logo/tiny/el.png?lm=1520938734" title="Europa League" alt="Europa League" class="" /><a title="Europa League" href="/europa-league/startseite/pokalwettbewerb/EL">Europa League</a></td></tr><tr class="odd"><td class="hauptlink no-border-rechts hide-for-small"><img src="https://tmssl.akamaized.net/images/logo/tiny/el.png?lm=1520938734" title="Europa League" alt="Europa League" class="" /></td><td class="hauptlink no-border-links hide-for-small"><a title="Europa League" href="/europa-league/startseite/pokalwettbewerb/EL">Europa League</a></td><td class="zentriert"><a title="Kelechi Iheanacho" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/saison/2020/wettbewerb/EL/verein/1003">3</a></td><td class="zentriert">3</td><td class="zentriert">3</td><td class="zentriert">54</td><td class="zentriert">163</td></tr>
+<tr><td class="extrarow ueberzeile hauptlink show-for-small tabellen-wappen" colspan="7"><img src="https://tmssl.akamaized.net/images/logo/tiny/gb1.png?lm=1521104656" title="Premier League" alt="Premier League" class="" /><a title="Premier League" href="/premier-league/startseite/wettbewerb/GB1">Premier League</a></td></tr><tr class="even"><td class="hauptlink no-border-rechts hide-for-small"><img src="https://tmssl.akamaized.net/images/logo/tiny/gb1.png?lm=1521104656" title="Premier League" alt="Premier League" class="" /></td><td class="hauptlink no-border-links hide-for-small"><a title="Premier League" href="/premier-league/startseite/wettbewerb/GB1">Premier League</a></td><td class="zentriert"><a title="Kelechi Iheanacho" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/saison/2020/wettbewerb/GB1/verein/1003">3</a></td><td class="zentriert">-</td><td class="zentriert">-</td><td class="zentriert">-</td><td class="zentriert">102</td></tr>
+<tr><td class="extrarow ueberzeile hauptlink show-for-small tabellen-wappen" colspan="7"><img src="https://tmssl.akamaized.net/images/logo/tiny/cgb.png?lm=1566937342" title="EFL Cup" alt="EFL Cup" class="" /><a title="EFL Cup" href="/league-cup/startseite/pokalwettbewerb/CGB">EFL Cup</a></td></tr><tr class="odd"><td class="hauptlink no-border-rechts hide-for-small"><img src="https://tmssl.akamaized.net/images/logo/tiny/cgb.png?lm=1566937342" title="EFL Cup" alt="EFL Cup" class="" /></td><td class="hauptlink no-border-links hide-for-small"><a title="EFL Cup" href="/league-cup/startseite/pokalwettbewerb/CGB">EFL Cup</a></td><td class="zentriert"><a title="Kelechi Iheanacho" href="/kelechi-iheanacho/leistungsdatendetails/spieler/295330/saison/2020/wettbewerb/CGB/verein/1003">1</a></td><td class="zentriert">-</td><td class="zentriert">-</td><td class="zentriert">-</td><td class="zentriert">90</td></tr>
+</tbody>
+</table>
+<div class="keys" style="display:none" title="/kelechi-iheanacho/profil/spieler/295330"><span>Europa League</span><span>Premier League</span><span>EFL Cup</span></div>
+</div>    <div class="c2action-footer">
+		<a title="Kelechi Iheanacho" class="" id="295330" href="/kelechi-iheanacho/leistungsdaten/spieler/295330">Datos de rendimiento detallados</a>    </div>
+</div>
+<div id="recommender" class="box" >
+    <div class="OUTBRAIN" data-src="" data-widget-id="AR_1" data-ob-template="DE_Transfermarkt.de" ></div>
+	<script type="text/javascript" src="https://widgets.outbrain.com/outbrain.js"></script>
+</div>
+	</div>
+	<div class="large-4 columns">
+        		
+<div class="werbung werbung-rectangle1">
+	<!-- DFPV2 -->
+	<div id="Rectangle1" >
+	<script>
+		googletag.cmd.push(function() { googletag.display('Rectangle1'); });
+	</script>
+	</div>
+</div>
+            <script type="module" src="https://tmsi.akamaized.net/js/next-matches/tm-next-matches.esm.js?v=4"></script>
+            <script nomodule="" src="https://tmsi.akamaized.net/js/next-matches/tm-next-matches.js?v=4"></script><tm-next-matches headline="Próximos encuentros" locale='es' lang="es" raw-data="{&quot;matches&quot;:[{&quot;id&quot;:&quot;3281266&quot;,&quot;competition&quot;:&quot;Afrika Cup Quali&quot;,&quot;competitionId&quot;:&quot;AFCQ&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/afrika-cup-quali\/startseite\/pokalwettbewerb\/AFCQ&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3281266&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/pokalwettbewerb\/AFCQ\/saison_id\/2019\/spieltag\/6\/gruppe\/L&quot;,&quot;day&quot;:&quot;6&quot;,&quot;time&quot;:1605628800,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;6187&quot;,&quot;away&quot;:&quot;3444&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;,&quot;group&quot;:&quot;Grupo L&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421757&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421757&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/9&quot;,&quot;day&quot;:&quot;9&quot;,&quot;time&quot;:1606072500,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;31&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3462330&quot;,&quot;competition&quot;:&quot;Europa League&quot;,&quot;competitionId&quot;:&quot;EL&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/europa-league\/startseite\/pokalwettbewerb\/EL&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3462330&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/pokalwettbewerb\/EL\/saison_id\/2020\/spieltag\/4\/gruppe\/G&quot;,&quot;day&quot;:&quot;4&quot;,&quot;time&quot;:1606413300,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1075&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;,&quot;group&quot;:&quot;Grupo G&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421768&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421768&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/10&quot;,&quot;day&quot;:&quot;10&quot;,&quot;time&quot;:1606757400,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;931&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3462353&quot;,&quot;competition&quot;:&quot;Europa League&quot;,&quot;competitionId&quot;:&quot;EL&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/europa-league\/startseite\/pokalwettbewerb\/EL&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3462353&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/pokalwettbewerb\/EL\/saison_id\/2020\/spieltag\/5\/gruppe\/G&quot;,&quot;day&quot;:&quot;5&quot;,&quot;time&quot;:1607018100,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;10690&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;,&quot;group&quot;:&quot;Grupo G&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421779&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421779&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/11&quot;,&quot;day&quot;:&quot;11&quot;,&quot;time&quot;:1607180400,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;350&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3462389&quot;,&quot;competition&quot;:&quot;Europa League&quot;,&quot;competitionId&quot;:&quot;EL&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/europa-league\/startseite\/pokalwettbewerb\/EL&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3462389&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/pokalwettbewerb\/EL\/saison_id\/2020\/spieltag\/6\/gruppe\/G&quot;,&quot;day&quot;:&quot;6&quot;,&quot;time&quot;:1607630400,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;2441&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;,&quot;group&quot;:&quot;Grupo G&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421788&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421788&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/12&quot;,&quot;day&quot;:&quot;12&quot;,&quot;time&quot;:1607871600,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;1237&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421797&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421797&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/13&quot;,&quot;day&quot;:&quot;13&quot;,&quot;time&quot;:1608061500,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;29&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421811&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421811&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/14&quot;,&quot;day&quot;:&quot;14&quot;,&quot;time&quot;:1608390000,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;148&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421817&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421817&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/15&quot;,&quot;day&quot;:&quot;15&quot;,&quot;time&quot;:1608994800,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;985&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421826&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421826&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/16&quot;,&quot;day&quot;:&quot;16&quot;,&quot;time&quot;:1609167600,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;873&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421839&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421839&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/17&quot;,&quot;day&quot;:&quot;17&quot;,&quot;time&quot;:1609599600,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;762&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421847&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421847&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/18&quot;,&quot;day&quot;:&quot;18&quot;,&quot;time&quot;:1610480700,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;631&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3421857&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3421857&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/19&quot;,&quot;day&quot;:&quot;19&quot;,&quot;time&quot;:1610809200,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;180&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429685&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429685&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/20&quot;,&quot;day&quot;:&quot;20&quot;,&quot;time&quot;:1611690300,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;29&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429698&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429698&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/21&quot;,&quot;day&quot;:&quot;21&quot;,&quot;time&quot;:1612018800,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;399&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429705&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429705&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/22&quot;,&quot;day&quot;:&quot;22&quot;,&quot;time&quot;:1612295100,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;931&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429722&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429722&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/23&quot;,&quot;day&quot;:&quot;23&quot;,&quot;time&quot;:1612623600,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;543&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429728&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429728&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/24&quot;,&quot;day&quot;:&quot;24&quot;,&quot;time&quot;:1613228400,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;31&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429734&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429734&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/25&quot;,&quot;day&quot;:&quot;25&quot;,&quot;time&quot;:1613833200,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;405&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429747&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429747&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/26&quot;,&quot;day&quot;:&quot;26&quot;,&quot;time&quot;:1614438000,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;11&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429754&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429754&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/27&quot;,&quot;day&quot;:&quot;27&quot;,&quot;time&quot;:1615042800,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1237&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429768&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429768&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/28&quot;,&quot;day&quot;:&quot;28&quot;,&quot;time&quot;:1615647600,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;350&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429774&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429774&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/29&quot;,&quot;day&quot;:&quot;29&quot;,&quot;time&quot;:1616252400,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1132&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3281300&quot;,&quot;competition&quot;:&quot;Afrika Cup Quali&quot;,&quot;competitionId&quot;:&quot;AFCQ&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/afrika-cup-quali\/startseite\/pokalwettbewerb\/AFCQ&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3281300&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/pokalwettbewerb\/AFCQ\/saison_id\/2019\/spieltag\/7\/gruppe\/L&quot;,&quot;day&quot;:&quot;7&quot;,&quot;time&quot;:1616367600,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;3955&quot;,&quot;away&quot;:&quot;3444&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;,&quot;group&quot;:&quot;Grupo L&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3281327&quot;,&quot;competition&quot;:&quot;Afrika Cup Quali&quot;,&quot;competitionId&quot;:&quot;AFCQ&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/afrika-cup-quali\/startseite\/pokalwettbewerb\/AFCQ&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3281327&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/pokalwettbewerb\/AFCQ\/saison_id\/2019\/spieltag\/8\/gruppe\/L&quot;,&quot;day&quot;:&quot;8&quot;,&quot;time&quot;:1617055200,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;3444&quot;,&quot;away&quot;:&quot;13962&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;,&quot;group&quot;:&quot;Grupo L&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429788&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429788&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/30&quot;,&quot;day&quot;:&quot;30&quot;,&quot;time&quot;:1617458400,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;281&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429802&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429802&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/31&quot;,&quot;day&quot;:&quot;31&quot;,&quot;time&quot;:1618063200,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;379&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429808&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429808&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/32&quot;,&quot;day&quot;:&quot;32&quot;,&quot;time&quot;:1618668000,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;984&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429817&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429817&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/33&quot;,&quot;day&quot;:&quot;33&quot;,&quot;time&quot;:1619272800,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;873&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429830&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429830&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/34&quot;,&quot;day&quot;:&quot;34&quot;,&quot;time&quot;:1619877600,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;180&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429837&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429837&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/35&quot;,&quot;day&quot;:&quot;35&quot;,&quot;time&quot;:1620482400,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;762&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429846&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429846&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/36&quot;,&quot;day&quot;:&quot;36&quot;,&quot;time&quot;:1620759600,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;985&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429855&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429855&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/37&quot;,&quot;day&quot;:&quot;37&quot;,&quot;time&quot;:1621087200,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;631&quot;,&quot;away&quot;:&quot;1003&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false},{&quot;id&quot;:&quot;3429867&quot;,&quot;competition&quot;:&quot;Premier League&quot;,&quot;competitionId&quot;:&quot;GB1&quot;,&quot;competitionLink&quot;:&quot;https:\/\/www.transfermarkt.es\/premier-league\/startseite\/wettbewerb\/GB1&quot;,&quot;match&quot;:{&quot;link&quot;:&quot;\/spielbericht\/index\/spielbericht\/3429867&quot;,&quot;dayLink&quot;:&quot;\/wettbewerb\/spieltag\/wettbewerb\/GB1\/saison_id\/2020\/spieltag\/38&quot;,&quot;day&quot;:&quot;38&quot;,&quot;time&quot;:1621782000,&quot;result&quot;:&quot;-:-&quot;,&quot;home&quot;:&quot;1003&quot;,&quot;away&quot;:&quot;148&quot;,&quot;injury&quot;:null,&quot;suspension&quot;:null,&quot;state&quot;:&quot;Fixture&quot;},&quot;skyIntegration&quot;:false,&quot;daznIntegration&quot;:false}],&quot;imgHost&quot;:&quot;https:\/\/tmsi.akamaized.net&quot;,&quot;content&quot;:{&quot;group&quot;:&quot;Grupo&quot;,&quot;matchDay&quot;:&quot; Jornada&quot;},&quot;teams&quot;:{&quot;6187&quot;:{&quot;name&quot;:&quot;Sierra Leona&quot;,&quot;link&quot;:&quot;\/sierra-leone\/startseite\/verein\/6187&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/flagge\/homepageWappen70x70\/152.png?lm=1520611569&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/6187.png?lm=1403452489&quot;,&quot;isNT&quot;:true},&quot;3444&quot;:{&quot;name&quot;:&quot;Nigeria&quot;,&quot;link&quot;:&quot;\/nigeria\/startseite\/verein\/3444&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/flagge\/homepageWappen70x70\/124.png?lm=1520611569&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/3444.png?lm=1402571016&quot;,&quot;isNT&quot;:true},&quot;31&quot;:{&quot;name&quot;:&quot;Liverpool&quot;,&quot;link&quot;:&quot;\/fc-liverpool\/startseite\/verein\/31&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/31.png?lm=1456567819&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/31.png?lm=1456567819&quot;,&quot;isNT&quot;:false},&quot;1003&quot;:{&quot;name&quot;:&quot;Leicester City&quot;,&quot;link&quot;:&quot;\/leicester-city\/startseite\/verein\/1003&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/1003.png?lm=1472229265&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/1003.png?lm=1472229265&quot;,&quot;isNT&quot;:false},&quot;1075&quot;:{&quot;name&quot;:&quot;Braga&quot;,&quot;link&quot;:&quot;\/sc-braga\/startseite\/verein\/1075&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/1075.png?lm=1432893871&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/1075.png?lm=1432893871&quot;,&quot;isNT&quot;:false},&quot;931&quot;:{&quot;name&quot;:&quot;Fulham&quot;,&quot;link&quot;:&quot;\/fc-fulham\/startseite\/verein\/931&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/931.png?lm=1556831687&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/931.png?lm=1556831687&quot;,&quot;isNT&quot;:false},&quot;10690&quot;:{&quot;name&quot;:&quot;Zorya Lugansk&quot;,&quot;link&quot;:&quot;\/zorya-lugansk\/startseite\/verein\/10690&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/10690.png?lm=1517128409&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/10690.png?lm=1517128409&quot;,&quot;isNT&quot;:false},&quot;350&quot;:{&quot;name&quot;:&quot;Sheffield Utd.&quot;,&quot;link&quot;:&quot;\/sheffield-united\/startseite\/verein\/350&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/350.png?lm=1409254138&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/350.png?lm=1409254138&quot;,&quot;isNT&quot;:false},&quot;2441&quot;:{&quot;name&quot;:&quot;AEK Atenas&quot;,&quot;link&quot;:&quot;\/aek-athen\/startseite\/verein\/2441&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/2441.png?lm=1412097069&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/2441.png?lm=1412097069&quot;,&quot;isNT&quot;:false},&quot;1237&quot;:{&quot;name&quot;:&quot;Brighton&quot;,&quot;link&quot;:&quot;\/brighton-amp-hove-albion\/startseite\/verein\/1237&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/1237.png?lm=1492718902&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/1237.png?lm=1492718902&quot;,&quot;isNT&quot;:false},&quot;29&quot;:{&quot;name&quot;:&quot;Everton&quot;,&quot;link&quot;:&quot;\/fc-everton\/startseite\/verein\/29&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/29.png?lm=1445949846&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/29.png?lm=1445949846&quot;,&quot;isNT&quot;:false},&quot;148&quot;:{&quot;name&quot;:&quot;Tottenham&quot;,&quot;link&quot;:&quot;\/tottenham-hotspur\/startseite\/verein\/148&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/148.png?lm=1544345801&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/148.png?lm=1544345801&quot;,&quot;isNT&quot;:false},&quot;985&quot;:{&quot;name&quot;:&quot;Manchester Utd.&quot;,&quot;link&quot;:&quot;\/manchester-united\/startseite\/verein\/985&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/985.png?lm=1457975903&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/985.png?lm=1457975903&quot;,&quot;isNT&quot;:false},&quot;873&quot;:{&quot;name&quot;:&quot;Crystal Palace&quot;,&quot;link&quot;:&quot;\/crystal-palace\/startseite\/verein\/873&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/873.png?lm=1457723287&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/873.png?lm=1457723287&quot;,&quot;isNT&quot;:false},&quot;762&quot;:{&quot;name&quot;:&quot;Newcastle Utd.&quot;,&quot;link&quot;:&quot;\/newcastle-united\/startseite\/verein\/762&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/762.png?lm=1472921161&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/762.png?lm=1472921161&quot;,&quot;isNT&quot;:false},&quot;631&quot;:{&quot;name&quot;:&quot;Chelsea&quot;,&quot;link&quot;:&quot;\/fc-chelsea\/startseite\/verein\/631&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/631.png?lm=1444558831&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/631.png?lm=1444558831&quot;,&quot;isNT&quot;:false},&quot;180&quot;:{&quot;name&quot;:&quot;Southampton&quot;,&quot;link&quot;:&quot;\/fc-southampton\/startseite\/verein\/180&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/180.png?lm=1444560086&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/180.png?lm=1444560086&quot;,&quot;isNT&quot;:false},&quot;399&quot;:{&quot;name&quot;:&quot;Leeds&quot;,&quot;link&quot;:&quot;\/leeds-united\/startseite\/verein\/399&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/399.png?lm=1407654193&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/399.png?lm=1407654193&quot;,&quot;isNT&quot;:false},&quot;543&quot;:{&quot;name&quot;:&quot;Wolverhampton&quot;,&quot;link&quot;:&quot;\/wolverhampton-wanderers\/startseite\/verein\/543&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/543.png?lm=1467496784&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/543.png?lm=1467496784&quot;,&quot;isNT&quot;:false},&quot;405&quot;:{&quot;name&quot;:&quot;Aston Villa&quot;,&quot;link&quot;:&quot;\/aston-villa\/startseite\/verein\/405&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/405.png?lm=1469443765&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/405.png?lm=1469443765&quot;,&quot;isNT&quot;:false},&quot;11&quot;:{&quot;name&quot;:&quot;Arsenal&quot;,&quot;link&quot;:&quot;\/fc-arsenal\/startseite\/verein\/11&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/11.png?lm=1489787850&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/11.png?lm=1489787850&quot;,&quot;isNT&quot;:false},&quot;1132&quot;:{&quot;name&quot;:&quot;Burnley&quot;,&quot;link&quot;:&quot;\/fc-burnley\/startseite\/verein\/1132&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/1132.png?lm=1587809239&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/1132.png?lm=1587809239&quot;,&quot;isNT&quot;:false},&quot;3955&quot;:{&quot;name&quot;:&quot;Ben\u00edn&quot;,&quot;link&quot;:&quot;\/benin\/startseite\/verein\/3955&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/flagge\/homepageWappen70x70\/21.png?lm=1520611569&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/3955.png?lm=1562487894&quot;,&quot;isNT&quot;:true},&quot;13962&quot;:{&quot;name&quot;:&quot;Lesoto&quot;,&quot;link&quot;:&quot;\/lesotho\/startseite\/verein\/13962&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/flagge\/homepageWappen70x70\/93.png?lm=1520611569&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/13962.png?lm=1403462273&quot;,&quot;isNT&quot;:true},&quot;281&quot;:{&quot;name&quot;:&quot;Manchester City&quot;,&quot;link&quot;:&quot;\/manchester-city\/startseite\/verein\/281&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/281.png?lm=1467356331&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/281.png?lm=1467356331&quot;,&quot;isNT&quot;:false},&quot;379&quot;:{&quot;name&quot;:&quot;West Ham&quot;,&quot;link&quot;:&quot;\/west-ham-united\/startseite\/verein\/379&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/379.png?lm=1464675260&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/379.png?lm=1464675260&quot;,&quot;isNT&quot;:false},&quot;984&quot;:{&quot;name&quot;:&quot;West Brom&quot;,&quot;link&quot;:&quot;\/west-bromwich-albion\/startseite\/verein\/984&quot;,&quot;image1x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen70x70\/984.png?lm=1457991758&quot;,&quot;image2x&quot;:&quot;https:\/\/tmssl.akamaized.net\/images\/wappen\/homepageWappen150x150\/984.png?lm=1457991758&quot;,&quot;isNT&quot;:false}}}">
+    <div class="quote-slot" slot="quotes">
+            </div>
+</tm-next-matches>
+
+<script>
+    var nextMatchesEl = document.getElementsByTagName('tm-next-matches')[0];
+    if(nextMatchesEl) {
+        nextMatchesEl.addEventListener('nextMatchesReloadQuotes', (event) => {
+            jQuery(document).trigger('begegnungenVereinSliderLoad');
+        });
+      nextMatchesEl.addEventListener('ticketShopTracking', (tracking) => {
+        if(typeof ga === 'function') {
+          ga('send', 'event', 'Button', 'click_extern', tracking.detail + ' Spielerprofil');
+        } else {
+          console.warn('GA is not a function')
+        }
+      });
+    }
+</script>
+<div class="box">
+    <div class="subkategorie-header"><h2>Carrera en la selección</h2></div>
+    <table class="borderloser_odd_even_style">
+        <thead>
+        <tr>
+            <th class="zentriert">Nº</th>
+            <th colspan="2" >Selección</th>
+            <th class="zentriert">Debut</th>
+            <th class="zentriert"><span class="icons_sprite icon-einsaetze-table-header"
+                                        title="Partidos">&nbsp;</span></th>
+            <th class="zentriert"><span class="icons_sprite icon-tor-table-header"></span></th>
+			        </tr>
+        </thead>
+        <tbody>
+		            <tr>
+				            <td class="zentriert bg_gruen_20">
+			
+					14
+                </td>
+                <td class="no-border-rechts zentriert">
+					<img src="https://tmssl.akamaized.net/images/flagge/verysmall/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen" />                </td>
+                <td class="hauptlink no-border-links">
+					<a class="vereinprofil_tooltip" id="3444" href="/nigeria/startseite/verein/3444">Nigeria</a>                </td>
+                <td class="zentriert">
+					                        <a href="/spiel/index/spielbericht/2634149" title="Clasificación Mundial África: Eswatini - Nigeria 0:0">13/11/2015</a>
+						                </td>
+                <td class="zentriert"><a href="/kelechi-iheanacho/nationalmannschaft/spieler/295330/verein_id/3444">23</a></td>
+                <td class="zentriert"><a href="/kelechi-iheanacho/nationalmannschaft/spieler/295330/verein_id/3444/nurEinsatz/2">7</a></td>
+				            </tr>
+			            <tr>
+				                <td class="zentriert bg_rot_20">
+					
+					10
+                </td>
+                <td class="no-border-rechts zentriert">
+					<img src="https://tmssl.akamaized.net/images/flagge/verysmall/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen" />                </td>
+                <td class="hauptlink no-border-links">
+					<a class="vereinprofil_tooltip" id="22981" href="/nigeria-u20/startseite/verein/22981">Nigeria U20</a>                </td>
+                <td class="zentriert">
+					                        <a href="/spiel/index/spielbericht/2549791" title="Copa Mundial Sub-20 de 2015: Nigeria U20 - Brasil U20 2:4">01/06/2015</a>
+						                </td>
+                <td class="zentriert"><a href="/kelechi-iheanacho/nationalmannschaft/spieler/295330/verein_id/22981">2</a></td>
+                <td class="zentriert"><a href="/kelechi-iheanacho/nationalmannschaft/spieler/295330/verein_id/22981/nurEinsatz/2">-</a></td>
+				            </tr>
+			            <tr>
+				                <td class="zentriert bg_rot_20">
+					
+					10
+                </td>
+                <td class="no-border-rechts zentriert">
+					<img src="https://tmssl.akamaized.net/images/flagge/verysmall/124.png?lm=1520611569" title="Nigeria" alt="Nigeria" class="flaggenrahmen" />                </td>
+                <td class="hauptlink no-border-links">
+					<a class="vereinprofil_tooltip" id="23135" href="/nigeria-u17/startseite/verein/23135">Nigeria U17</a>                </td>
+                <td class="zentriert">
+											14/04/2013						                </td>
+                <td class="zentriert"><a href="/kelechi-iheanacho/nationalmannschaft/spieler/295330/verein_id/23135">12</a></td>
+                <td class="zentriert"><a href="/kelechi-iheanacho/nationalmannschaft/spieler/295330/verein_id/23135/nurEinsatz/2">11</a></td>
+				            </tr>
+			        </tbody>
+    </table>
+	        <div class="c2action-footer">
+			<a title="Kelechi Iheanacho" class="spielprofil_tooltip" id="295330" href="/kelechi-iheanacho/nationalmannschaft/spieler/295330">Perfil con la selección</a>        </div>
+		</div><div class="box" id="spielervergleichImProfil">
+	<div class="subkategorie-header">
+		<span class="headerueberschrift">
+            Comparar Kelechi Iheanacho con ...        </span>
+	</div>
+	<div class="vergleichbarespieler">
+		<div class="vergleichbarIcon">
+		</div>
+		<div class="vergleichbarAktion">
+			<form action="/vergleich/spielervergleich/statistik" method="post">			<input type="hidden" name="SpielerSuche[spieler_id]" value="295330"/>
+			<select name="Spieler[spieler_id]" id="Spieler_spieler_id">
+<option value="">buscar por jugador</option>
+</select>			<input type="submit" class="button small" value="Comparar jugador">
+			</form>		</div>
+		<br class="clearer"/>
+	</div>
+</div>
+<script type="text/javascript">
+	$('#Spieler_spieler_id').ajaxChosen({
+		dataType: 'json',
+		type: 'GET',
+		url: '/search/spieler',
+		data: {'id': 'text'},
+		success: function(data, textStatus, jqXHR) {
+			return true;
+		}
+	}, {
+		loadingImg: '/images/loading.gif'
+	}, {
+		search_contains: true,
+		filter_results: false
+	}).change(function(e) {
+
+	});
+</script>
+	<div class="box beliebtheit-vote beliebtheit-vote-spieler">
+		<div class="subkategorie-header">
+			<h2>
+				¡Duelo de jugadores!									<a href="" class="reload" title="Otro partido"><img src="https://tmssl.akamaized.net//images/reload_button_blue.png" /></a>
+							</h2>
+		</div>
+		<div class="content">
+							<p class="beliebtheit-text">¿Con cuál te quedarías?</p>
+							<img src="https://tmssl.akamaized.net//images/beliebtheit/versus.png" alt="versus" class="beliebtheit-versus" />
+			<a href="/beliebtheit/speichernSpieler?spieler_id_gewinner=295330&spieler_id_verlierer=341501&kontinent=0&land=0&wettbewerb=GB1&verein=1003&position=0&marktwert=0&spieler_id_1=295330&lieblingsverein=0" class="beliebtheit-wahl-spieler beliebtheit-wahl-heim">
+				<img src="https://tmssl.akamaized.net/images/portrait/medium/295330-1443789707.jpg?lm=1443789751" title="Kelechi Iheanacho - Fuente: imago images" alt="Kelechi Iheanacho" class="" style="-webkit-filter: drop-shadow(0px 0px 10px #0053A0); filter: drop-shadow(0px 0px 10px #0053A0);" />Kelechi Iheanacho				<div class="beliebtheit-wahl-spieler-wappen">
+					<img src="https://tmssl.akamaized.net/images/wappen/kaderquad/1003.png?lm=1472229265" title="&nbsp;" alt="Leicester City" class="" />				</div>
+			</a>
+			<a href="/beliebtheit/speichernSpieler?spieler_id_gewinner=341501&spieler_id_verlierer=295330&kontinent=0&land=0&wettbewerb=GB1&verein=1003&position=0&marktwert=0&spieler_id_1=295330&lieblingsverein=0" class="beliebtheit-wahl-spieler beliebtheit-wahl-gast">
+				<img src="https://tmssl.akamaized.net/images/portrait/medium/341501-1559900777.jpg?lm=1559900807" title="Hamza Choudhury - Fuente: imago images" alt="Hamza Choudhury" class="" style="-webkit-filter: drop-shadow(0px 0px 10px #FDBE11); filter: drop-shadow(0px 0px 10px #FDBE11);" />Hamza Choudhury				<div class="beliebtheit-wahl-spieler-wappen">
+					<img src="https://tmssl.akamaized.net/images/wappen/kaderquad/1003.png?lm=1472229265" title="&nbsp;" alt="Leicester City" class="" />				</div>
+			</a>
+		</div>
+	</div>
+	
+<div class="werbung werbung-rectangle2">
+	<!-- DFPV2 -->
+	<div id="Rectangle2" >
+	<script>
+		googletag.cmd.push(function() { googletag.display('Rectangle2'); });
+	</script>
+	</div>
+</div>
+	</div>
+</div>
+	
+<div class="werbung werbung-fullsize_contentad">
+	<!-- DFPV2 -->
+	<div id="BillboardFooter" >
+	<script>
+		googletag.cmd.push(function() { googletag.display('BillboardFooter'); });
+	</script>
+	</div>
+</div>
+	<!-- OEWA disabled -->
+	<div id="footer" class="row large-12 columns small-12">
+	        <a name="Footer" href="/"
+           class="footer-logo"><img src="/images/logo.png" alt="Transfermarkt"/></a>
+	    <a name="Footer"
+       href="/intern/impressum">Aviso legal</a>
+    |
+    <a name="Footer"
+       href="/intern/datenschutz">Política de privacidad</a>
+    |
+        <a name="Footer"
+       href="/intern/anb">Información corporativa</a>
+    |
+    <a name="Footer"
+       href="/intern/tmteam">Equipo de TM</a>
+    |
+	    <a name="Footer"
+       href="/intern/socialmedia">Redes sociales</a>
+		    |
+
+    <a name="Footer"
+       href="/intern/faq"> Ayuda</a> |
+    <a name="Footer"
+       href="/intern/fehlermelden">Enviar reporte de errores</a>
+</div>
+	    <div id="menue_overlay" style="display: none;"></div>
+</div>
+
+	<!-- DFPV2 -->
+	<div id="Richmedia" style="z-index:1000000">
+	<script>
+		googletag.cmd.push(function() { googletag.display('Richmedia'); });
+	</script>
+	</div>
+<!-- SZM VERSION="2.0" -->
+<script type="text/javascript">
+	var iam_data = {
+"st":"transfer",
+"cp":"ausland_rest_r",
+"oc":"",
+"mg":"yes",
+"sv":"i2",
+"sc":"yes",
+"co":""
+}
+iom.c(iam_data,1);
+</script>
+<!--/SZM -->
+    <script>
+		$(document).on('ready ajaxSuccess', function() {
+			$(document).foundation();
+		});
+    </script>
+			<script type="text/javascript">
+	if(typeof(adet) == "boolean" && adet == false){
+		img_src="/static/singlepictures/jk99hhfsdh209nbnkjldgh90sghfsdlk";
+	} else {
+		img_src="/static/singlepictures/jku90whjlkjbwbta1g4b8h89fh8sgh8d";
+	}
+	var elem = document.createElement("img");
+	document.body.appendChild(elem);
+	elem.src = img_src;
+</script>
+            <script type="module" src="https://tmsi.akamaized.net/js/globals/tm-global-elements.esm.js?v=4"></script>
+            <script nomodule="" src="https://tmsi.akamaized.net/js/globals/tm-global-elements.js?v=4"></script>
+    <script>
+        $(function(){
+            var cnt = $('div.large-4.columns').length;
+            if (cnt == 1) {
+                var sidebarDiv = document.querySelector('div.large-4.columns');
+                if (sidebarDiv !== null) {
+                    $('#werbung_recommender_sidebar_wrapper').appendTo(sidebarDiv);
+                    $('#werbung_recommender_sidebar_wrapper').show();
+                }
+            }
+        });
+    </script>
+    <div id="werbung_recommender_sidebar_wrapper" class="hide-for-smal" style="display: none;">
+        <div id="recommender_sidebar" class="box">
+    <div class="OUTBRAIN" data-src="https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330" data-widget-id="SB_1" data-ob-template="DE_Transfermarkt.es"></div>
+<script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+</div>
+    </div>
+
+<script type="text/javascript" src="https://tmssl.akamaized.net//assets/71529994/gridview/jquery.yiigridview.js?lm=1605183699"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+	function initCss() {
+	}
+	var aktuelleUrl = 'https://www.transfermarkt.es/kelechi-iheanacho/profil/spieler/295330'
+	var loginUrl='/profil/login?referrer=https%3A%2F%2Fwww.transfermarkt.es%2Fkelechi-iheanacho%2Fprofil%2Fspieler%2F295330';
+	var notificationUrl='/notifications/liste';
+	var privateNachrichtenUrl = '/privateNachrichten/liste'
+	var favoritenUrl = '/favoriten/userFavoriten'
+	var favoritenHandleUrl = '/favoriten/handle'
+	var favoritEntfernenText = 'Quitar favoritos'
+	var favoritHinzufuegenText = 'Agregar favoritos'
+	var vereinUrl = '/verein/userbox';
+	var boxOpen = false;
+	var titleString='Kelechi Iheanacho - Perfil del jugador 20/21 | Transfermarkt';
+	var naviController = 'spieler';
+	var naviAction = 'profil';
+	var naviPath = 'kelechi-iheanacho/profil/spieler/295330';
+	var naviId = '295330';
+	var naviSaison = '';
+	var onlyDE = '';
+	var onlyMobile = '';
+	var onlyTablet = '';
+	var getUserID = '';
+
+function ReloadPixelImages(typ) {
+    if(typ == 'tabelle') {
+        var iam_data = {
+"st":"transfer",
+"cp":"ausland_rest_r_t",
+"oc":"",
+"mg":"yes",
+"sc":"yes",
+"sv":"i2",
+"co":""
+}
+iom.c(iam_data,1);
+
+    }else if(typ == 'reiter') {
+        var iam_data = {
+"st":"transfer",
+"cp":"ausland_rest_r_r",
+"oc":"",
+"mg":"yes",
+"sv":"i2",
+"sc":"yes",
+"co":""
+}
+iom.c(iam_data,1);
+
+    }else if(typ == 'forum') {
+        var iam_data = {
+"st":"transfer",
+"cp":"ausland_rest_r_forum",
+"oc":"",
+"mg":"yes",
+"sv":"i2",
+"sc":"yes",
+"co":""
+}
+iom.c(iam_data,1);
+
+    }else {
+        var iam_data = {
+"st":"transfer",
+"cp":"ausland_rest_r_s",
+"oc":"",
+"mg":"yes",
+"sv":"i2",
+"sc":"yes",
+"co":""
+}
+iom.c(iam_data,1);
+
+    }
+    ga('send','pageview',"/jsContent" + window.location.pathname);
+    if(typeof ASCDP.adS.reloadAds == 'function' && typ != '') {
+        ASCDP.adS.reloadAds()
+    }
+}
+jQuery(function($) {
+jQuery('#yw2').yiiGridView({'ajaxUpdate':['yw2'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'grid\x2Dview\x2Dloading','filterClass':'filters','tableClass':'items','selectableRows':1,'enableHistory':false,'updateSelector':'\x7Bpage\x7D,\x20\x7Bsort\x7D','filterSelector':'\x7Bfilter\x7D'});
+
+          $(".spielprofil_tooltip").tooltipster({'position':'right','arrowColor':'white','delay':'100','speed':0,'contentAsHTML':true,'interactive':true,'content':'\x0A\x09\x09\x09\x3Cimg\x20src\x3D\x22https\x3A\x2F\x2Ftmssl.akamaized.net\x2F\x2Fimages\x2Fspinner.gif\x22\x20style\x3D\x22vertical\x2Dalign\x3A\x20middle\x3B\x22\x20\x2F\x3E\x0A\x09\x09','functionBefore':function(origin, continueTooltip) { continueTooltip(); id_array = origin.context.id.split("/"); var spieler_id = id_array[0]; $.post( "/spieler/_profilTooltip", { spieler_id : spieler_id }, function(data) { if(data) { origin.tooltipster("update", data); } }); }});
+          
+
+          $(".vereinprofil_tooltip").tooltipster({'position':'right','arrowColor':'white','delay':'100','speed':0,'contentAsHTML':true,'interactive':true,'content':'\x0A\x09\x09\x09\x3Cimg\x20src\x3D\x22https\x3A\x2F\x2Ftmssl.akamaized.net\x2F\x2Fimages\x2Fspinner.gif\x22\x20style\x3D\x22vertical\x2Dalign\x3A\x20middle\x3B\x22\x20\x2F\x3E\x0A\x09\x09','functionBefore':function(origin, continueTooltip) { continueTooltip(); id_array = origin.context.id.split("/"); var verein_id = id_array[0]; $.post( "/verein/_profilTooltip", { verein_id : verein_id }, function(data) { if(data) { origin.tooltipster("update", data); } }); }});
+          
+});
+jQuery(window).on('load',function() {
+Highcharts.setOptions([]); var chart = new Highcharts.Chart({'chart':{'renderTo':'yw0','type':'areaspline','height':125,'minPadding':0,'maxPadding':0,'spacingLeft':-6,'spacingRight':-1,'zoomType':false,'plotBackgroundColor':'\x23fff','marginTop':10,'backgroundColor':'transparent'},'title':{'text':false},'xAxis':{'labels':{'enabled':false},'type':'datetime','startOnTick':false,'tickLength':0,'endOnTick':false,'tickPosition':'inside','plotBands':[],'gridLineColor':'\x23fff'},'colors':['\x23314f77','\x23749f18','\x23cccccc'],'yAxis':{'min':0,'startOnTick':false,'tickLength':0,'endOnTick':false,'allowDecimals':true,'title':false,'tickPosition':'outside','gridLineColor':'\x23fff','labels':{'enabled':false}},'series':[{'type':'area','name':'Marktwert','data':[{'y':100000,'verein':'Manchester\x20City\x20U18','age':18,'mw':'100\x20mil\x20\u20AC','datum_mw':'27\x2F05\x2F2015','x':1432677600000,'marker':{'symbol':'url\x28https\x3A\x2F\x2Ftmssl.akamaized.net\x2Fimages\x2Fwappen\x2Ftiny\x2F9265_1469811032.png\x3Flm\x3D1469811032\x29'}},{'y':750000,'verein':'Manchester\x20City','age':19,'mw':'750\x20mil\x20\u20AC','datum_mw':'14\x2F10\x2F2015','x':1444773600000,'marker':{'symbol':'url\x28https\x3A\x2F\x2Ftmssl.akamaized.net\x2Fimages\x2Fwappen\x2Ftiny\x2F281_1467356275.png\x3Flm\x3D1467356275\x29'}},{'y':5000000,'verein':'Manchester\x20City','age':19,'mw':'5,00\x20mill.\x20\u20AC','datum_mw':'09\x2F02\x2F2016','x':1454972400000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':7000000,'verein':'Manchester\x20City','age':19,'mw':'7,00\x20mill.\x20\u20AC','datum_mw':'01\x2F08\x2F2016','x':1470002400000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':10000000,'verein':'Manchester\x20City','age':20,'mw':'10,00\x20mill.\x20\u20AC','datum_mw':'24\x2F10\x2F2016','x':1477260000000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':10000000,'verein':'Manchester\x20City','age':20,'mw':'10,00\x20mill.\x20\u20AC','datum_mw':'20\x2F02\x2F2017','x':1487545200000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':15000000,'verein':'Manchester\x20City','age':20,'mw':'15,00\x20mill.\x20\u20AC','datum_mw':'28\x2F06\x2F2017','x':1498600800000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':15000000,'verein':'Leicester\x20City','age':21,'mw':'15,00\x20mill.\x20\u20AC','datum_mw':'02\x2F01\x2F2018','x':1514847600000,'marker':{'symbol':'url\x28https\x3A\x2F\x2Ftmssl.akamaized.net\x2Fimages\x2Fwappen\x2Ftiny\x2F1003.png\x3Flm\x3D1472229265\x29'}},{'y':15000000,'verein':'Leicester\x20City','age':21,'mw':'15,00\x20mill.\x20\u20AC','datum_mw':'28\x2F05\x2F2018','x':1527458400000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':15000000,'verein':'Leicester\x20City','age':22,'mw':'15,00\x20mill.\x20\u20AC','datum_mw':'19\x2F12\x2F2018','x':1545174000000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':12000000,'verein':'Leicester\x20City','age':22,'mw':'12,00\x20mill.\x20\u20AC','datum_mw':'13\x2F06\x2F2019','x':1560376800000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':12000000,'verein':'Leicester\x20City','age':23,'mw':'12,00\x20mill.\x20\u20AC','datum_mw':'10\x2F12\x2F2019','x':1575932400000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':15000000,'verein':'Leicester\x20City','age':23,'mw':'15,00\x20mill.\x20\u20AC','datum_mw':'09\x2F03\x2F2020','x':1583708400000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':12000000,'verein':'Leicester\x20City','age':23,'mw':'12,00\x20mill.\x20\u20AC','datum_mw':'08\x2F04\x2F2020','x':1586296800000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':15000000,'verein':'Leicester\x20City','age':23,'mw':'15,00\x20mill.\x20\u20AC','datum_mw':'30\x2F07\x2F2020','x':1596060000000,'marker':{'symbol':'circle','radius':'3','lineWidth':'1','lineColor':'\x23fff','fillColor':'\x23314f77'}},{'y':15000000,'verein':'Leicester\x20City','age':24,'mw':'15,00\x20mill.\x20\u20AC','datum_mw':'13\x2F10\x2F2020','x':1602540000000,'marker':{'symbol':'url\x28https\x3A\x2F\x2Ftmssl.akamaized.net\x2Fimages\x2Fwappen\x2Ftiny\x2F1003.png\x3Flm\x3D1472229265\x29'}}]}],'legend':{'enabled':false},'tooltip':{'crosshairs':false,'enabled':true,'formatter':function(){
+									var verein      = this.point.verein;
+									var age         = this.point.age;
+                                    var mw          = this.point.mw;
+                                    var datum_mw    = this.point.datum_mw;
+                                    return "<b>"+datum_mw+"</b><br />"+"Valor de mercado: <b>"+mw+"</b><br/>"+"Club: <b>"+verein+"</b><br/>Edad <b>: "+age+"</b>";},'useHTML':true,'style':{'fontSize':'10px','top':'15px'}},'plotOptions':{'area':{'allowPointSelect':false,'cursor':'pointer','fillOpacity':1},'series':{'shadow':{'color':'\x23fff','width':3,'opacity':1,'offsetY':2,'offsetX':0}}},'credits':{'enabled':false}});
+});
+/*]]>*/
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"ffbc20d834","applicationID":"4489554","transactionName":"ZVVSbREEDUMEUEYPX1wfcVoXDAxeSmBCD1VeVUJ6DAsXQgpfXgNCHUBCVgUMDw==","queueTime":0,"applicationTime":616,"atts":"SRJRG1keHk0=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
