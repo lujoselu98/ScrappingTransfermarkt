@@ -12,7 +12,7 @@ PLOT_PATH = "./plots"
 
 def save_univariate_histograms(data_numeric, temporadas=None, show=True):
     if temporadas is None:
-        temporadas = ['2015', '2016', '2017', '2018', '2019']
+        temporadas = ['2014', '2015', '2016', '2017', '2018', '2019']
     os.makedirs(f"{PLOT_PATH}/uni_variable_hist/", exist_ok=True)
     for temporada in temporadas:
         columns = [column for column in list(data_numeric.columns) if temporada in column]
@@ -26,7 +26,7 @@ def save_univariate_histograms(data_numeric, temporadas=None, show=True):
             plt.xlabel(value)
             fig = plt.gcf()
             filename = title.replace(" ", "_")
-            # print(filename)
+            print(filename)
             fig.savefig(f"{PLOT_PATH}/uni_variable_hist/{filename}.png")
             if show:
                 plt.show()
@@ -34,21 +34,22 @@ def save_univariate_histograms(data_numeric, temporadas=None, show=True):
 
 def save_regresions(data_numeric, temporadas=None, show=True, ):
     if temporadas is None:
-        temporadas = ['2015', '2016', '2017', '2018', '2019']
+        temporadas = ['2014', '2015', '2016', '2017', '2018']
 
     model = LinearRegression()
     os.makedirs(f"{PLOT_PATH}/simple_regression/", exist_ok=True)
     for temporada in temporadas:
-        temporada_columns = [column for column in list(data_numeric.columns) if temporada in column]
-        predictor_columns = [column for column in temporada_columns if
+        temporada_columns_predictors = [column for column in list(data_numeric.columns) if temporada in column]
+        temporada_columns_response = [column for column in list(data_numeric.columns) if str(int(temporada) + 1) in column]
+        predictor_columns = [column for column in temporada_columns_predictors if
                              'gol' in column or 'asistencia' in column or 'puntos' in column]
         for predictor in predictor_columns:
             predictor_values = data_numeric.loc[:, predictor].to_numpy()
             predictor_name = ' '.join(predictor.split('_')[1:])
-            response_columns = [column for column in temporada_columns if 'value' in column]
+            response_columns = [column for column in temporada_columns_response if 'value' in column]
             for response in response_columns:
                 response_values = data_numeric.loc[:, response].to_numpy()
-                response_name = ' '.join(response.split('_')[1:])
+                response_name = ' '.join(response.split('_')[:])
 
                 X, y = predictor_values.reshape((-1, 1)), response_values
 
@@ -82,6 +83,8 @@ if __name__ == '__main__':
     data_numeric = data.drop(
         columns=['nombre', '2015_std_value', '2016_std_value', '2017_std_value', '2018_std_value', '2019_std_value'])
 
-    # save_univariate_histograms(data_numeric)
+    os.makedirs(f"{PLOT_PATH}", exist_ok=True)
 
-    # save_regresions(data_numeric)
+    #save_univariate_histograms(data_numeric)
+
+    save_regresions(data_numeric)
