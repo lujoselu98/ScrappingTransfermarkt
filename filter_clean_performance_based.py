@@ -5,17 +5,18 @@ from os.path import isfile, join
 import pandas as pd
 
 from final_crawler import DATA_PATH
+
 datos = ['alineaciones', 'puntos_por_partido', 'minutos_jugados', 'minutos_por_gol', 'minutos_por_asistencia']
 temporadas = ['2015', '2016', '2017', '2018', '2019']
 
-def create_dataframe():
 
+def create_dataframe():
     columns = ['id', 'nombre']
 
     for temporada in temporadas:
         for dato in datos:
             columns.append(f"{temporada}_{dato}")
-    performance_path = f"{DATA_PATH}/performace"
+    performance_path = f"{DATA_PATH}/performance"
     performance_files = [f for f in listdir(performance_path) if isfile(join(performance_path, f))]
 
     dataframe = pd.DataFrame(columns=columns, index=[i for i in range(len(performance_files))])
@@ -56,4 +57,4 @@ if __name__ == '__main__':
                 break
 
     dataframe = dataframe[~dataframe['nombre'].isin(nombres_quitar)]
-    dataframe.to_csv(f"{DATA_PATH}\Filter_All_Players_Data.csv")
+    dataframe.to_csv(f"{DATA_PATH}/Filter_All_Players_Data.csv")

@@ -58,12 +58,12 @@ if __name__ == '__main__':
     links = [line.strip().replace('profil', 'leistungsdatendetails') for line in lines]
     # links = [links[0]] + [link for link in links if 'joelinton' in link]
     # print(*links[:10], sep="\n")
-    os.makedirs(f"{DATA_PATH}/performace/", exist_ok=True)
+    os.makedirs(f"{DATA_PATH}/performance/", exist_ok=True)
     for link in tqdm(links):
         nombre_canonico = link.split("/")[3]
         id = link.split("/")[-1]
         nombre_fichero = nombre_canonico + "-" + str(id)
-        filename = f"{DATA_PATH}/performace/{nombre_fichero}.pickle"
+        filename = f"{DATA_PATH}/performance/{nombre_fichero}.pickle"
         rendimiento = extract_performace(link)
         with open(filename, "wb") as f:
             pickle.dump(rendimiento, f)
