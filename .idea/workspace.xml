@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="265e13c0-231e-4c3e-9d35-276d663233bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Raw_All_Players_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Raw_All_Players_Data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter_clean_price_based.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter_clean_price_based.py" afterDir="false" />
-    </list>
+    <list default="true" id="265e13c0-231e-4c3e-9d35-276d663233bc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +218,7 @@
       <workItem from="1604858933900" duration="3599000" />
       <workItem from="1604864470150" duration="8910000" />
       <workItem from="1605264056027" duration="10516000" />
-      <workItem from="1605433390271" duration="4885000" />
+      <workItem from="1605433390271" duration="5684000" />
     </task>
     <servers />
   </component>
@@ -259,26 +255,26 @@
     </state>
     <state x="491" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604499150679" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603269523869" />
-    <state width="1877" height="515" key="GridCell.Tab.0.bottom" timestamp="1605438259608">
+    <state width="1877" height="515" key="GridCell.Tab.0.bottom" timestamp="1605438438284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605281009842" />
-    <state width="1877" height="515" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605438259608" />
-    <state width="1877" height="515" key="GridCell.Tab.0.center" timestamp="1605438259608">
+    <state width="1877" height="515" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605438438284" />
+    <state width="1877" height="515" key="GridCell.Tab.0.center" timestamp="1605438438284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605281009841" />
-    <state width="1877" height="515" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605438259608" />
-    <state width="1877" height="515" key="GridCell.Tab.0.left" timestamp="1605438259608">
+    <state width="1877" height="515" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605438438284" />
+    <state width="1877" height="515" key="GridCell.Tab.0.left" timestamp="1605438438284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605281009841" />
-    <state width="1877" height="515" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605438259608" />
-    <state width="1877" height="515" key="GridCell.Tab.0.right" timestamp="1605438259608">
+    <state width="1877" height="515" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605438438284" />
+    <state width="1877" height="515" key="GridCell.Tab.0.right" timestamp="1605438438284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605281009841" />
-    <state width="1877" height="515" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605438259608" />
+    <state width="1877" height="515" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605438438284" />
     <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1605438249673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -341,7 +337,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$get_urls.coverage" NAME="get_urls Coverage Results" MODIFIED="1604499085193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1605280994379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$filter_clean_price_based.coverage" NAME="filter_clean_price_based Coverage Results" MODIFIED="1605438259604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$filter_clean_price_based.coverage" NAME="filter_clean_price_based Coverage Results" MODIFIED="1605438398871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$filter_clean_performance_based.coverage" NAME="filter_clean_performance_based Coverage Results" MODIFIED="1605433968425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$testing.coverage" NAME="testing Coverage Results" MODIFIED="1602061859701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$all_player_values.coverage" NAME="all_player_values Coverage Results" MODIFIED="1604920055372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
