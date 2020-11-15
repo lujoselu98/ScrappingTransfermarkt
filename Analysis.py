@@ -7,14 +7,9 @@ from final_crawler import DATA_PATH
 
 PLOT_PATH = "./plots"
 
-if __name__ == '__main__':
-
-    data = pd.read_csv(f"{DATA_PATH}/Second_Filter_All_Players_Data.csv", index_col="id")
-
-    data_numeric = data.drop(
-        columns=['nombre', '2015_std_value', '2016_std_value', '2017_std_value', '2018_std_value', '2019_std_value'])
-
-    temporadas = ['2015', '2016', '2017', '2018', '2019']
+def save_univariate_histograms(data_numeric, temporadas=None, show=True):
+    if temporadas is None:
+        temporadas = ['2015', '2016', '2017', '2018', '2019']
     for temporada in temporadas:
         columns = [column for column in list(data_numeric.columns) if temporada in column]
         for column in columns:
@@ -27,8 +22,20 @@ if __name__ == '__main__':
             plt.xlabel(value)
             fig = plt.gcf()
             filename = title.replace(" ", "_")
-            print(filename)
+            # print(filename)
             os.makedirs(f"{PLOT_PATH}/uni_variable_hist/", exist_ok=True)
             fig.savefig(f"{PLOT_PATH}/uni_variable_hist/{filename}.png")
-            plt.show()
+            if show:
+                plt.show()
+
+
+if __name__ == '__main__':
+
+    data = pd.read_csv(f"{DATA_PATH}/Second_Filter_All_Players_Data.csv", index_col="id")
+
+    data_numeric = data.drop(
+        columns=['nombre', '2015_std_value', '2016_std_value', '2017_std_value', '2018_std_value', '2019_std_value'])
+
+    save_univariate_histograms(data_numeric, show=True)
+
 
