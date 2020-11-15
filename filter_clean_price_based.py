@@ -53,26 +53,26 @@ if __name__ == '__main__':
                 player_dict["nombre"] = nombre_canonico
                 mean_value = mean(values_temporada)
                 player_dict[f"{temporada}_mean"] = mean_value
-                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_mean"] = mean_value
+                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_mean_value"] = mean_value
 
                 median_value = median(values_temporada)
                 player_dict[f"{temporada}_median"] = median_value
-                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_median"] = median_value
+                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_median_value"] = median_value
 
                 if len(values_temporada) > 1:
                     std_value = stdev(values_temporada)
                 else:
                     std_value = 0
                 player_dict[f"{temporada}_std"] = std_value
-                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_std"] = std_value
+                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_std_value"] = std_value
 
                 min_value = min(values_temporada)
                 player_dict[f"{temporada}_min"] = min_value
-                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_min"] = min_value
+                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_min_value"] = min_value
 
                 max_value = max(values_temporada)
                 player_dict[f"{temporada}_max"] = max_value
-                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_max"] = max_value
+                player_data.loc[player_data["nombre"] == nombre_canonico, f"{temporada}_max_value"] = max_value
 
         '''for date in values.keys():
             month = date.split("/")[1]
