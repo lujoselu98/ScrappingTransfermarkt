@@ -7,111 +7,6 @@
     <list default="true" id="265e13c0-231e-4c3e-9d35-276d663233bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_minutos_por_asistencia_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_minutos_por_asistencia_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_minutos_por_asistencia_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_minutos_por_asistencia_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_minutos_por_gol_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_minutos_por_gol_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_minutos_por_gol_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_minutos_por_gol_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_puntos_por_partido_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_puntos_por_partido_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_puntos_por_partido_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2015_puntos_por_partido_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_minutos_por_asistencia_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_minutos_por_asistencia_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_minutos_por_asistencia_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_minutos_por_asistencia_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_minutos_por_gol_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_minutos_por_gol_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_minutos_por_gol_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_minutos_por_gol_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_puntos_por_partido_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_puntos_por_partido_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_puntos_por_partido_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2016_puntos_por_partido_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_minutos_por_asistencia_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_minutos_por_asistencia_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_minutos_por_asistencia_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_minutos_por_asistencia_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_minutos_por_gol_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_minutos_por_gol_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_minutos_por_gol_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_minutos_por_gol_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_puntos_por_partido_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_puntos_por_partido_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_puntos_por_partido_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2017_puntos_por_partido_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_minutos_por_asistencia_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_minutos_por_asistencia_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_minutos_por_asistencia_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_minutos_por_asistencia_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_minutos_por_gol_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_minutos_por_gol_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_minutos_por_gol_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_minutos_por_gol_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_puntos_por_partido_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_puntos_por_partido_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_puntos_por_partido_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2018_puntos_por_partido_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_minutos_por_asistencia_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_minutos_por_asistencia_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_minutos_por_asistencia_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_minutos_por_asistencia_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_minutos_por_gol_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_minutos_por_gol_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_minutos_por_gol_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_minutos_por_gol_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_puntos_por_partido_vs_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_puntos_por_partido_vs_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_puntos_por_partido_vs_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/simple_regression/2019_puntos_por_partido_vs_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_alineaciones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_minutos_jugados.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_minutos_por_asistencia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_minutos_por_gol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2015_puntos_por_partido.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_alineaciones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_minutos_jugados.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_minutos_por_asistencia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_minutos_por_gol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2016_puntos_por_partido.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_alineaciones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_minutos_jugados.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_minutos_por_asistencia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_minutos_por_gol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2017_puntos_por_partido.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_alineaciones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_minutos_jugados.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_minutos_por_asistencia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_minutos_por_gol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2018_puntos_por_partido.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_alineaciones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_max_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_mean_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_median_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_min_value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_minutos_jugados.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_minutos_por_asistencia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_minutos_por_gol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/uni_variable_hist/2019_puntos_por_partido.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +61,7 @@
       <recent name="C:\Users\jllav\IdeaProjects\ScrappingTransfermarkt\Good_Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.filter_clean_price_based">
+  <component name="RunManager" selected="Python.Analysis">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -292,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Analysis" />
         <item itemvalue="Python.filter_clean_price_based" />
         <item itemvalue="Python.filter_clean_performance_based (1)" />
         <item itemvalue="Python.final_crawler" />
         <item itemvalue="Python.player_performance" />
-        <item itemvalue="Python.Analysis" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +221,7 @@
       <workItem from="1604858933900" duration="3599000" />
       <workItem from="1604864470150" duration="8910000" />
       <workItem from="1605264056027" duration="10516000" />
-      <workItem from="1605433390271" duration="20771000" />
+      <workItem from="1605433390271" duration="23148000" />
     </task>
     <servers />
   </component>
@@ -363,26 +258,26 @@
     </state>
     <state x="491" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604499150679" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603269523869" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1605477298671">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1605516962628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605281009842" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605477298671" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1605477298671">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605516962628" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1605516962628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605281009841" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605477298671" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1605477298670">
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605516962628" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1605516962628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605281009841" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605477298670" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1605477298671">
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605516962628" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1605516962628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605281009841" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605477298671" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605516962628" />
     <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1605444475564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -456,7 +351,7 @@
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$filter_clean_performance_based__1_.coverage" NAME="filter_clean_performance_based (1) Coverage Results" MODIFIED="1605477101932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$get_urls.coverage" NAME="get_urls Coverage Results" MODIFIED="1604499085193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1605280994379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1605446765917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1605516962624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$testing.coverage" NAME="testing Coverage Results" MODIFIED="1602061859701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$all_player_values.coverage" NAME="all_player_values Coverage Results" MODIFIED="1604920055372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ScrappingTransfermarkt$all_players.coverage" NAME="all_players Coverage Results" MODIFIED="1603264954611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
